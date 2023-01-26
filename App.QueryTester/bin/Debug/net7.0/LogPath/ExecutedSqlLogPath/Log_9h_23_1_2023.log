@@ -1,0 +1,110 @@
+Time : 2023.01.23 09:48:16	
+Time : 2023.01.23 09:48:16	                   ↓↓                    
+Time : 2023.01.23 09:48:16	RequestID : Console
+Time : 2023.01.23 09:48:16	ElapsedTime : 00:00:00.0019343
+Time : 2023.01.23 09:48:16	//////////////////////////////////
+Time : 2023.01.23 09:48:18	CREATE DATABASE "myDataBase";
+
+Time : 2023.01.23 09:48:18	                   ↓↓                    
+Time : 2023.01.23 09:48:18	RequestID : Console
+Time : 2023.01.23 09:48:18	ElapsedTime : 00:00:01.7636277
+Time : 2023.01.23 09:48:18	//////////////////////////////////
+Time : 2023.01.23 09:48:18	
+Time : 2023.01.23 09:48:18	                   ↓↓                    
+Time : 2023.01.23 09:48:18	RequestID : Console
+Time : 2023.01.23 09:48:18	ElapsedTime : 00:00:00.0000895
+Time : 2023.01.23 09:48:18	//////////////////////////////////
+Time : 2023.01.23 09:48:18	CREATE TABLE "__EFMigrationsHistory" (
+    "MigrationId" character varying(150) NOT NULL,
+    "ProductVersion" character varying(32) NOT NULL,
+    CONSTRAINT "PK___EFMigrationsHistory" PRIMARY KEY ("MigrationId")
+);
+
+Time : 2023.01.23 09:48:18	                   ↓↓                    
+Time : 2023.01.23 09:48:18	RequestID : Console
+Time : 2023.01.23 09:48:18	ElapsedTime : 00:00:00.0532227
+Time : 2023.01.23 09:48:18	//////////////////////////////////
+Time : 2023.01.23 09:48:18	
+Time : 2023.01.23 09:48:18	                   ↓↓                    
+Time : 2023.01.23 09:48:18	RequestID : Console
+Time : 2023.01.23 09:48:18	ElapsedTime : 00:00:00.0000584
+Time : 2023.01.23 09:48:18	//////////////////////////////////
+Time : 2023.01.23 09:48:18	SELECT EXISTS (SELECT 1 FROM pg_catalog.pg_class c JOIN pg_catalog.pg_namespace n ON n.oid=c.relnamespace WHERE c.relname='__EFMigrationsHistory');
+Time : 2023.01.23 09:48:18	                   ↓↓                    
+Time : 2023.01.23 09:48:18	RequestID : Console
+Time : 2023.01.23 09:48:18	ElapsedTime : 00:00:00.0083318
+Time : 2023.01.23 09:48:18	//////////////////////////////////
+Time : 2023.01.23 09:48:18	
+Time : 2023.01.23 09:48:18	                   ↓↓                    
+Time : 2023.01.23 09:48:18	RequestID : Console
+Time : 2023.01.23 09:48:18	ElapsedTime : 00:00:00.0000420
+Time : 2023.01.23 09:48:18	//////////////////////////////////
+Time : 2023.01.23 09:48:18	SELECT "MigrationId", "ProductVersion"
+FROM "__EFMigrationsHistory"
+ORDER BY "MigrationId";
+Time : 2023.01.23 09:48:18	                   ↓↓                    
+Time : 2023.01.23 09:48:18	RequestID : Console
+Time : 2023.01.23 09:48:18	ElapsedTime : 00:00:00.0016114
+Time : 2023.01.23 09:48:18	//////////////////////////////////
+Time : 2023.01.23 09:48:18	
+Time : 2023.01.23 09:48:18	                   ↓↓                    
+Time : 2023.01.23 09:48:18	RequestID : Console
+Time : 2023.01.23 09:48:18	ElapsedTime : 00:00:00.0000446
+Time : 2023.01.23 09:48:18	//////////////////////////////////
+Time : 2023.01.23 09:48:18	
+Time : 2023.01.23 09:48:18	                   ↓↓                    
+Time : 2023.01.23 09:48:18	RequestID : Console
+Time : 2023.01.23 09:48:18	ElapsedTime : 00:00:00.0000906
+Time : 2023.01.23 09:48:18	//////////////////////////////////
+Time : 2023.01.23 09:48:18	
+Time : 2023.01.23 09:48:18	                   ↓↓                    
+Time : 2023.01.23 09:48:18	RequestID : Console
+Time : 2023.01.23 09:48:18	ElapsedTime : 00:00:00.0000352
+Time : 2023.01.23 09:48:18	//////////////////////////////////
+Time : 2023.01.23 09:49:56	
+Time : 2023.01.23 09:49:56	                   ↓↓                    
+Time : 2023.01.23 09:49:56	RequestID : Console
+Time : 2023.01.23 09:49:56	ElapsedTime : 00:00:00.0017203
+Time : 2023.01.23 09:49:56	//////////////////////////////////
+Time : 2023.01.23 09:49:56	SELECT EXISTS (SELECT 1 FROM pg_catalog.pg_class c JOIN pg_catalog.pg_namespace n ON n.oid=c.relnamespace WHERE c.relname='__EFMigrationsHistory');
+Time : 2023.01.23 09:49:56	                   ↓↓                    
+Time : 2023.01.23 09:49:56	RequestID : Console
+Time : 2023.01.23 09:49:56	ElapsedTime : 00:00:00.0208472
+Time : 2023.01.23 09:49:56	//////////////////////////////////
+Time : 2023.01.23 09:49:56	
+Time : 2023.01.23 09:49:56	                   ↓↓                    
+Time : 2023.01.23 09:49:56	RequestID : Console
+Time : 2023.01.23 09:49:56	ElapsedTime : 00:00:00.0000998
+Time : 2023.01.23 09:49:56	//////////////////////////////////
+Time : 2023.01.23 09:49:56	SELECT EXISTS (SELECT 1 FROM pg_catalog.pg_class c JOIN pg_catalog.pg_namespace n ON n.oid=c.relnamespace WHERE c.relname='__EFMigrationsHistory');
+Time : 2023.01.23 09:49:56	                   ↓↓                    
+Time : 2023.01.23 09:49:56	RequestID : Console
+Time : 2023.01.23 09:49:56	ElapsedTime : 00:00:00.0010885
+Time : 2023.01.23 09:49:56	//////////////////////////////////
+Time : 2023.01.23 09:49:56	
+Time : 2023.01.23 09:49:56	                   ↓↓                    
+Time : 2023.01.23 09:49:56	RequestID : Console
+Time : 2023.01.23 09:49:56	ElapsedTime : 00:00:00.0000457
+Time : 2023.01.23 09:49:56	//////////////////////////////////
+Time : 2023.01.23 09:49:56	SELECT "MigrationId", "ProductVersion"
+FROM "__EFMigrationsHistory"
+ORDER BY "MigrationId";
+Time : 2023.01.23 09:49:56	                   ↓↓                    
+Time : 2023.01.23 09:49:56	RequestID : Console
+Time : 2023.01.23 09:49:56	ElapsedTime : 00:00:00.0017554
+Time : 2023.01.23 09:49:56	//////////////////////////////////
+Time : 2023.01.23 09:49:57	
+Time : 2023.01.23 09:49:57	                   ↓↓                    
+Time : 2023.01.23 09:49:57	RequestID : Console
+Time : 2023.01.23 09:49:57	ElapsedTime : 00:00:00.0000339
+Time : 2023.01.23 09:49:57	//////////////////////////////////
+Time : 2023.01.23 09:49:57	
+Time : 2023.01.23 09:49:57	                   ↓↓                    
+Time : 2023.01.23 09:49:57	RequestID : Console
+Time : 2023.01.23 09:49:57	ElapsedTime : 00:00:00.0000622
+Time : 2023.01.23 09:49:57	//////////////////////////////////
+Time : 2023.01.23 09:49:57	
+Time : 2023.01.23 09:49:57	                   ↓↓                    
+Time : 2023.01.23 09:49:57	RequestID : Console
+Time : 2023.01.23 09:49:57	ElapsedTime : 00:00:00.0000728
+Time : 2023.01.23 09:49:57	//////////////////////////////////

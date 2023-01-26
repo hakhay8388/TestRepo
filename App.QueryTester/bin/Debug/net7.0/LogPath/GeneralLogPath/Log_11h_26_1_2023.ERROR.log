@@ -1,0 +1,74 @@
+Time : 2023.01.26 11:21:30
+
+####################################################################################################
+
+42P01: relation "Languages" does not exist
+
+POSITION: 87
+    at Base.Data.nDatabaseService.nDatabase.cBaseDatabaseContext.InvokeTransactionalAction(Func`1 _ServiceMethod) in C:\ProjectWorkspace\GenericScaffold\Base.Data\nDatabaseService\nDatabase\cBaseDatabaseContext.cs:line 88
+   at Base.Data.nDatabaseService.nDatabase.cBaseDatabaseContext.Perform(Action _ServiceMethod) in C:\ProjectWorkspace\GenericScaffold\Base.Data\nDatabaseService\nDatabase\cBaseDatabaseContext.cs:line 47
+   at Data.Domain.nDataService.nDataManagers.cDefaultDataLoaderManager.Load() in C:\ProjectWorkspace\GenericScaffold\Data.Domain\nDatabaseService\nDataManagers\cDefaultDataLoaderManager.cs:line 67
+   at Base.Data.nDatabaseService.cBaseDataService`1.LoadDefaultData() in C:\ProjectWorkspace\GenericScaffold\Base.Data\nDatabaseService\cBaseDataService.cs:line 80 
+ Npgsql 
+ 
+
+####################################################################################################
+
+Time : 2023.01.26 11:21:30
+
+####################################################################################################
+
+42P01: relation "BatchJobs" does not exist
+
+POSITION: 209
+    at Base.Data.nDatabaseService.nDatabase.cBaseDatabaseContext.InvokeTransactionalAction(Func`1 _ServiceMethod) in C:\ProjectWorkspace\GenericScaffold\Base.Data\nDatabaseService\nDatabase\cBaseDatabaseContext.cs:line 88
+   at Base.Data.nDatabaseService.nDatabase.cBaseDatabaseContext.Perform(Action _ServiceMethod) in C:\ProjectWorkspace\GenericScaffold\Base.Data\nDatabaseService\nDatabase\cBaseDatabaseContext.cs:line 47
+   at Core.BatchJobService.nDataService.nDataManagers.cDefaultDataLoaderManager.Load() in C:\ProjectWorkspace\GenericScaffold\Core.BatchJobService\nDataService\nDataManagers\cDefaultDataLoaderManager.cs:line 40
+   at Base.Data.nDatabaseService.cBaseDataService`1.LoadBatchJob() in C:\ProjectWorkspace\GenericScaffold\Base.Data\nDatabaseService\cBaseDataService.cs:line 97 
+ Npgsql 
+ 
+
+####################################################################################################
+
+Time : 2023.01.26 11:25:49	ResolveInstance<T>() failed : Exception has been thrown by the target of an invocation.
+_____________________________________________________
+Exception occurred while:
+   on constructor:  cDatabaseContext()
+
+• while resolving:  cDatabaseContext
+
+Time : 2023.01.26 11:25:49
+
+####################################################################################################
+
+Exception has been thrown by the target of an invocation.
+_____________________________________________________
+Exception occurred while:
+   on constructor:  cDatabaseContext()
+
+• while resolving:  cDatabaseContext
+
+    at Unity.UnityContainer.ExecuteValidatingPlan(BuilderContext& context)
+   at Unity.UnityContainer.Unity.IUnityContainer.Resolve(Type type, String name, ResolverOverride[] overrides)
+   at Bootstrapper.Core.nApplication.nFactories.nObjectFactory.cObjectFactory.ResolveInstance(Dictionary`2 _ParentList, Type _Type) in C:\ProjectWorkspace\GenericScaffold\Bootstrapper.Core\nApplication\nFactories\nObjectFactory\cObjectFactory.cs:line 80 
+ Unity.Container 
+ System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation.
+ ---> System.Exception: cDatabaseContext içine tanımlanmamış entity mevcut!!!
+   at Data.Domain.nDatabaseService.cDatabaseContext.ControlEntities() in C:\ProjectWorkspace\GenericScaffold\Data.Domain\nDatabaseService\cDatabaseContext.cs:line 65
+   at Data.Domain.nDatabaseService.cDatabaseContext..ctor() in C:\ProjectWorkspace\GenericScaffold\Data.Domain\nDatabaseService\cDatabaseContext.cs:line 42
+   at System.RuntimeMethodHandle.InvokeMethod(Object target, Void** arguments, Signature sig, Boolean isConstructor)
+   at System.Reflection.ConstructorInvoker.Invoke(Object obj, IntPtr* args, BindingFlags invokeAttr)
+   --- End of inner exception stack trace ---
+   at System.Reflection.ConstructorInvoker.Invoke(Object obj, IntPtr* args, BindingFlags invokeAttr)
+   at System.Reflection.RuntimeConstructorInfo.Invoke(BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   at System.Reflection.ConstructorInfo.Invoke(Object[] parameters)
+   at Unity.Processors.ConstructorDiagnostic.<>c__DisplayClass14_0.<GetResolverDelegate>b__0(BuilderContext& c)
+   at Unity.Processors.MemberProcessor`2.<>c__DisplayClass8_0.<GetResolver>b__0(BuilderContext& c)
+   at Unity.Processors.MemberProcessor`2.<>c__DisplayClass8_0.<GetResolver>b__0(BuilderContext& c)
+   at Unity.Processors.MemberProcessor`2.<>c__DisplayClass8_0.<GetResolver>b__0(BuilderContext& c)
+   at Unity.UnityContainer.<>c__DisplayClass113_0.<OptimizingFactory>b__0(BuilderContext& c)
+   at Unity.Strategies.BuildPlanStrategy.PreBuildUp(BuilderContext& context)
+   at Unity.UnityContainer.ExecuteValidatingPlan(BuilderContext& context)
+
+####################################################################################################
+

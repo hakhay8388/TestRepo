@@ -1,0 +1,209 @@
+Time : 2023.01.19 11:51:21
+
+####################################################################################################
+
+An error occurred while saving the entity changes. See the inner exception for details.
+    at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.Execute(IRelationalConnection connection)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.Execute(IEnumerable`1 commandBatches, IRelationalConnection connection)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalDatabase.SaveChanges(IList`1 entries)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(IList`1 entriesToSave)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(StateManager stateManager, Boolean acceptAllChangesOnSuccess)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.<>c.<SaveChanges>b__107_0(DbContext _, ValueTuple`2 t)
+   at Npgsql.EntityFrameworkCore.PostgreSQL.Storage.Internal.NpgsqlExecutionStrategy.Execute[TState,TResult](TState state, Func`3 operation, Func`3 verifySucceeded)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(Boolean acceptAllChangesOnSuccess)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChanges(Boolean acceptAllChangesOnSuccess)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChanges()
+   at Base.Data.nDatabaseService.nDatabase.cBaseEntity`1.Save() in C:\ProjectWorkspace\GenericScaffold\Base.Data\nDatabaseService\nDatabase\cBaseEntity.cs:line 56
+   at Data.Domain.nDataService.nDataManagers.nLoaders.cDefaultUsersDataLoader.InitAdmins() in C:\ProjectWorkspace\GenericScaffold\Data.Domain\nDatabaseService\nDataManagers\nLoaders\cDefaultUsersDataLoader.cs:line 78 
+ Microsoft.EntityFrameworkCore.Relational 
+ Npgsql.PostgresException (0x80004005): 23502: null value in column "Language" of relation "Users" violates not-null constraint
+
+DETAIL: Detail redacted as it may contain sensitive data. Specify 'Include Error Detail' in the connection string to include this information.
+   at Npgsql.Internal.NpgsqlConnector.<ReadMessage>g__ReadMessageLong|226_0(NpgsqlConnector connector, Boolean async, DataRowLoadingMode dataRowLoadingMode, Boolean readingNotifications, Boolean isReadingPrependedMessage)
+   at Npgsql.NpgsqlDataReader.NextResult(Boolean async, Boolean isConsuming, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlDataReader.NextResult(Boolean async, Boolean isConsuming, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlDataReader.NextResult()
+   at Npgsql.NpgsqlCommand.ExecuteReader(CommandBehavior behavior, Boolean async, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlCommand.ExecuteReader(CommandBehavior behavior, Boolean async, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlCommand.ExecuteReader(CommandBehavior behavior)
+   at Npgsql.NpgsqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReader(RelationalCommandParameterObject parameterObject)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.Execute(IRelationalConnection connection)
+  Exception data:
+    Severity: ERROR
+    SqlState: 23502
+    MessageText: null value in column "Language" of relation "Users" violates not-null constraint
+    Detail: Detail redacted as it may contain sensitive data. Specify 'Include Error Detail' in the connection string to include this information.
+    SchemaName: public
+    TableName: Users
+    ColumnName: Language
+    File: execmain.c
+    Line: 1974
+    Routine: ExecConstraints
+
+####################################################################################################
+
+Time : 2023.01.19 11:51:21
+
+####################################################################################################
+
+An error occurred while saving the entity changes. See the inner exception for details.
+    at Base.Data.nDatabaseService.nDatabase.cBaseDatabaseContext.InvokeTransactionalAction(Func`1 _ServiceMethod) in C:\ProjectWorkspace\GenericScaffold\Base.Data\nDatabaseService\nDatabase\cBaseDatabaseContext.cs:line 88
+   at Base.Data.nDatabaseService.nDatabase.cBaseDatabaseContext.Perform(Action _ServiceMethod) in C:\ProjectWorkspace\GenericScaffold\Base.Data\nDatabaseService\nDatabase\cBaseDatabaseContext.cs:line 47
+   at Data.Domain.nDataService.nDataManagers.cDefaultDataLoaderManager.Load() in C:\ProjectWorkspace\GenericScaffold\Data.Domain\nDatabaseService\nDataManagers\cDefaultDataLoaderManager.cs:line 76
+   at Base.Data.nDatabaseService.cBaseDataService`1.LoadDefaultData() in C:\ProjectWorkspace\GenericScaffold\Base.Data\nDatabaseService\cBaseDataService.cs:line 80 
+ Microsoft.EntityFrameworkCore.Relational 
+ Npgsql.PostgresException (0x80004005): 23502: null value in column "Language" of relation "Users" violates not-null constraint
+
+DETAIL: Detail redacted as it may contain sensitive data. Specify 'Include Error Detail' in the connection string to include this information.
+   at Npgsql.Internal.NpgsqlConnector.<ReadMessage>g__ReadMessageLong|226_0(NpgsqlConnector connector, Boolean async, DataRowLoadingMode dataRowLoadingMode, Boolean readingNotifications, Boolean isReadingPrependedMessage)
+   at Npgsql.NpgsqlDataReader.NextResult(Boolean async, Boolean isConsuming, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlDataReader.NextResult(Boolean async, Boolean isConsuming, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlDataReader.NextResult()
+   at Npgsql.NpgsqlCommand.ExecuteReader(CommandBehavior behavior, Boolean async, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlCommand.ExecuteReader(CommandBehavior behavior, Boolean async, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlCommand.ExecuteReader(CommandBehavior behavior)
+   at Npgsql.NpgsqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReader(RelationalCommandParameterObject parameterObject)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.Execute(IRelationalConnection connection)
+  Exception data:
+    Severity: ERROR
+    SqlState: 23502
+    MessageText: null value in column "Language" of relation "Users" violates not-null constraint
+    Detail: Detail redacted as it may contain sensitive data. Specify 'Include Error Detail' in the connection string to include this information.
+    SchemaName: public
+    TableName: Users
+    ColumnName: Language
+    File: execmain.c
+    Line: 1974
+    Routine: ExecConstraints
+
+####################################################################################################
+
+Time : 2023.01.19 11:51:23
+
+####################################################################################################
+
+An error occurred while saving the entity changes. See the inner exception for details.
+    at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.Execute(IRelationalConnection connection)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.Execute(IEnumerable`1 commandBatches, IRelationalConnection connection)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalDatabase.SaveChanges(IList`1 entries)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(IList`1 entriesToSave)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(StateManager stateManager, Boolean acceptAllChangesOnSuccess)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.<>c.<SaveChanges>b__107_0(DbContext _, ValueTuple`2 t)
+   at Npgsql.EntityFrameworkCore.PostgreSQL.Storage.Internal.NpgsqlExecutionStrategy.Execute[TState,TResult](TState state, Func`3 operation, Func`3 verifySucceeded)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(Boolean acceptAllChangesOnSuccess)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChanges(Boolean acceptAllChangesOnSuccess)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChanges()
+   at Base.Data.nDatabaseService.nDatabase.cBaseEntity`1.Save() in C:\ProjectWorkspace\GenericScaffold\Base.Data\nDatabaseService\nDatabase\cBaseEntity.cs:line 56
+   at Data.Domain.nDataService.nDataManagers.nLoaders.cDefaultUsersDataLoader.InitAdmins() in C:\ProjectWorkspace\GenericScaffold\Data.Domain\nDatabaseService\nDataManagers\nLoaders\cDefaultUsersDataLoader.cs:line 78 
+ Microsoft.EntityFrameworkCore.Relational 
+ Npgsql.PostgresException (0x80004005): 23502: null value in column "Language" of relation "Users" violates not-null constraint
+
+DETAIL: Detail redacted as it may contain sensitive data. Specify 'Include Error Detail' in the connection string to include this information.
+   at Npgsql.Internal.NpgsqlConnector.<ReadMessage>g__ReadMessageLong|226_0(NpgsqlConnector connector, Boolean async, DataRowLoadingMode dataRowLoadingMode, Boolean readingNotifications, Boolean isReadingPrependedMessage)
+   at Npgsql.NpgsqlDataReader.NextResult(Boolean async, Boolean isConsuming, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlDataReader.NextResult(Boolean async, Boolean isConsuming, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlDataReader.NextResult()
+   at Npgsql.NpgsqlCommand.ExecuteReader(CommandBehavior behavior, Boolean async, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlCommand.ExecuteReader(CommandBehavior behavior, Boolean async, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlCommand.ExecuteReader(CommandBehavior behavior)
+   at Npgsql.NpgsqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReader(RelationalCommandParameterObject parameterObject)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.Execute(IRelationalConnection connection)
+  Exception data:
+    Severity: ERROR
+    SqlState: 23502
+    MessageText: null value in column "Language" of relation "Users" violates not-null constraint
+    Detail: Detail redacted as it may contain sensitive data. Specify 'Include Error Detail' in the connection string to include this information.
+    SchemaName: public
+    TableName: Users
+    ColumnName: Language
+    File: execmain.c
+    Line: 1974
+    Routine: ExecConstraints
+
+####################################################################################################
+
+Time : 2023.01.19 11:51:23
+
+####################################################################################################
+
+An error occurred while saving the entity changes. See the inner exception for details.
+    at Base.Data.nDatabaseService.nDatabase.cBaseDatabaseContext.InvokeTransactionalAction(Func`1 _ServiceMethod) in C:\ProjectWorkspace\GenericScaffold\Base.Data\nDatabaseService\nDatabase\cBaseDatabaseContext.cs:line 88
+   at Base.Data.nDatabaseService.nDatabase.cBaseDatabaseContext.Perform(Action _ServiceMethod) in C:\ProjectWorkspace\GenericScaffold\Base.Data\nDatabaseService\nDatabase\cBaseDatabaseContext.cs:line 47
+   at Data.Domain.nDataService.nDataManagers.cDefaultDataLoaderManager.Load() in C:\ProjectWorkspace\GenericScaffold\Data.Domain\nDatabaseService\nDataManagers\cDefaultDataLoaderManager.cs:line 76
+   at Base.Data.nDatabaseService.cBaseDataService`1.LoadDefaultData() in C:\ProjectWorkspace\GenericScaffold\Base.Data\nDatabaseService\cBaseDataService.cs:line 80 
+ Microsoft.EntityFrameworkCore.Relational 
+ Npgsql.PostgresException (0x80004005): 23502: null value in column "Language" of relation "Users" violates not-null constraint
+
+DETAIL: Detail redacted as it may contain sensitive data. Specify 'Include Error Detail' in the connection string to include this information.
+   at Npgsql.Internal.NpgsqlConnector.<ReadMessage>g__ReadMessageLong|226_0(NpgsqlConnector connector, Boolean async, DataRowLoadingMode dataRowLoadingMode, Boolean readingNotifications, Boolean isReadingPrependedMessage)
+   at Npgsql.NpgsqlDataReader.NextResult(Boolean async, Boolean isConsuming, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlDataReader.NextResult(Boolean async, Boolean isConsuming, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlDataReader.NextResult()
+   at Npgsql.NpgsqlCommand.ExecuteReader(CommandBehavior behavior, Boolean async, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlCommand.ExecuteReader(CommandBehavior behavior, Boolean async, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlCommand.ExecuteReader(CommandBehavior behavior)
+   at Npgsql.NpgsqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReader(RelationalCommandParameterObject parameterObject)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.Execute(IRelationalConnection connection)
+  Exception data:
+    Severity: ERROR
+    SqlState: 23502
+    MessageText: null value in column "Language" of relation "Users" violates not-null constraint
+    Detail: Detail redacted as it may contain sensitive data. Specify 'Include Error Detail' in the connection string to include this information.
+    SchemaName: public
+    TableName: Users
+    ColumnName: Language
+    File: execmain.c
+    Line: 1974
+    Routine: ExecConstraints
+
+####################################################################################################
+
+Time : 2023.01.19 11:52:29
+
+####################################################################################################
+
+An error occurred while saving the entity changes. See the inner exception for details.
+    at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.Execute(IRelationalConnection connection)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.Execute(IEnumerable`1 commandBatches, IRelationalConnection connection)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalDatabase.SaveChanges(IList`1 entries)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(IList`1 entriesToSave)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(StateManager stateManager, Boolean acceptAllChangesOnSuccess)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.<>c.<SaveChanges>b__107_0(DbContext _, ValueTuple`2 t)
+   at Npgsql.EntityFrameworkCore.PostgreSQL.Storage.Internal.NpgsqlExecutionStrategy.Execute[TState,TResult](TState state, Func`3 operation, Func`3 verifySucceeded)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(Boolean acceptAllChangesOnSuccess)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChanges(Boolean acceptAllChangesOnSuccess)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChanges()
+   at Base.Data.nDatabaseService.nDatabase.cBaseEntity`1.Save() in C:\ProjectWorkspace\GenericScaffold\Base.Data\nDatabaseService\nDatabase\cBaseEntity.cs:line 56
+   at Data.Domain.nDataService.nDataManagers.nLoaders.cDefaultUsersDataLoader.InitAdmins() in C:\ProjectWorkspace\GenericScaffold\Data.Domain\nDatabaseService\nDataManagers\nLoaders\cDefaultUsersDataLoader.cs:line 78 
+ Microsoft.EntityFrameworkCore.Relational 
+ Npgsql.PostgresException (0x80004005): 23502: null value in column "Language" of relation "Users" violates not-null constraint
+
+DETAIL: Detail redacted as it may contain sensitive data. Specify 'Include Error Detail' in the connection string to include this information.
+   at Npgsql.Internal.NpgsqlConnector.<ReadMessage>g__ReadMessageLong|226_0(NpgsqlConnector connector, Boolean async, DataRowLoadingMode dataRowLoadingMode, Boolean readingNotifications, Boolean isReadingPrependedMessage)
+   at Npgsql.NpgsqlDataReader.NextResult(Boolean async, Boolean isConsuming, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlDataReader.NextResult(Boolean async, Boolean isConsuming, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlDataReader.NextResult()
+   at Npgsql.NpgsqlCommand.ExecuteReader(CommandBehavior behavior, Boolean async, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlCommand.ExecuteReader(CommandBehavior behavior, Boolean async, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlCommand.ExecuteReader(CommandBehavior behavior)
+   at Npgsql.NpgsqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReader(RelationalCommandParameterObject parameterObject)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.Execute(IRelationalConnection connection)
+  Exception data:
+    Severity: ERROR
+    SqlState: 23502
+    MessageText: null value in column "Language" of relation "Users" violates not-null constraint
+    Detail: Detail redacted as it may contain sensitive data. Specify 'Include Error Detail' in the connection string to include this information.
+    SchemaName: public
+    TableName: Users
+    ColumnName: Language
+    File: execmain.c
+    Line: 1974
+    Routine: ExecConstraints
+
+####################################################################################################
+

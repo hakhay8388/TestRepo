@@ -1,0 +1,27 @@
+Time : 2023.01.16 16:26:07
+
+####################################################################################################
+
+The current type, Microsoft.AspNetCore.Http.IProblemDetailsService, is an interface and cannot be constructed. Are you missing a type mapping?
+_____________________________________________________
+Exception occurred while:
+
+• while resolving:  IProblemDetailsService
+
+    at Unity.UnityContainer.ExecuteValidatingPlan(BuilderContext& context)
+   at Unity.UnityContainer.Unity.IUnityContainer.Resolve(Type type, String name, ResolverOverride[] overrides)
+   at Base.Web.nCustomDI.cUnityServiceProvider.GetService(Type _ServiceType) in C:\ProjectWorkspace\GenericScaffold\Base.Web\nCustomDI\cUnityServiceProvider.cs:line 31 
+ Unity.Container 
+ System.InvalidOperationException: The current type, Microsoft.AspNetCore.Http.IProblemDetailsService, is an interface and cannot be constructed. Are you missing a type mapping?
+ ---> Unity.Exceptions.InvalidRegistrationException: Exception of type 'Unity.Exceptions.InvalidRegistrationException' was thrown.
+   --- End of inner exception stack trace ---
+   at Unity.Processors.ConstructorDiagnostic.<>c.<GetResolver>b__13_0(BuilderContext& c)
+   at Unity.Processors.MemberProcessor`2.<>c__DisplayClass8_0.<GetResolver>b__0(BuilderContext& c)
+   at Unity.Processors.MemberProcessor`2.<>c__DisplayClass8_0.<GetResolver>b__0(BuilderContext& c)
+   at Unity.Processors.MemberProcessor`2.<>c__DisplayClass8_0.<GetResolver>b__0(BuilderContext& c)
+   at Unity.UnityContainer.<>c__DisplayClass113_0.<OptimizingFactory>b__0(BuilderContext& c)
+   at Unity.Strategies.BuildPlanStrategy.PreBuildUp(BuilderContext& context)
+   at Unity.UnityContainer.ExecuteValidatingPlan(BuilderContext& context)
+
+####################################################################################################
+

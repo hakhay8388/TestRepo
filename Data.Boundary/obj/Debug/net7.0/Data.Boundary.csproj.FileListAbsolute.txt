@@ -1,0 +1,15 @@
+C:\ProjectWorkspace\GenericScaffold\Data.Boundary\bin\Debug\net7.0\Data.Boundary.deps.json
+C:\ProjectWorkspace\GenericScaffold\Data.Boundary\bin\Debug\net7.0\Data.Boundary.dll
+C:\ProjectWorkspace\GenericScaffold\Data.Boundary\bin\Debug\net7.0\Data.Boundary.pdb
+C:\ProjectWorkspace\GenericScaffold\Data.Boundary\bin\Debug\net7.0\Bootstrapper.Boundary.dll
+C:\ProjectWorkspace\GenericScaffold\Data.Boundary\bin\Debug\net7.0\Bootstrapper.Boundary.pdb
+C:\ProjectWorkspace\GenericScaffold\Data.Boundary\obj\Debug\net7.0\Data.Boundary.csproj.AssemblyReference.cache
+C:\ProjectWorkspace\GenericScaffold\Data.Boundary\obj\Debug\net7.0\Data.Boundary.GeneratedMSBuildEditorConfig.editorconfig
+C:\ProjectWorkspace\GenericScaffold\Data.Boundary\obj\Debug\net7.0\Data.Boundary.AssemblyInfoInputs.cache
+C:\ProjectWorkspace\GenericScaffold\Data.Boundary\obj\Debug\net7.0\Data.Boundary.AssemblyInfo.cs
+C:\ProjectWorkspace\GenericScaffold\Data.Boundary\obj\Debug\net7.0\Data.Boundary.csproj.CoreCompileInputs.cache
+C:\ProjectWorkspace\GenericScaffold\Data.Boundary\obj\Debug\net7.0\Data.Boundary.csproj.CopyComplete
+C:\ProjectWorkspace\GenericScaffold\Data.Boundary\obj\Debug\net7.0\Data.Boundary.dll
+C:\ProjectWorkspace\GenericScaffold\Data.Boundary\obj\Debug\net7.0\refint\Data.Boundary.dll
+C:\ProjectWorkspace\GenericScaffold\Data.Boundary\obj\Debug\net7.0\Data.Boundary.pdb
+C:\ProjectWorkspace\GenericScaffold\Data.Boundary\obj\Debug\net7.0\ref\Data.Boundary.dll

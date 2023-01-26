@@ -1,0 +1,536 @@
+Time : 2023.01.16 16:00:56	Type  Bind : cStartup`1 -> cStartup`1  ,  Life : ContainerControlledLifetimeManager
+Time : 2023.01.16 16:00:56	Type  Bind : cFileEntity`1 -> cFileEntity`1  ,  Life : PerResolveLifetimeManager
+Time : 2023.01.16 16:00:56	Type  Bind : IFileDateService -> cFileDataService  ,  Life : ContainerControlledLifetimeManager
+Time : 2023.01.16 16:00:57	Type  Bind : cBatchJobManager -> cBatchJobManager  ,  Life : ContainerControlledLifetimeManager
+Time : 2023.01.16 16:00:57	Type  Bind : cDataService -> cDataService  ,  Life : TransientLifetimeManager
+Time : 2023.01.16 16:00:57	Type  Bind : IBatchJobDataLoader -> cDefaultDataLoaderManager  ,  Life : ContainerControlledLifetimeManager
+Time : 2023.01.16 16:00:57	ResolveInstance<T>() started : cBatchJobManager
+Time : 2023.01.16 16:00:56	Type  Bind : cBaseDataService`1 -> cBaseDataService`1  ,  Life : TransientLifetimeManager
+Time : 2023.01.16 16:00:57	ResolveInstance<T>() started : cDataService
+Time : 2023.01.16 16:00:57	ResolveInstance<T>() ended : cDataService
+Time : 2023.01.16 16:00:57	ResolveInstance<T>() ended : cBatchJobManager
+Time : 2023.01.16 16:00:56	Type  Bind : IScripting -> cScriptRunner  ,  Life : ContainerControlledLifetimeManager
+Time : 2023.01.16 16:00:57	ResolveInstance<T>() started : cTestServiceJob
+Time : 2023.01.16 16:00:57	Type  Bind : IDefaultDataLoader -> cDefaultDataLoaderManager  ,  Life : ContainerControlledLifetimeManager
+Time : 2023.01.16 16:00:57	ResolveInstance<T>() started : cOldBatchJobExecutionsDeleteJob
+Time : 2023.01.16 16:00:57	ResolveInstance<T>() ended : cOldBatchJobExecutionsDeleteJob
+Time : 2023.01.16 16:00:57	ResolveInstance<T>() ended : cTestServiceJob
+Time : 2023.01.16 16:00:57	ResolveInstance<T>() started : cStartup`1
+Time : 2023.01.16 16:00:57	Type  Bind : cDatabaseContext -> cDatabaseContext  ,  Life : PerThreadLifetimeManager
+Time : 2023.01.16 16:00:57	ResolveInstance<T>() started : cStarter
+Time : 2023.01.16 16:01:28	ResolveInstance<T>() started : cDatabaseContext
+Time : 2023.01.16 16:00:56	Type  Bind : cGlobalSettingEntity -> cGlobalSettingEntity  ,  Life : PerResolveLifetimeManager
+Time : 2023.01.16 16:00:57	ResolveInstance<T>() ended : cStarter
+Time : 2023.01.16 16:00:57	ResolveInstance<T>() ended : cStartup`1
+Time : 2023.01.16 16:01:28	ResolveInstance<T>() ended : cDatabaseContext
+Time : 2023.01.16 16:02:47	Type  Bind : cStartup`1 -> cStartup`1  ,  Life : ContainerControlledLifetimeManager
+Time : 2023.01.16 16:02:47	Type  Bind : IScripting -> cScriptRunner  ,  Life : ContainerControlledLifetimeManager
+Time : 2023.01.16 16:02:47	Type  Bind : cFileEntity`1 -> cFileEntity`1  ,  Life : PerResolveLifetimeManager
+Time : 2023.01.16 16:02:47	Type  Bind : cGlobalSettingEntity -> cGlobalSettingEntity  ,  Life : PerResolveLifetimeManager
+Time : 2023.01.16 16:02:47	Type  Bind : cBaseDataService`1 -> cBaseDataService`1  ,  Life : TransientLifetimeManager
+Time : 2023.01.16 16:02:47	Type  Bind : IFileDateService -> cFileDataService  ,  Life : ContainerControlledLifetimeManager
+Time : 2023.01.16 16:02:47	Type  Bind : IDefaultDataLoader -> cDefaultDataLoaderManager  ,  Life : ContainerControlledLifetimeManager
+Time : 2023.01.16 16:02:47	Type  Bind : cDataService -> cDataService  ,  Life : TransientLifetimeManager
+Time : 2023.01.16 16:02:47	Type  Bind : cBatchJobManager -> cBatchJobManager  ,  Life : ContainerControlledLifetimeManager
+Time : 2023.01.16 16:02:47	Type  Bind : IBatchJobDataLoader -> cDefaultDataLoaderManager  ,  Life : ContainerControlledLifetimeManager
+Time : 2023.01.16 16:02:47	ResolveInstance<T>() started : cDataService
+Time : 2023.01.16 16:02:47	ResolveInstance<T>() ended : cDataService
+Time : 2023.01.16 16:02:47	ResolveInstance<T>() started : cBatchJobManager
+Time : 2023.01.16 16:02:47	ResolveInstance<T>() ended : cBatchJobManager
+Time : 2023.01.16 16:02:47	Type  Bind : cDatabaseContext -> cDatabaseContext  ,  Life : PerThreadLifetimeManager
+Time : 2023.01.16 16:02:47	ResolveInstance<T>() started : cTestServiceJob
+Time : 2023.01.16 16:02:47	ResolveInstance<T>() ended : cTestServiceJob
+Time : 2023.01.16 16:02:47	ResolveInstance<T>() started : cOldBatchJobExecutionsDeleteJob
+Time : 2023.01.16 16:02:47	ResolveInstance<T>() ended : cOldBatchJobExecutionsDeleteJob
+Time : 2023.01.16 16:02:47	ResolveInstance<T>() started : cStartup`1
+Time : 2023.01.16 16:02:47	ResolveInstance<T>() started : cStarter
+Time : 2023.01.16 16:02:47	ResolveInstance<T>() ended : cStarter
+Time : 2023.01.16 16:02:47	ResolveInstance<T>() ended : cStartup`1
+Time : 2023.01.16 16:02:50	ResolveInstance<T>() started : cDatabaseContext
+Time : 2023.01.16 16:02:50	ResolveInstance<T>() ended : cDatabaseContext
+Time : 2023.01.16 16:03:10	Type  Bind : cStartup`1 -> cStartup`1  ,  Life : ContainerControlledLifetimeManager
+Time : 2023.01.16 16:03:10	Type  Bind : IScripting -> cScriptRunner  ,  Life : ContainerControlledLifetimeManager
+Time : 2023.01.16 16:03:10	Type  Bind : cFileEntity`1 -> cFileEntity`1  ,  Life : PerResolveLifetimeManager
+Time : 2023.01.16 16:03:10	Type  Bind : cGlobalSettingEntity -> cGlobalSettingEntity  ,  Life : PerResolveLifetimeManager
+Time : 2023.01.16 16:03:10	Type  Bind : cBaseDataService`1 -> cBaseDataService`1  ,  Life : TransientLifetimeManager
+Time : 2023.01.16 16:03:10	Type  Bind : IFileDateService -> cFileDataService  ,  Life : ContainerControlledLifetimeManager
+Time : 2023.01.16 16:03:10	Type  Bind : IDefaultDataLoader -> cDefaultDataLoaderManager  ,  Life : ContainerControlledLifetimeManager
+Time : 2023.01.16 16:03:10	Type  Bind : cDataService -> cDataService  ,  Life : TransientLifetimeManager
+Time : 2023.01.16 16:03:10	Type  Bind : cBatchJobManager -> cBatchJobManager  ,  Life : ContainerControlledLifetimeManager
+Time : 2023.01.16 16:03:10	Type  Bind : IBatchJobDataLoader -> cDefaultDataLoaderManager  ,  Life : ContainerControlledLifetimeManager
+Time : 2023.01.16 16:03:10	ResolveInstance<T>() started : cDataService
+Time : 2023.01.16 16:03:10	ResolveInstance<T>() ended : cDataService
+Time : 2023.01.16 16:03:10	ResolveInstance<T>() started : cBatchJobManager
+Time : 2023.01.16 16:03:10	ResolveInstance<T>() ended : cBatchJobManager
+Time : 2023.01.16 16:03:10	Type  Bind : cDatabaseContext -> cDatabaseContext  ,  Life : PerThreadLifetimeManager
+Time : 2023.01.16 16:03:10	ResolveInstance<T>() started : cTestServiceJob
+Time : 2023.01.16 16:03:10	ResolveInstance<T>() ended : cTestServiceJob
+Time : 2023.01.16 16:03:10	ResolveInstance<T>() started : cOldBatchJobExecutionsDeleteJob
+Time : 2023.01.16 16:03:10	ResolveInstance<T>() ended : cOldBatchJobExecutionsDeleteJob
+Time : 2023.01.16 16:03:10	ResolveInstance<T>() started : cStartup`1
+Time : 2023.01.16 16:03:10	ResolveInstance<T>() started : cStarter
+Time : 2023.01.16 16:03:10	ResolveInstance<T>() ended : cStarter
+Time : 2023.01.16 16:03:10	ResolveInstance<T>() ended : cStartup`1
+Time : 2023.01.16 16:03:12	ResolveInstance<T>() started : cDatabaseContext
+Time : 2023.01.16 16:03:13	ResolveInstance<T>() ended : cDatabaseContext
+Time : 2023.01.16 16:03:43	Type  Bind : cStartup`1 -> cStartup`1  ,  Life : ContainerControlledLifetimeManager
+Time : 2023.01.16 16:03:43	Type  Bind : IScripting -> cScriptRunner  ,  Life : ContainerControlledLifetimeManager
+Time : 2023.01.16 16:03:43	Type  Bind : cFileEntity`1 -> cFileEntity`1  ,  Life : PerResolveLifetimeManager
+Time : 2023.01.16 16:03:43	Type  Bind : cGlobalSettingEntity -> cGlobalSettingEntity  ,  Life : PerResolveLifetimeManager
+Time : 2023.01.16 16:03:43	Type  Bind : cBaseDataService`1 -> cBaseDataService`1  ,  Life : TransientLifetimeManager
+Time : 2023.01.16 16:03:43	Type  Bind : IFileDateService -> cFileDataService  ,  Life : ContainerControlledLifetimeManager
+Time : 2023.01.16 16:03:43	Type  Bind : IDefaultDataLoader -> cDefaultDataLoaderManager  ,  Life : ContainerControlledLifetimeManager
+Time : 2023.01.16 16:03:43	Type  Bind : cDataService -> cDataService  ,  Life : TransientLifetimeManager
+Time : 2023.01.16 16:03:43	Type  Bind : cBatchJobManager -> cBatchJobManager  ,  Life : ContainerControlledLifetimeManager
+Time : 2023.01.16 16:03:43	Type  Bind : IBatchJobDataLoader -> cDefaultDataLoaderManager  ,  Life : ContainerControlledLifetimeManager
+Time : 2023.01.16 16:03:43	ResolveInstance<T>() started : cDataService
+Time : 2023.01.16 16:03:43	ResolveInstance<T>() ended : cDataService
+Time : 2023.01.16 16:03:43	ResolveInstance<T>() started : cBatchJobManager
+Time : 2023.01.16 16:03:43	ResolveInstance<T>() ended : cBatchJobManager
+Time : 2023.01.16 16:03:43	Type  Bind : cDatabaseContext -> cDatabaseContext  ,  Life : PerThreadLifetimeManager
+Time : 2023.01.16 16:03:43	ResolveInstance<T>() started : cTestServiceJob
+Time : 2023.01.16 16:03:43	ResolveInstance<T>() ended : cTestServiceJob
+Time : 2023.01.16 16:03:43	ResolveInstance<T>() started : cOldBatchJobExecutionsDeleteJob
+Time : 2023.01.16 16:03:43	ResolveInstance<T>() ended : cOldBatchJobExecutionsDeleteJob
+Time : 2023.01.16 16:03:43	ResolveInstance<T>() started : cStartup`1
+Time : 2023.01.16 16:03:43	ResolveInstance<T>() started : cStarter
+Time : 2023.01.16 16:03:43	ResolveInstance<T>() ended : cStarter
+Time : 2023.01.16 16:03:43	ResolveInstance<T>() ended : cStartup`1
+Time : 2023.01.16 16:03:45	ResolveInstance<T>() started : cDatabaseContext
+Time : 2023.01.16 16:03:45	ResolveInstance<T>() ended : cDatabaseContext
+Time : 2023.01.16 16:05:46	Type  Bind : cStartup`1 -> cStartup`1  ,  Life : ContainerControlledLifetimeManager
+Time : 2023.01.16 16:05:46	Type  Bind : IScripting -> cScriptRunner  ,  Life : ContainerControlledLifetimeManager
+Time : 2023.01.16 16:05:46	Type  Bind : cFileEntity`1 -> cFileEntity`1  ,  Life : PerResolveLifetimeManager
+Time : 2023.01.16 16:05:46	Type  Bind : cGlobalSettingEntity -> cGlobalSettingEntity  ,  Life : PerResolveLifetimeManager
+Time : 2023.01.16 16:05:46	Type  Bind : cBaseDataService`1 -> cBaseDataService`1  ,  Life : TransientLifetimeManager
+Time : 2023.01.16 16:05:46	Type  Bind : IFileDateService -> cFileDataService  ,  Life : ContainerControlledLifetimeManager
+Time : 2023.01.16 16:05:46	Type  Bind : IDefaultDataLoader -> cDefaultDataLoaderManager  ,  Life : ContainerControlledLifetimeManager
+Time : 2023.01.16 16:05:46	Type  Bind : cDataService -> cDataService  ,  Life : TransientLifetimeManager
+Time : 2023.01.16 16:05:46	Type  Bind : cBatchJobManager -> cBatchJobManager  ,  Life : ContainerControlledLifetimeManager
+Time : 2023.01.16 16:05:46	Type  Bind : IBatchJobDataLoader -> cDefaultDataLoaderManager  ,  Life : ContainerControlledLifetimeManager
+Time : 2023.01.16 16:05:46	ResolveInstance<T>() started : cDataService
+Time : 2023.01.16 16:05:46	ResolveInstance<T>() ended : cDataService
+Time : 2023.01.16 16:05:46	ResolveInstance<T>() started : cBatchJobManager
+Time : 2023.01.16 16:05:46	ResolveInstance<T>() ended : cBatchJobManager
+Time : 2023.01.16 16:05:46	Type  Bind : cDatabaseContext -> cDatabaseContext  ,  Life : PerThreadLifetimeManager
+Time : 2023.01.16 16:05:47	ResolveInstance<T>() started : cTestServiceJob
+Time : 2023.01.16 16:05:47	ResolveInstance<T>() ended : cTestServiceJob
+Time : 2023.01.16 16:05:47	ResolveInstance<T>() started : cOldBatchJobExecutionsDeleteJob
+Time : 2023.01.16 16:05:47	ResolveInstance<T>() ended : cOldBatchJobExecutionsDeleteJob
+Time : 2023.01.16 16:05:47	ResolveInstance<T>() started : cStartup`1
+Time : 2023.01.16 16:05:47	ResolveInstance<T>() started : cStarter
+Time : 2023.01.16 16:05:47	ResolveInstance<T>() ended : cStarter
+Time : 2023.01.16 16:05:47	ResolveInstance<T>() ended : cStartup`1
+Time : 2023.01.16 16:05:49	ResolveInstance<T>() started : cDatabaseContext
+Time : 2023.01.16 16:05:49	ResolveInstance<T>() ended : cDatabaseContext
+Time : 2023.01.16 16:07:27	ResolveInstance<T>() started : IDefaultDataLoader
+Time : 2023.01.16 16:07:27	ResolveInstance<T>() ended : IDefaultDataLoader
+Time : 2023.01.16 16:07:36	ResolveInstance<T>() started : cDatabaseContext
+Time : 2023.01.16 16:07:36	ResolveInstance<T>() ended : cDatabaseContext
+Time : 2023.01.16 16:08:22	ResolveInstance<T>() started : cDefaultDataLoaderManager
+Time : 2023.01.16 16:08:22	ResolveInstance<T>() ended : cDefaultDataLoaderManager
+Time : 2023.01.16 16:08:26	ResolveInstance<T>() started : cDatabaseContext
+Time : 2023.01.16 16:08:26	ResolveInstance<T>() ended : cDatabaseContext
+Time : 2023.01.16 16:08:36	ResolveInstance<T>() started : cDatabaseContext
+Time : 2023.01.16 16:08:36	ResolveInstance<T>() ended : cDatabaseContext
+Time : 2023.01.16 16:08:39	ResolveInstance<T>() started : cDatabaseContext
+Time : 2023.01.16 16:08:39	ResolveInstance<T>() ended : cDatabaseContext
+Time : 2023.01.16 16:08:39	ResolveInstance<T>() started : cDatabaseContext
+Time : 2023.01.16 16:08:39	ResolveInstance<T>() ended : cDatabaseContext
+Time : 2023.01.16 16:08:39	ResolveInstance<T>() started : cDatabaseContext
+Time : 2023.01.16 16:08:39	ResolveInstance<T>() ended : cDatabaseContext
+Time : 2023.01.16 16:08:39	ResolveInstance<T>() started : cDatabaseContext
+Time : 2023.01.16 16:08:39	ResolveInstance<T>() ended : cDatabaseContext
+Time : 2023.01.16 16:08:39	ResolveInstance<T>() started : cDatabaseContext
+Time : 2023.01.16 16:08:39	ResolveInstance<T>() ended : cDatabaseContext
+Time : 2023.01.16 16:08:39	ResolveInstance<T>() started : cDatabaseContext
+Time : 2023.01.16 16:08:39	ResolveInstance<T>() ended : cDatabaseContext
+Time : 2023.01.16 16:08:40	ResolveInstance<T>() started : cDatabaseContext
+Time : 2023.01.16 16:08:40	ResolveInstance<T>() ended : cDatabaseContext
+Time : 2023.01.16 16:08:40	ResolveInstance<T>() started : cDatabaseContext
+Time : 2023.01.16 16:08:40	ResolveInstance<T>() ended : cDatabaseContext
+Time : 2023.01.16 16:08:40	ResolveInstance<T>() started : cDatabaseContext
+Time : 2023.01.16 16:08:40	ResolveInstance<T>() ended : cDatabaseContext
+Time : 2023.01.16 16:08:43	ResolveInstance<T>() ended : cDatabaseContext
+Time : 2023.01.16 16:08:43	ResolveInstance<T>() started : cDatabaseContext
+Time : 2023.01.16 16:08:43	ResolveInstance<T>() ended : cDatabaseContext
+Time : 2023.01.16 16:08:43	ResolveInstance<T>() started : cDatabaseContext
+Time : 2023.01.16 16:23:57	Type  Bind : cStartup`1 -> cStartup`1  ,  Life : ContainerControlledLifetimeManager
+Time : 2023.01.16 16:23:57	Type  Bind : IScripting -> cScriptRunner  ,  Life : ContainerControlledLifetimeManager
+Time : 2023.01.16 16:23:57	Type  Bind : cFileEntity`1 -> cFileEntity`1  ,  Life : PerResolveLifetimeManager
+Time : 2023.01.16 16:23:57	Type  Bind : cGlobalSettingEntity -> cGlobalSettingEntity  ,  Life : PerResolveLifetimeManager
+Time : 2023.01.16 16:23:57	Type  Bind : cBaseDataService`1 -> cBaseDataService`1  ,  Life : TransientLifetimeManager
+Time : 2023.01.16 16:23:57	Type  Bind : IFileDateService -> cFileDataService  ,  Life : ContainerControlledLifetimeManager
+Time : 2023.01.16 16:23:57	Type  Bind : IDefaultDataLoader -> cDefaultDataLoaderManager  ,  Life : ContainerControlledLifetimeManager
+Time : 2023.01.16 16:23:57	Type  Bind : cDataService -> cDataService  ,  Life : TransientLifetimeManager
+Time : 2023.01.16 16:23:57	Type  Bind : cBatchJobManager -> cBatchJobManager  ,  Life : ContainerControlledLifetimeManager
+Time : 2023.01.16 16:23:57	Type  Bind : IBatchJobDataLoader -> cDefaultDataLoaderManager  ,  Life : ContainerControlledLifetimeManager
+Time : 2023.01.16 16:23:57	ResolveInstance<T>() started : cDataService
+Time : 2023.01.16 16:23:58	ResolveInstance<T>() ended : cDataService
+Time : 2023.01.16 16:23:58	ResolveInstance<T>() started : cBatchJobManager
+Time : 2023.01.16 16:23:58	ResolveInstance<T>() ended : cBatchJobManager
+Time : 2023.01.16 16:23:58	Type  Bind : cDatabaseContext -> cDatabaseContext  ,  Life : PerThreadLifetimeManager
+Time : 2023.01.16 16:23:58	ResolveInstance<T>() started : cTestServiceJob
+Time : 2023.01.16 16:23:58	ResolveInstance<T>() ended : cTestServiceJob
+Time : 2023.01.16 16:23:58	ResolveInstance<T>() started : cOldBatchJobExecutionsDeleteJob
+Time : 2023.01.16 16:23:58	ResolveInstance<T>() ended : cOldBatchJobExecutionsDeleteJob
+Time : 2023.01.16 16:23:58	ResolveInstance<T>() started : cStartup`1
+Time : 2023.01.16 16:23:58	ResolveInstance<T>() started : cStarter
+Time : 2023.01.16 16:23:58	ResolveInstance<T>() ended : cStarter
+Time : 2023.01.16 16:23:58	ResolveInstance<T>() ended : cStartup`1
+Time : 2023.01.16 16:24:20	ResolveInstance<T>() started : cDatabaseContext
+Time : 2023.01.16 16:24:20	ResolveInstance<T>() ended : cDatabaseContext
+Time : 2023.01.16 16:24:31	ResolveInstance<T>() started : IDefaultDataLoader
+Time : 2023.01.16 16:24:31	ResolveInstance<T>() ended : IDefaultDataLoader
+Time : 2023.01.16 16:24:31	ResolveInstance<T>() started : cDatabaseContext
+Time : 2023.01.16 16:24:31	ResolveInstance<T>() ended : cDatabaseContext
+Time : 2023.01.16 16:24:31	ResolveInstance<T>() started : cDefaultDataLoaderManager
+Time : 2023.01.16 16:24:31	ResolveInstance<T>() ended : cDefaultDataLoaderManager
+Time : 2023.01.16 16:24:31	ResolveInstance<T>() started : cDatabaseContext
+Time : 2023.01.16 16:24:31	ResolveInstance<T>() ended : cDatabaseContext
+Time : 2023.01.16 16:24:35	ResolveInstance<T>() started : cDatabaseContext
+Time : 2023.01.16 16:24:35	ResolveInstance<T>() ended : cDatabaseContext
+Time : 2023.01.16 16:24:35	ResolveInstance<T>() started : cDatabaseContext
+Time : 2023.01.16 16:24:35	ResolveInstance<T>() ended : cDatabaseContext
+Time : 2023.01.16 16:24:35	ResolveInstance<T>() started : cDatabaseContext
+Time : 2023.01.16 16:24:35	ResolveInstance<T>() ended : cDatabaseContext
+Time : 2023.01.16 16:24:35	ResolveInstance<T>() started : cDatabaseContext
+Time : 2023.01.16 16:24:35	ResolveInstance<T>() ended : cDatabaseContext
+Time : 2023.01.16 16:24:35	ResolveInstance<T>() started : cDatabaseContext
+Time : 2023.01.16 16:24:35	ResolveInstance<T>() ended : cDatabaseContext
+Time : 2023.01.16 16:24:35	ResolveInstance<T>() started : cDatabaseContext
+Time : 2023.01.16 16:24:35	ResolveInstance<T>() ended : cDatabaseContext
+Time : 2023.01.16 16:24:36	ResolveInstance<T>() started : cDatabaseContext
+Time : 2023.01.16 16:24:36	ResolveInstance<T>() ended : cDatabaseContext
+Time : 2023.01.16 16:24:36	ResolveInstance<T>() started : cDatabaseContext
+Time : 2023.01.16 16:24:36	ResolveInstance<T>() ended : cDatabaseContext
+Time : 2023.01.16 16:25:23	Type  Bind : cStartup`1 -> cStartup`1  ,  Life : ContainerControlledLifetimeManager
+Time : 2023.01.16 16:25:23	Type  Bind : IScripting -> cScriptRunner  ,  Life : ContainerControlledLifetimeManager
+Time : 2023.01.16 16:25:23	Type  Bind : cFileEntity`1 -> cFileEntity`1  ,  Life : PerResolveLifetimeManager
+Time : 2023.01.16 16:25:23	Type  Bind : cGlobalSettingEntity -> cGlobalSettingEntity  ,  Life : PerResolveLifetimeManager
+Time : 2023.01.16 16:25:23	Type  Bind : cBaseDataService`1 -> cBaseDataService`1  ,  Life : TransientLifetimeManager
+Time : 2023.01.16 16:25:23	Type  Bind : IFileDateService -> cFileDataService  ,  Life : ContainerControlledLifetimeManager
+Time : 2023.01.16 16:25:23	Type  Bind : IDefaultDataLoader -> cDefaultDataLoaderManager  ,  Life : ContainerControlledLifetimeManager
+Time : 2023.01.16 16:25:23	Type  Bind : cDataService -> cDataService  ,  Life : TransientLifetimeManager
+Time : 2023.01.16 16:25:23	Type  Bind : cBatchJobManager -> cBatchJobManager  ,  Life : ContainerControlledLifetimeManager
+Time : 2023.01.16 16:25:23	Type  Bind : IBatchJobDataLoader -> cDefaultDataLoaderManager  ,  Life : ContainerControlledLifetimeManager
+Time : 2023.01.16 16:25:23	ResolveInstance<T>() started : cDataService
+Time : 2023.01.16 16:25:24	ResolveInstance<T>() ended : cDataService
+Time : 2023.01.16 16:25:24	ResolveInstance<T>() started : cBatchJobManager
+Time : 2023.01.16 16:25:24	ResolveInstance<T>() ended : cBatchJobManager
+Time : 2023.01.16 16:25:24	Type  Bind : cDatabaseContext -> cDatabaseContext  ,  Life : PerThreadLifetimeManager
+Time : 2023.01.16 16:25:24	ResolveInstance<T>() started : cTestServiceJob
+Time : 2023.01.16 16:25:24	ResolveInstance<T>() ended : cTestServiceJob
+Time : 2023.01.16 16:25:24	ResolveInstance<T>() started : cOldBatchJobExecutionsDeleteJob
+Time : 2023.01.16 16:25:24	ResolveInstance<T>() ended : cOldBatchJobExecutionsDeleteJob
+Time : 2023.01.16 16:25:24	ResolveInstance<T>() started : cStartup`1
+Time : 2023.01.16 16:25:24	ResolveInstance<T>() started : cStarter
+Time : 2023.01.16 16:25:24	ResolveInstance<T>() ended : cStarter
+Time : 2023.01.16 16:25:24	ResolveInstance<T>() ended : cStartup`1
+Time : 2023.01.16 16:25:29	ResolveInstance<T>() started : cDatabaseContext
+Time : 2023.01.16 16:25:29	ResolveInstance<T>() ended : cDatabaseContext
+Time : 2023.01.16 16:25:31	ResolveInstance<T>() started : IDefaultDataLoader
+Time : 2023.01.16 16:25:31	ResolveInstance<T>() ended : IDefaultDataLoader
+Time : 2023.01.16 16:25:31	ResolveInstance<T>() started : cDatabaseContext
+Time : 2023.01.16 16:25:31	ResolveInstance<T>() ended : cDatabaseContext
+Time : 2023.01.16 16:25:32	ResolveInstance<T>() started : cDefaultDataLoaderManager
+Time : 2023.01.16 16:25:32	ResolveInstance<T>() ended : cDefaultDataLoaderManager
+Time : 2023.01.16 16:25:32	ResolveInstance<T>() started : cDatabaseContext
+Time : 2023.01.16 16:25:32	ResolveInstance<T>() ended : cDatabaseContext
+Time : 2023.01.16 16:25:32	ResolveInstance<T>() started : cDatabaseContext
+Time : 2023.01.16 16:25:32	ResolveInstance<T>() ended : cDatabaseContext
+Time : 2023.01.16 16:25:32	ResolveInstance<T>() started : cDatabaseContext
+Time : 2023.01.16 16:25:32	ResolveInstance<T>() ended : cDatabaseContext
+Time : 2023.01.16 16:25:32	ResolveInstance<T>() started : cDatabaseContext
+Time : 2023.01.16 16:25:32	ResolveInstance<T>() ended : cDatabaseContext
+Time : 2023.01.16 16:25:32	ResolveInstance<T>() started : cDatabaseContext
+Time : 2023.01.16 16:25:32	ResolveInstance<T>() ended : cDatabaseContext
+Time : 2023.01.16 16:25:32	ResolveInstance<T>() started : cDatabaseContext
+Time : 2023.01.16 16:25:32	ResolveInstance<T>() ended : cDatabaseContext
+Time : 2023.01.16 16:25:32	ResolveInstance<T>() ended : cDatabaseContext
+Time : 2023.01.16 16:25:32	ResolveInstance<T>() started : cDatabaseContext
+Time : 2023.01.16 16:25:32	ResolveInstance<T>() started : cDatabaseContext
+Time : 2023.01.16 16:25:32	ResolveInstance<T>() ended : cDatabaseContext
+Time : 2023.01.16 16:25:32	ResolveInstance<T>() started : cDatabaseContext
+Time : 2023.01.16 16:25:32	ResolveInstance<T>() ended : cDatabaseContext
+Time : 2023.01.16 16:25:40	ResolveInstance<T>() started : cDatabaseContext
+Time : 2023.01.16 16:25:40	ResolveInstance<T>() ended : cDatabaseContext
+Time : 2023.01.16 16:25:43	ResolveInstance<T>() started : cDatabaseContext
+Time : 2023.01.16 16:25:43	ResolveInstance<T>() ended : cDatabaseContext
+Time : 2023.01.16 16:25:43	ResolveInstance<T>() started : cDatabaseContext
+Time : 2023.01.16 16:25:43	ResolveInstance<T>() ended : cDatabaseContext
+Time : 2023.01.16 16:25:59	ResolveInstance<T>() started : cDatabaseContext
+Time : 2023.01.16 16:25:59	ResolveInstance<T>() ended : cDatabaseContext
+Time : 2023.01.16 16:26:03	ResolveInstance<T>() started : cBatchJobService
+Time : 2023.01.16 16:26:03	ResolveInstance<T>() ended : cBatchJobService
+Time : 2023.01.16 16:26:04	ResolveInstance<T>() started : cDatabaseContext
+Time : 2023.01.16 16:26:04	ResolveInstance<T>() ended : cDatabaseContext
+Time : 2023.01.16 16:26:05	ResolveInstance<T>() started : cJob
+Time : 2023.01.16 16:26:05	ResolveInstance<T>() ended : cJob
+Time : 2023.01.16 16:26:05	ResolveInstance<T>() started : cJob
+Time : 2023.01.16 16:26:05	ResolveInstance<T>() started : cDatabaseContext
+Time : 2023.01.16 16:26:05	ResolveInstance<T>() ended : cJob
+Time : 2023.01.16 16:26:05	ResolveInstance<T>() ended : cDatabaseContext
+Time : 2023.01.16 16:26:05	ResolveInstance<T>() started : cDatabaseContext
+Time : 2023.01.16 16:26:05	ResolveInstance<T>() ended : cDatabaseContext
+Time : 2023.01.16 16:26:05	ResolveInstance<T>() started : cDatabaseContext
+Time : 2023.01.16 16:26:05	ResolveInstance<T>() ended : cDatabaseContext
+Time : 2023.01.16 16:26:05	ResolveInstance<T>() ended : cDatabaseContext
+Time : 2023.01.16 16:26:05	ResolveInstance<T>() started : cDatabaseContext
+Time : 2023.01.16 16:27:19	ResolveInstance<T>() started : cDatabaseContext
+Time : 2023.01.16 16:27:19	ResolveInstance<T>() ended : cDatabaseContext
+Time : 2023.01.16 16:27:20	ResolveInstance<T>() started : cDatabaseContext
+Time : 2023.01.16 16:27:20	ResolveInstance<T>() ended : cDatabaseContext
+Time : 2023.01.16 16:27:30	ResolveInstance<T>() started : cDatabaseContext
+Time : 2023.01.16 16:27:30	ResolveInstance<T>() ended : cDatabaseContext
+Time : 2023.01.16 16:27:34	ResolveInstance<T>() started : cDatabaseContext
+Time : 2023.01.16 16:27:34	ResolveInstance<T>() ended : cDatabaseContext
+Time : 2023.01.16 16:27:40	ResolveInstance<T>() started : cDatabaseContext
+Time : 2023.01.16 16:27:40	ResolveInstance<T>() ended : cDatabaseContext
+Time : 2023.01.16 16:27:45	ResolveInstance<T>() started : cDatabaseContext
+Time : 2023.01.16 16:27:45	ResolveInstance<T>() ended : cDatabaseContext
+Time : 2023.01.16 16:27:50	ResolveInstance<T>() started : cDatabaseContext
+Time : 2023.01.16 16:27:50	ResolveInstance<T>() ended : cDatabaseContext
+Time : 2023.01.16 16:27:55	ResolveInstance<T>() started : cDatabaseContext
+Time : 2023.01.16 16:27:55	ResolveInstance<T>() ended : cDatabaseContext
+Time : 2023.01.16 16:28:00	ResolveInstance<T>() started : cDatabaseContext
+Time : 2023.01.16 16:28:00	ResolveInstance<T>() ended : cDatabaseContext
+Time : 2023.01.16 16:28:05	ResolveInstance<T>() started : cDatabaseContext
+Time : 2023.01.16 16:28:05	ResolveInstance<T>() ended : cDatabaseContext
+Time : 2023.01.16 16:28:10	ResolveInstance<T>() started : cDatabaseContext
+Time : 2023.01.16 16:28:10	ResolveInstance<T>() ended : cDatabaseContext
+Time : 2023.01.16 16:28:15	ResolveInstance<T>() started : cDatabaseContext
+Time : 2023.01.16 16:28:15	ResolveInstance<T>() ended : cDatabaseContext
+Time : 2023.01.16 16:28:20	ResolveInstance<T>() started : cDatabaseContext
+Time : 2023.01.16 16:28:20	ResolveInstance<T>() ended : cDatabaseContext
+Time : 2023.01.16 16:28:25	ResolveInstance<T>() started : cDatabaseContext
+Time : 2023.01.16 16:28:25	ResolveInstance<T>() ended : cDatabaseContext
+Time : 2023.01.16 16:41:54	Type  Bind : cStartup`1 -> cStartup`1  ,  Life : ContainerControlledLifetimeManager
+Time : 2023.01.16 16:41:54	Type  Bind : IScripting -> cScriptRunner  ,  Life : ContainerControlledLifetimeManager
+Time : 2023.01.16 16:41:54	Type  Bind : cFileEntity`1 -> cFileEntity`1  ,  Life : PerResolveLifetimeManager
+Time : 2023.01.16 16:41:54	Type  Bind : cGlobalSettingEntity -> cGlobalSettingEntity  ,  Life : PerResolveLifetimeManager
+Time : 2023.01.16 16:41:54	Type  Bind : cBaseDataService`1 -> cBaseDataService`1  ,  Life : TransientLifetimeManager
+Time : 2023.01.16 16:41:54	Type  Bind : IFileDateService -> cFileDataService  ,  Life : ContainerControlledLifetimeManager
+Time : 2023.01.16 16:41:54	Type  Bind : IDefaultDataLoader -> cDefaultDataLoaderManager  ,  Life : ContainerControlledLifetimeManager
+Time : 2023.01.16 16:41:54	Type  Bind : cDataService -> cDataService  ,  Life : TransientLifetimeManager
+Time : 2023.01.16 16:41:54	Type  Bind : cBatchJobManager -> cBatchJobManager  ,  Life : ContainerControlledLifetimeManager
+Time : 2023.01.16 16:41:54	Type  Bind : IBatchJobDataLoader -> cDefaultDataLoaderManager  ,  Life : ContainerControlledLifetimeManager
+Time : 2023.01.16 16:41:54	ResolveInstance<T>() started : cDataService
+Time : 2023.01.16 16:41:54	ResolveInstance<T>() ended : cDataService
+Time : 2023.01.16 16:41:54	ResolveInstance<T>() started : cBatchJobManager
+Time : 2023.01.16 16:41:54	ResolveInstance<T>() ended : cBatchJobManager
+Time : 2023.01.16 16:41:54	Type  Bind : cDatabaseContext -> cDatabaseContext  ,  Life : PerThreadLifetimeManager
+Time : 2023.01.16 16:41:54	ResolveInstance<T>() started : cTestServiceJob
+Time : 2023.01.16 16:41:54	ResolveInstance<T>() ended : cTestServiceJob
+Time : 2023.01.16 16:41:54	ResolveInstance<T>() started : cOldBatchJobExecutionsDeleteJob
+Time : 2023.01.16 16:41:54	ResolveInstance<T>() ended : cOldBatchJobExecutionsDeleteJob
+Time : 2023.01.16 16:41:54	ResolveInstance<T>() started : cStartup`1
+Time : 2023.01.16 16:41:54	ResolveInstance<T>() started : cStarter
+Time : 2023.01.16 16:41:54	ResolveInstance<T>() ended : cStarter
+Time : 2023.01.16 16:41:54	ResolveInstance<T>() ended : cStartup`1
+Time : 2023.01.16 16:41:57	ResolveInstance<T>() started : cDatabaseContext
+Time : 2023.01.16 16:41:57	ResolveInstance<T>() ended : cDatabaseContext
+Time : 2023.01.16 16:41:59	ResolveInstance<T>() started : IDefaultDataLoader
+Time : 2023.01.16 16:41:59	ResolveInstance<T>() ended : IDefaultDataLoader
+Time : 2023.01.16 16:41:59	ResolveInstance<T>() started : cDatabaseContext
+Time : 2023.01.16 16:41:59	ResolveInstance<T>() ended : cDatabaseContext
+Time : 2023.01.16 16:41:59	ResolveInstance<T>() started : cDefaultDataLoaderManager
+Time : 2023.01.16 16:41:59	ResolveInstance<T>() ended : cDefaultDataLoaderManager
+Time : 2023.01.16 16:41:59	ResolveInstance<T>() started : cDatabaseContext
+Time : 2023.01.16 16:41:59	ResolveInstance<T>() ended : cDatabaseContext
+Time : 2023.01.16 16:41:59	ResolveInstance<T>() started : cDatabaseContext
+Time : 2023.01.16 16:41:59	ResolveInstance<T>() ended : cDatabaseContext
+Time : 2023.01.16 16:41:59	ResolveInstance<T>() started : cDatabaseContext
+Time : 2023.01.16 16:41:59	ResolveInstance<T>() ended : cDatabaseContext
+Time : 2023.01.16 16:41:59	ResolveInstance<T>() started : cDatabaseContext
+Time : 2023.01.16 16:41:59	ResolveInstance<T>() ended : cDatabaseContext
+Time : 2023.01.16 16:41:59	ResolveInstance<T>() started : cDatabaseContext
+Time : 2023.01.16 16:41:59	ResolveInstance<T>() ended : cDatabaseContext
+Time : 2023.01.16 16:41:59	ResolveInstance<T>() started : cDatabaseContext
+Time : 2023.01.16 16:41:59	ResolveInstance<T>() ended : cDatabaseContext
+Time : 2023.01.16 16:41:59	ResolveInstance<T>() started : cDatabaseContext
+Time : 2023.01.16 16:41:59	ResolveInstance<T>() ended : cDatabaseContext
+Time : 2023.01.16 16:42:10	ResolveInstance<T>() started : cDatabaseContext
+Time : 2023.01.16 16:42:10	ResolveInstance<T>() ended : cDatabaseContext
+Time : 2023.01.16 16:42:17	ResolveInstance<T>() started : cDatabaseContext
+Time : 2023.01.16 16:42:17	ResolveInstance<T>() ended : cDatabaseContext
+Time : 2023.01.16 16:43:06	ResolveInstance<T>() started : cDatabaseContext
+Time : 2023.01.16 16:43:06	ResolveInstance<T>() ended : cDatabaseContext
+Time : 2023.01.16 16:43:27	ResolveInstance<T>() started : cDatabaseContext
+Time : 2023.01.16 16:43:27	ResolveInstance<T>() ended : cDatabaseContext
+Time : 2023.01.16 16:43:28	ResolveInstance<T>() started : cDatabaseContext
+Time : 2023.01.16 16:43:28	ResolveInstance<T>() ended : cDatabaseContext
+Time : 2023.01.16 16:43:41	ResolveInstance<T>() started : cDatabaseContext
+Time : 2023.01.16 16:43:41	ResolveInstance<T>() ended : cDatabaseContext
+Time : 2023.01.16 16:44:58	Type  Bind : cStartup`1 -> cStartup`1  ,  Life : ContainerControlledLifetimeManager
+Time : 2023.01.16 16:44:58	Type  Bind : IScripting -> cScriptRunner  ,  Life : ContainerControlledLifetimeManager
+Time : 2023.01.16 16:44:58	Type  Bind : cFileEntity`1 -> cFileEntity`1  ,  Life : PerResolveLifetimeManager
+Time : 2023.01.16 16:44:58	Type  Bind : cGlobalSettingEntity -> cGlobalSettingEntity  ,  Life : PerResolveLifetimeManager
+Time : 2023.01.16 16:44:58	Type  Bind : cBaseDataService`1 -> cBaseDataService`1  ,  Life : TransientLifetimeManager
+Time : 2023.01.16 16:44:59	Type  Bind : IFileDateService -> cFileDataService  ,  Life : ContainerControlledLifetimeManager
+Time : 2023.01.16 16:44:59	Type  Bind : IDefaultDataLoader -> cDefaultDataLoaderManager  ,  Life : ContainerControlledLifetimeManager
+Time : 2023.01.16 16:44:59	Type  Bind : cDataService -> cDataService  ,  Life : TransientLifetimeManager
+Time : 2023.01.16 16:44:59	Type  Bind : cBatchJobManager -> cBatchJobManager  ,  Life : ContainerControlledLifetimeManager
+Time : 2023.01.16 16:44:59	Type  Bind : IBatchJobDataLoader -> cDefaultDataLoaderManager  ,  Life : ContainerControlledLifetimeManager
+Time : 2023.01.16 16:44:59	ResolveInstance<T>() started : cDataService
+Time : 2023.01.16 16:44:59	ResolveInstance<T>() ended : cDataService
+Time : 2023.01.16 16:44:59	ResolveInstance<T>() started : cBatchJobManager
+Time : 2023.01.16 16:44:59	ResolveInstance<T>() ended : cBatchJobManager
+Time : 2023.01.16 16:44:59	Type  Bind : cDatabaseContext -> cDatabaseContext  ,  Life : PerThreadLifetimeManager
+Time : 2023.01.16 16:44:59	ResolveInstance<T>() started : cTestServiceJob
+Time : 2023.01.16 16:44:59	ResolveInstance<T>() ended : cTestServiceJob
+Time : 2023.01.16 16:44:59	ResolveInstance<T>() started : cOldBatchJobExecutionsDeleteJob
+Time : 2023.01.16 16:44:59	ResolveInstance<T>() ended : cOldBatchJobExecutionsDeleteJob
+Time : 2023.01.16 16:44:59	ResolveInstance<T>() started : cStartup`1
+Time : 2023.01.16 16:44:59	ResolveInstance<T>() started : cStarter
+Time : 2023.01.16 16:44:59	ResolveInstance<T>() ended : cStarter
+Time : 2023.01.16 16:44:59	ResolveInstance<T>() ended : cStartup`1
+Time : 2023.01.16 16:45:26	ResolveInstance<T>() started : cDatabaseContext
+Time : 2023.01.16 16:45:26	ResolveInstance<T>() ended : cDatabaseContext
+Time : 2023.01.16 16:45:30	ResolveInstance<T>() started : IDefaultDataLoader
+Time : 2023.01.16 16:45:30	ResolveInstance<T>() ended : IDefaultDataLoader
+Time : 2023.01.16 16:45:30	ResolveInstance<T>() started : cDatabaseContext
+Time : 2023.01.16 16:45:30	ResolveInstance<T>() ended : cDatabaseContext
+Time : 2023.01.16 16:45:30	ResolveInstance<T>() started : cDefaultDataLoaderManager
+Time : 2023.01.16 16:45:30	ResolveInstance<T>() ended : cDefaultDataLoaderManager
+Time : 2023.01.16 16:45:30	ResolveInstance<T>() started : cDatabaseContext
+Time : 2023.01.16 16:45:30	ResolveInstance<T>() ended : cDatabaseContext
+Time : 2023.01.16 16:45:30	ResolveInstance<T>() started : cDatabaseContext
+Time : 2023.01.16 16:45:31	ResolveInstance<T>() ended : cDatabaseContext
+Time : 2023.01.16 16:45:31	ResolveInstance<T>() started : cDatabaseContext
+Time : 2023.01.16 16:45:31	ResolveInstance<T>() ended : cDatabaseContext
+Time : 2023.01.16 16:45:31	ResolveInstance<T>() started : cDatabaseContext
+Time : 2023.01.16 16:45:31	ResolveInstance<T>() ended : cDatabaseContext
+Time : 2023.01.16 16:45:31	ResolveInstance<T>() started : cDatabaseContext
+Time : 2023.01.16 16:45:31	ResolveInstance<T>() ended : cDatabaseContext
+Time : 2023.01.16 16:45:31	ResolveInstance<T>() started : cDatabaseContext
+Time : 2023.01.16 16:45:31	ResolveInstance<T>() ended : cDatabaseContext
+Time : 2023.01.16 16:45:31	ResolveInstance<T>() started : cDatabaseContext
+Time : 2023.01.16 16:45:31	ResolveInstance<T>() ended : cDatabaseContext
+Time : 2023.01.16 16:45:33	ResolveInstance<T>() started : cDatabaseContext
+Time : 2023.01.16 16:45:33	ResolveInstance<T>() ended : cDatabaseContext
+Time : 2023.01.16 16:45:33	ResolveInstance<T>() started : cDatabaseContext
+Time : 2023.01.16 16:45:33	ResolveInstance<T>() ended : cDatabaseContext
+Time : 2023.01.16 16:45:37	ResolveInstance<T>() started : cDatabaseContext
+Time : 2023.01.16 16:45:37	ResolveInstance<T>() ended : cDatabaseContext
+Time : 2023.01.16 16:54:21	Type  Bind : cStartup`1 -> cStartup`1  ,  Life : ContainerControlledLifetimeManager
+Time : 2023.01.16 16:54:21	Type  Bind : IScripting -> cScriptRunner  ,  Life : ContainerControlledLifetimeManager
+Time : 2023.01.16 16:54:21	Type  Bind : cFileEntity`1 -> cFileEntity`1  ,  Life : PerResolveLifetimeManager
+Time : 2023.01.16 16:54:21	Type  Bind : cGlobalSettingEntity -> cGlobalSettingEntity  ,  Life : PerResolveLifetimeManager
+Time : 2023.01.16 16:54:21	Type  Bind : cBaseDataService`1 -> cBaseDataService`1  ,  Life : TransientLifetimeManager
+Time : 2023.01.16 16:54:21	Type  Bind : IFileDateService -> cFileDataService  ,  Life : ContainerControlledLifetimeManager
+Time : 2023.01.16 16:54:21	Type  Bind : IDefaultDataLoader -> cDefaultDataLoaderManager  ,  Life : ContainerControlledLifetimeManager
+Time : 2023.01.16 16:54:21	Type  Bind : cDataService -> cDataService  ,  Life : TransientLifetimeManager
+Time : 2023.01.16 16:54:21	Type  Bind : cBatchJobManager -> cBatchJobManager  ,  Life : ContainerControlledLifetimeManager
+Time : 2023.01.16 16:54:21	Type  Bind : IBatchJobDataLoader -> cDefaultDataLoaderManager  ,  Life : ContainerControlledLifetimeManager
+Time : 2023.01.16 16:54:21	ResolveInstance<T>() started : cDataService
+Time : 2023.01.16 16:54:21	ResolveInstance<T>() ended : cDataService
+Time : 2023.01.16 16:54:21	ResolveInstance<T>() started : cBatchJobManager
+Time : 2023.01.16 16:54:21	ResolveInstance<T>() ended : cBatchJobManager
+Time : 2023.01.16 16:54:21	Type  Bind : cDatabaseContext -> cDatabaseContext  ,  Life : PerThreadLifetimeManager
+Time : 2023.01.16 16:54:21	ResolveInstance<T>() started : cTestServiceJob
+Time : 2023.01.16 16:54:21	ResolveInstance<T>() ended : cTestServiceJob
+Time : 2023.01.16 16:54:21	ResolveInstance<T>() started : cOldBatchJobExecutionsDeleteJob
+Time : 2023.01.16 16:54:21	ResolveInstance<T>() ended : cOldBatchJobExecutionsDeleteJob
+Time : 2023.01.16 16:54:21	ResolveInstance<T>() started : cStartup`1
+Time : 2023.01.16 16:54:21	ResolveInstance<T>() started : cStarter
+Time : 2023.01.16 16:54:21	ResolveInstance<T>() ended : cStarter
+Time : 2023.01.16 16:54:21	ResolveInstance<T>() ended : cStartup`1
+Time : 2023.01.16 16:54:21	ResolveInstance<T>() started : cDatabaseContext
+Time : 2023.01.16 16:54:21	ResolveInstance<T>() ended : cDatabaseContext
+Time : 2023.01.16 16:54:23	ResolveInstance<T>() started : IDefaultDataLoader
+Time : 2023.01.16 16:54:23	ResolveInstance<T>() ended : IDefaultDataLoader
+Time : 2023.01.16 16:54:23	ResolveInstance<T>() started : cDatabaseContext
+Time : 2023.01.16 16:54:23	ResolveInstance<T>() ended : cDatabaseContext
+Time : 2023.01.16 16:54:23	ResolveInstance<T>() started : cDefaultDataLoaderManager
+Time : 2023.01.16 16:54:23	ResolveInstance<T>() ended : cDefaultDataLoaderManager
+Time : 2023.01.16 16:54:23	ResolveInstance<T>() started : cDatabaseContext
+Time : 2023.01.16 16:54:23	ResolveInstance<T>() ended : cDatabaseContext
+Time : 2023.01.16 16:54:23	ResolveInstance<T>() started : cDatabaseContext
+Time : 2023.01.16 16:54:23	ResolveInstance<T>() ended : cDatabaseContext
+Time : 2023.01.16 16:54:23	ResolveInstance<T>() started : cDatabaseContext
+Time : 2023.01.16 16:54:23	ResolveInstance<T>() ended : cDatabaseContext
+Time : 2023.01.16 16:54:23	ResolveInstance<T>() started : cDatabaseContext
+Time : 2023.01.16 16:54:23	ResolveInstance<T>() ended : cDatabaseContext
+Time : 2023.01.16 16:54:45	ResolveInstance<T>() started : cDatabaseContext
+Time : 2023.01.16 16:54:45	ResolveInstance<T>() ended : cDatabaseContext
+Time : 2023.01.16 16:54:45	ResolveInstance<T>() started : cDatabaseContext
+Time : 2023.01.16 16:54:45	ResolveInstance<T>() ended : cDatabaseContext
+Time : 2023.01.16 16:56:39	Type  Bind : cStartup`1 -> cStartup`1  ,  Life : ContainerControlledLifetimeManager
+Time : 2023.01.16 16:56:39	Type  Bind : IScripting -> cScriptRunner  ,  Life : ContainerControlledLifetimeManager
+Time : 2023.01.16 16:56:39	Type  Bind : cFileEntity`1 -> cFileEntity`1  ,  Life : PerResolveLifetimeManager
+Time : 2023.01.16 16:56:39	Type  Bind : cGlobalSettingEntity -> cGlobalSettingEntity  ,  Life : PerResolveLifetimeManager
+Time : 2023.01.16 16:56:39	Type  Bind : cBaseDataService`1 -> cBaseDataService`1  ,  Life : TransientLifetimeManager
+Time : 2023.01.16 16:56:39	Type  Bind : IFileDateService -> cFileDataService  ,  Life : ContainerControlledLifetimeManager
+Time : 2023.01.16 16:56:39	Type  Bind : IDefaultDataLoader -> cDefaultDataLoaderManager  ,  Life : ContainerControlledLifetimeManager
+Time : 2023.01.16 16:56:39	Type  Bind : cDataService -> cDataService  ,  Life : TransientLifetimeManager
+Time : 2023.01.16 16:56:39	Type  Bind : cBatchJobManager -> cBatchJobManager  ,  Life : ContainerControlledLifetimeManager
+Time : 2023.01.16 16:56:39	Type  Bind : IBatchJobDataLoader -> cDefaultDataLoaderManager  ,  Life : ContainerControlledLifetimeManager
+Time : 2023.01.16 16:56:39	ResolveInstance<T>() started : cDataService
+Time : 2023.01.16 16:56:39	ResolveInstance<T>() ended : cDataService
+Time : 2023.01.16 16:56:39	ResolveInstance<T>() started : cBatchJobManager
+Time : 2023.01.16 16:56:39	ResolveInstance<T>() ended : cBatchJobManager
+Time : 2023.01.16 16:56:39	Type  Bind : cDatabaseContext -> cDatabaseContext  ,  Life : PerThreadLifetimeManager
+Time : 2023.01.16 16:56:39	ResolveInstance<T>() started : cTestServiceJob
+Time : 2023.01.16 16:56:39	ResolveInstance<T>() ended : cTestServiceJob
+Time : 2023.01.16 16:56:39	ResolveInstance<T>() started : cOldBatchJobExecutionsDeleteJob
+Time : 2023.01.16 16:56:39	ResolveInstance<T>() ended : cOldBatchJobExecutionsDeleteJob
+Time : 2023.01.16 16:56:39	ResolveInstance<T>() started : cStartup`1
+Time : 2023.01.16 16:56:39	ResolveInstance<T>() started : cStarter
+Time : 2023.01.16 16:56:39	ResolveInstance<T>() ended : cStarter
+Time : 2023.01.16 16:56:39	ResolveInstance<T>() ended : cStartup`1
+Time : 2023.01.16 16:56:39	ResolveInstance<T>() started : cDatabaseContext
+Time : 2023.01.16 16:56:39	ResolveInstance<T>() ended : cDatabaseContext
+Time : 2023.01.16 16:56:40	ResolveInstance<T>() started : IDefaultDataLoader
+Time : 2023.01.16 16:56:40	ResolveInstance<T>() ended : IDefaultDataLoader
+Time : 2023.01.16 16:56:40	ResolveInstance<T>() started : cDatabaseContext
+Time : 2023.01.16 16:56:40	ResolveInstance<T>() ended : cDatabaseContext
+Time : 2023.01.16 16:56:40	ResolveInstance<T>() started : cDefaultDataLoaderManager
+Time : 2023.01.16 16:56:40	ResolveInstance<T>() ended : cDefaultDataLoaderManager
+Time : 2023.01.16 16:56:40	ResolveInstance<T>() started : cDatabaseContext
+Time : 2023.01.16 16:56:40	ResolveInstance<T>() ended : cDatabaseContext
+Time : 2023.01.16 16:56:40	ResolveInstance<T>() started : cDatabaseContext
+Time : 2023.01.16 16:56:40	ResolveInstance<T>() ended : cDatabaseContext
+Time : 2023.01.16 16:56:40	ResolveInstance<T>() started : cDatabaseContext
+Time : 2023.01.16 16:56:40	ResolveInstance<T>() ended : cDatabaseContext
+Time : 2023.01.16 16:56:40	ResolveInstance<T>() started : cDatabaseContext
+Time : 2023.01.16 16:56:40	ResolveInstance<T>() ended : cDatabaseContext
+Time : 2023.01.16 16:58:35	Type  Bind : cStartup`1 -> cStartup`1  ,  Life : ContainerControlledLifetimeManager
+Time : 2023.01.16 16:58:35	Type  Bind : IScripting -> cScriptRunner  ,  Life : ContainerControlledLifetimeManager
+Time : 2023.01.16 16:58:35	Type  Bind : IDefaultDataLoader -> cDefaultDataLoaderManager  ,  Life : ContainerControlledLifetimeManager
+Time : 2023.01.16 16:58:35	Type  Bind : cDataService -> cDataService  ,  Life : TransientLifetimeManager
+Time : 2023.01.16 16:58:35	Type  Bind : cBatchJobManager -> cBatchJobManager  ,  Life : ContainerControlledLifetimeManager
+Time : 2023.01.16 16:58:35	Type  Bind : IBatchJobDataLoader -> cDefaultDataLoaderManager  ,  Life : ContainerControlledLifetimeManager
+Time : 2023.01.16 16:58:35	Type  Bind : IFileDateService -> cFileDataService  ,  Life : ContainerControlledLifetimeManager
+Time : 2023.01.16 16:58:35	ResolveInstance<T>() started : cDataService
+Time : 2023.01.16 16:58:35	Type  Bind : cBaseDataService`1 -> cBaseDataService`1  ,  Life : TransientLifetimeManager
+Time : 2023.01.16 16:58:35	Type  Bind : cFileEntity`1 -> cFileEntity`1  ,  Life : PerResolveLifetimeManager
+Time : 2023.01.16 16:58:35	ResolveInstance<T>() ended : cDataService
+Time : 2023.01.16 16:58:35	Type  Bind : cGlobalSettingEntity -> cGlobalSettingEntity  ,  Life : PerResolveLifetimeManager
+Time : 2023.01.16 16:58:35	ResolveInstance<T>() ended : cBatchJobManager
+Time : 2023.01.16 16:58:35	ResolveInstance<T>() started : cBatchJobManager
+Time : 2023.01.16 16:58:35	Type  Bind : cDatabaseContext -> cDatabaseContext  ,  Life : PerThreadLifetimeManager
+Time : 2023.01.16 16:58:35	ResolveInstance<T>() started : cTestServiceJob
+Time : 2023.01.16 16:58:35	ResolveInstance<T>() ended : cTestServiceJob
+Time : 2023.01.16 16:58:35	ResolveInstance<T>() started : cOldBatchJobExecutionsDeleteJob
+Time : 2023.01.16 16:58:35	ResolveInstance<T>() ended : cOldBatchJobExecutionsDeleteJob
+Time : 2023.01.16 16:58:35	ResolveInstance<T>() started : cStartup`1
+Time : 2023.01.16 16:58:35	ResolveInstance<T>() started : cStarter
+Time : 2023.01.16 16:58:35	ResolveInstance<T>() ended : cStarter
+Time : 2023.01.16 16:58:35	ResolveInstance<T>() ended : cStartup`1
+Time : 2023.01.16 16:58:35	ResolveInstance<T>() started : cDatabaseContext
+Time : 2023.01.16 16:58:35	ResolveInstance<T>() ended : cDatabaseContext
+Time : 2023.01.16 16:58:37	ResolveInstance<T>() started : IDefaultDataLoader
+Time : 2023.01.16 16:58:37	ResolveInstance<T>() ended : IDefaultDataLoader
+Time : 2023.01.16 16:58:37	ResolveInstance<T>() started : cDatabaseContext
+Time : 2023.01.16 16:58:37	ResolveInstance<T>() ended : cDatabaseContext
+Time : 2023.01.16 16:58:37	ResolveInstance<T>() started : cDefaultDataLoaderManager
+Time : 2023.01.16 16:58:37	ResolveInstance<T>() ended : cDefaultDataLoaderManager
+Time : 2023.01.16 16:58:37	ResolveInstance<T>() started : cDatabaseContext
+Time : 2023.01.16 16:58:37	ResolveInstance<T>() ended : cDatabaseContext
+Time : 2023.01.16 16:58:37	ResolveInstance<T>() started : cDatabaseContext
+Time : 2023.01.16 16:58:37	ResolveInstance<T>() ended : cDatabaseContext
+Time : 2023.01.16 16:58:37	ResolveInstance<T>() started : cDatabaseContext
+Time : 2023.01.16 16:58:37	ResolveInstance<T>() ended : cDatabaseContext
+Time : 2023.01.16 16:58:37	ResolveInstance<T>() started : cDatabaseContext
+Time : 2023.01.16 16:58:37	ResolveInstance<T>() ended : cDatabaseContext

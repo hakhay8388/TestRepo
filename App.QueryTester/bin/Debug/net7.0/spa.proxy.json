@@ -1,0 +1,8 @@
+{
+"SpaProxyServer": {
+"ServerUrl": "https://localhost:44433",
+"LaunchCommand": "npm start",
+"WorkingDirectory": "C:\\ProjectWorkspace\\GenericScaffold\\Web.Domain\\ClientApp\\",
+"MaxTimeoutInSeconds": "120"
+}
+}

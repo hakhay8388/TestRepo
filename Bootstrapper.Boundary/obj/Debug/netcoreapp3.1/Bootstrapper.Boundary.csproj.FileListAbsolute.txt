@@ -1,0 +1,10 @@
+H:\VirtualStyle_Projects\Clade\Bootstrapper\Bootstrapper.Boundary\bin\Debug\netcoreapp3.1\Bootstrapper.Boundary.deps.json
+H:\VirtualStyle_Projects\Clade\Bootstrapper\Bootstrapper.Boundary\bin\Debug\netcoreapp3.1\Bootstrapper.Boundary.dll
+H:\VirtualStyle_Projects\Clade\Bootstrapper\Bootstrapper.Boundary\bin\Debug\netcoreapp3.1\Bootstrapper.Boundary.pdb
+H:\VirtualStyle_Projects\Clade\Bootstrapper\Bootstrapper.Boundary\obj\Debug\netcoreapp3.1\Bootstrapper.Boundary.csproj.AssemblyReference.cache
+H:\VirtualStyle_Projects\Clade\Bootstrapper\Bootstrapper.Boundary\obj\Debug\netcoreapp3.1\Bootstrapper.Boundary.GeneratedMSBuildEditorConfig.editorconfig
+H:\VirtualStyle_Projects\Clade\Bootstrapper\Bootstrapper.Boundary\obj\Debug\netcoreapp3.1\Bootstrapper.Boundary.AssemblyInfoInputs.cache
+H:\VirtualStyle_Projects\Clade\Bootstrapper\Bootstrapper.Boundary\obj\Debug\netcoreapp3.1\Bootstrapper.Boundary.AssemblyInfo.cs
+H:\VirtualStyle_Projects\Clade\Bootstrapper\Bootstrapper.Boundary\obj\Debug\netcoreapp3.1\Bootstrapper.Boundary.csproj.CoreCompileInputs.cache
+H:\VirtualStyle_Projects\Clade\Bootstrapper\Bootstrapper.Boundary\obj\Debug\netcoreapp3.1\Bootstrapper.Boundary.dll
+H:\VirtualStyle_Projects\Clade\Bootstrapper\Bootstrapper.Boundary\obj\Debug\netcoreapp3.1\Bootstrapper.Boundary.pdb

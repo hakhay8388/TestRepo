@@ -1,0 +1,1068 @@
+Time : 2023.01.26 15:06:36	
+Time : 2023.01.26 15:06:36	                   ↓↓                    
+Time : 2023.01.26 15:06:36	RequestID : Console
+Time : 2023.01.26 15:06:36	ElapsedTime : 00:00:00.0028191
+Time : 2023.01.26 15:06:36	//////////////////////////////////
+Time : 2023.01.26 15:06:37	SELECT EXISTS (SELECT 1 FROM pg_catalog.pg_class c JOIN pg_catalog.pg_namespace n ON n.oid=c.relnamespace WHERE c.relname='__EFMigrationsHistory');
+Time : 2023.01.26 15:06:37	                   ↓↓                    
+Time : 2023.01.26 15:06:37	RequestID : Console
+Time : 2023.01.26 15:06:37	ElapsedTime : 00:00:00.0274925
+Time : 2023.01.26 15:06:37	//////////////////////////////////
+Time : 2023.01.26 15:06:37	
+Time : 2023.01.26 15:06:37	                   ↓↓                    
+Time : 2023.01.26 15:06:37	RequestID : Console
+Time : 2023.01.26 15:06:37	ElapsedTime : 00:00:00.0000721
+Time : 2023.01.26 15:06:37	//////////////////////////////////
+Time : 2023.01.26 15:06:37	SELECT EXISTS (SELECT 1 FROM pg_catalog.pg_class c JOIN pg_catalog.pg_namespace n ON n.oid=c.relnamespace WHERE c.relname='__EFMigrationsHistory');
+Time : 2023.01.26 15:06:37	                   ↓↓                    
+Time : 2023.01.26 15:06:37	RequestID : Console
+Time : 2023.01.26 15:06:37	ElapsedTime : 00:00:00.0032876
+Time : 2023.01.26 15:06:37	//////////////////////////////////
+Time : 2023.01.26 15:06:37	
+Time : 2023.01.26 15:06:37	                   ↓↓                    
+Time : 2023.01.26 15:06:37	RequestID : Console
+Time : 2023.01.26 15:06:37	ElapsedTime : 00:00:00.0000501
+Time : 2023.01.26 15:06:37	//////////////////////////////////
+Time : 2023.01.26 15:06:37	SELECT "MigrationId", "ProductVersion"
+FROM "__EFMigrationsHistory"
+ORDER BY "MigrationId";
+Time : 2023.01.26 15:06:37	                   ↓↓                    
+Time : 2023.01.26 15:06:37	RequestID : Console
+Time : 2023.01.26 15:06:37	ElapsedTime : 00:00:00.0075099
+Time : 2023.01.26 15:06:37	//////////////////////////////////
+Time : 2023.01.26 15:06:37	
+Time : 2023.01.26 15:06:37	                   ↓↓                    
+Time : 2023.01.26 15:06:37	RequestID : Console
+Time : 2023.01.26 15:06:37	ElapsedTime : 00:00:00.0000342
+Time : 2023.01.26 15:06:37	//////////////////////////////////
+Time : 2023.01.26 15:06:37	SELECT l."ID", l."Code", l."CreateDate", l."IconCode", l."Name", l."UpdateDate"
+FROM "Languages" AS l
+WHERE l."Code" = @___LanguageCode_0
+LIMIT 1
+Time : 2023.01.26 15:06:37	//////////// PARAMETERS ///////////
+Time : 2023.01.26 15:06:37		@___LanguageCode_0	:	en
+Time : 2023.01.26 15:06:37	/////////////////////////////////// 
+Time : 2023.01.26 15:06:37	                   ↓↓                    
+Time : 2023.01.26 15:06:37	RequestID : Console
+Time : 2023.01.26 15:06:37	ElapsedTime : 00:00:00.0132478
+Time : 2023.01.26 15:06:37	//////////////////////////////////
+Time : 2023.01.26 15:06:37	
+Time : 2023.01.26 15:06:37	                   ↓↓                    
+Time : 2023.01.26 15:06:37	RequestID : Console
+Time : 2023.01.26 15:06:37	ElapsedTime : 00:00:00.0000275
+Time : 2023.01.26 15:06:37	//////////////////////////////////
+Time : 2023.01.26 15:06:37	SELECT d."ID", d."CheckSum", d."Code", d."CreateDate", d."UpdateDate"
+FROM "DefaultDataChecksums" AS d
+WHERE d."Code" = @___CheckSumCode_0
+LIMIT 1
+Time : 2023.01.26 15:06:37	//////////// PARAMETERS ///////////
+Time : 2023.01.26 15:06:37		@___CheckSumCode_0	:	LanguageDataLoader_en
+Time : 2023.01.26 15:06:37	/////////////////////////////////// 
+Time : 2023.01.26 15:06:37	                   ↓↓                    
+Time : 2023.01.26 15:06:37	RequestID : Console
+Time : 2023.01.26 15:06:37	ElapsedTime : 00:00:00.0038078
+Time : 2023.01.26 15:06:37	//////////////////////////////////
+Time : 2023.01.26 15:06:37	
+Time : 2023.01.26 15:06:37	                   ↓↓                    
+Time : 2023.01.26 15:06:37	RequestID : Console
+Time : 2023.01.26 15:06:37	ElapsedTime : 00:00:00.0000344
+Time : 2023.01.26 15:06:37	//////////////////////////////////
+Time : 2023.01.26 15:06:37	SELECT l."ID", l."CheckSum", l."Code", l."CreateDate", l."Description", l."LanguageID", l."ParamCount", l."UpdateDate", l."Word"
+FROM "LanguageWords" AS l
+INNER JOIN "Languages" AS l0 ON l."LanguageID" = l0."ID"
+WHERE l."Code" = @___Code_0 AND l0."ID" = @__entity_equality__LanguageEntity_1_ID
+ORDER BY l."ID"
+LIMIT 1
+Time : 2023.01.26 15:06:37	//////////// PARAMETERS ///////////
+Time : 2023.01.26 15:06:37		@___Code_0	:	PageRoute_MainPage
+Time : 2023.01.26 15:06:37		@__entity_equality__LanguageEntity_1_ID	:	1
+Time : 2023.01.26 15:06:37	/////////////////////////////////// 
+Time : 2023.01.26 15:06:37	                   ↓↓                    
+Time : 2023.01.26 15:06:37	RequestID : Console
+Time : 2023.01.26 15:06:37	ElapsedTime : 00:00:00.0118596
+Time : 2023.01.26 15:06:37	//////////////////////////////////
+Time : 2023.01.26 15:06:37	
+Time : 2023.01.26 15:06:37	                   ↓↓                    
+Time : 2023.01.26 15:06:37	RequestID : Console
+Time : 2023.01.26 15:06:37	ElapsedTime : 00:00:00.0000661
+Time : 2023.01.26 15:06:37	//////////////////////////////////
+Time : 2023.01.26 15:06:37	SELECT l."ID", l."CheckSum", l."Code", l."CreateDate", l."Description", l."LanguageID", l."ParamCount", l."UpdateDate", l."Word"
+FROM "LanguageWords" AS l
+INNER JOIN "Languages" AS l0 ON l."LanguageID" = l0."ID"
+WHERE l."Code" = @___Code_0 AND l0."ID" = @__entity_equality__LanguageEntity_1_ID
+ORDER BY l."ID"
+LIMIT 1
+Time : 2023.01.26 15:06:37	//////////// PARAMETERS ///////////
+Time : 2023.01.26 15:06:37		@___Code_0	:	PageRoute_LoginPage
+Time : 2023.01.26 15:06:37		@__entity_equality__LanguageEntity_1_ID	:	1
+Time : 2023.01.26 15:06:37	/////////////////////////////////// 
+Time : 2023.01.26 15:06:37	                   ↓↓                    
+Time : 2023.01.26 15:06:37	RequestID : Console
+Time : 2023.01.26 15:06:37	ElapsedTime : 00:00:00.0032372
+Time : 2023.01.26 15:06:37	//////////////////////////////////
+Time : 2023.01.26 15:06:37	
+Time : 2023.01.26 15:06:37	                   ↓↓                    
+Time : 2023.01.26 15:06:37	RequestID : Console
+Time : 2023.01.26 15:06:37	ElapsedTime : 00:00:00.0000459
+Time : 2023.01.26 15:06:37	//////////////////////////////////
+Time : 2023.01.26 15:06:37	SELECT l."ID", l."CheckSum", l."Code", l."CreateDate", l."Description", l."LanguageID", l."ParamCount", l."UpdateDate", l."Word"
+FROM "LanguageWords" AS l
+INNER JOIN "Languages" AS l0 ON l."LanguageID" = l0."ID"
+WHERE l."Code" = @___Code_0 AND l0."ID" = @__entity_equality__LanguageEntity_1_ID
+ORDER BY l."ID"
+LIMIT 1
+Time : 2023.01.26 15:06:37	//////////// PARAMETERS ///////////
+Time : 2023.01.26 15:06:37		@___Code_0	:	PageRoute_MenuPage
+Time : 2023.01.26 15:06:37		@__entity_equality__LanguageEntity_1_ID	:	1
+Time : 2023.01.26 15:06:37	/////////////////////////////////// 
+Time : 2023.01.26 15:06:37	                   ↓↓                    
+Time : 2023.01.26 15:06:37	RequestID : Console
+Time : 2023.01.26 15:06:37	ElapsedTime : 00:00:00.0070657
+Time : 2023.01.26 15:06:37	//////////////////////////////////
+Time : 2023.01.26 15:06:37	
+Time : 2023.01.26 15:06:37	                   ↓↓                    
+Time : 2023.01.26 15:06:37	RequestID : Console
+Time : 2023.01.26 15:06:37	ElapsedTime : 00:00:00.0000555
+Time : 2023.01.26 15:06:37	//////////////////////////////////
+Time : 2023.01.26 15:06:37	SELECT l."ID", l."CheckSum", l."Code", l."CreateDate", l."Description", l."LanguageID", l."ParamCount", l."UpdateDate", l."Word"
+FROM "LanguageWords" AS l
+INNER JOIN "Languages" AS l0 ON l."LanguageID" = l0."ID"
+WHERE l."Code" = @___Code_0 AND l0."ID" = @__entity_equality__LanguageEntity_1_ID
+ORDER BY l."ID"
+LIMIT 1
+Time : 2023.01.26 15:06:37	//////////// PARAMETERS ///////////
+Time : 2023.01.26 15:06:37		@___Code_0	:	PageRoute_AdminMainPage
+Time : 2023.01.26 15:06:37		@__entity_equality__LanguageEntity_1_ID	:	1
+Time : 2023.01.26 15:06:37	/////////////////////////////////// 
+Time : 2023.01.26 15:06:37	                   ↓↓                    
+Time : 2023.01.26 15:06:37	RequestID : Console
+Time : 2023.01.26 15:06:37	ElapsedTime : 00:00:00.0068328
+Time : 2023.01.26 15:06:37	//////////////////////////////////
+Time : 2023.01.26 15:06:37	
+Time : 2023.01.26 15:06:37	                   ↓↓                    
+Time : 2023.01.26 15:06:37	RequestID : Console
+Time : 2023.01.26 15:06:37	ElapsedTime : 00:00:00.0000466
+Time : 2023.01.26 15:06:37	//////////////////////////////////
+Time : 2023.01.26 15:06:37	SELECT l."ID", l."CheckSum", l."Code", l."CreateDate", l."Description", l."LanguageID", l."ParamCount", l."UpdateDate", l."Word"
+FROM "LanguageWords" AS l
+INNER JOIN "Languages" AS l0 ON l."LanguageID" = l0."ID"
+WHERE l."Code" = @___Code_0 AND l0."ID" = @__entity_equality__LanguageEntity_1_ID
+ORDER BY l."ID"
+LIMIT 1
+Time : 2023.01.26 15:06:37	//////////// PARAMETERS ///////////
+Time : 2023.01.26 15:06:37		@___Code_0	:	PageRoute_BatchJobPage
+Time : 2023.01.26 15:06:37		@__entity_equality__LanguageEntity_1_ID	:	1
+Time : 2023.01.26 15:06:37	/////////////////////////////////// 
+Time : 2023.01.26 15:06:37	                   ↓↓                    
+Time : 2023.01.26 15:06:37	RequestID : Console
+Time : 2023.01.26 15:06:37	ElapsedTime : 00:00:00.0070054
+Time : 2023.01.26 15:06:37	//////////////////////////////////
+Time : 2023.01.26 15:06:37	
+Time : 2023.01.26 15:06:37	                   ↓↓                    
+Time : 2023.01.26 15:06:37	RequestID : Console
+Time : 2023.01.26 15:06:37	ElapsedTime : 00:00:00.0000526
+Time : 2023.01.26 15:06:37	//////////////////////////////////
+Time : 2023.01.26 15:06:37	SELECT l."ID", l."CheckSum", l."Code", l."CreateDate", l."Description", l."LanguageID", l."ParamCount", l."UpdateDate", l."Word"
+FROM "LanguageWords" AS l
+INNER JOIN "Languages" AS l0 ON l."LanguageID" = l0."ID"
+WHERE l."Code" = @___Code_0 AND l0."ID" = @__entity_equality__LanguageEntity_1_ID
+ORDER BY l."ID"
+LIMIT 1
+Time : 2023.01.26 15:06:37	//////////// PARAMETERS ///////////
+Time : 2023.01.26 15:06:37		@___Code_0	:	PageRoute_ConfigurationPage
+Time : 2023.01.26 15:06:37		@__entity_equality__LanguageEntity_1_ID	:	1
+Time : 2023.01.26 15:06:37	/////////////////////////////////// 
+Time : 2023.01.26 15:06:37	                   ↓↓                    
+Time : 2023.01.26 15:06:37	RequestID : Console
+Time : 2023.01.26 15:06:37	ElapsedTime : 00:00:00.0035899
+Time : 2023.01.26 15:06:37	//////////////////////////////////
+Time : 2023.01.26 15:06:37	
+Time : 2023.01.26 15:06:37	                   ↓↓                    
+Time : 2023.01.26 15:06:37	RequestID : Console
+Time : 2023.01.26 15:06:37	ElapsedTime : 00:00:00.0000550
+Time : 2023.01.26 15:06:37	//////////////////////////////////
+Time : 2023.01.26 15:06:37	SELECT l."ID", l."CheckSum", l."Code", l."CreateDate", l."Description", l."LanguageID", l."ParamCount", l."UpdateDate", l."Word"
+FROM "LanguageWords" AS l
+INNER JOIN "Languages" AS l0 ON l."LanguageID" = l0."ID"
+WHERE l."Code" = @___Code_0 AND l0."ID" = @__entity_equality__LanguageEntity_1_ID
+ORDER BY l."ID"
+LIMIT 1
+Time : 2023.01.26 15:06:37	//////////// PARAMETERS ///////////
+Time : 2023.01.26 15:06:37		@___Code_0	:	PageRoute_LanguagePage
+Time : 2023.01.26 15:06:37		@__entity_equality__LanguageEntity_1_ID	:	1
+Time : 2023.01.26 15:06:37	/////////////////////////////////// 
+Time : 2023.01.26 15:06:37	                   ↓↓                    
+Time : 2023.01.26 15:06:37	RequestID : Console
+Time : 2023.01.26 15:06:37	ElapsedTime : 00:00:00.0101878
+Time : 2023.01.26 15:06:37	//////////////////////////////////
+Time : 2023.01.26 15:06:37	
+Time : 2023.01.26 15:06:37	                   ↓↓                    
+Time : 2023.01.26 15:06:37	RequestID : Console
+Time : 2023.01.26 15:06:37	ElapsedTime : 00:00:00.0000581
+Time : 2023.01.26 15:06:37	//////////////////////////////////
+Time : 2023.01.26 15:06:37	SELECT l."ID", l."CheckSum", l."Code", l."CreateDate", l."Description", l."LanguageID", l."ParamCount", l."UpdateDate", l."Word"
+FROM "LanguageWords" AS l
+INNER JOIN "Languages" AS l0 ON l."LanguageID" = l0."ID"
+WHERE l."Code" = @___Code_0 AND l0."ID" = @__entity_equality__LanguageEntity_1_ID
+ORDER BY l."ID"
+LIMIT 1
+Time : 2023.01.26 15:06:37	//////////// PARAMETERS ///////////
+Time : 2023.01.26 15:06:37		@___Code_0	:	PageRoute_UserList
+Time : 2023.01.26 15:06:37		@__entity_equality__LanguageEntity_1_ID	:	1
+Time : 2023.01.26 15:06:37	/////////////////////////////////// 
+Time : 2023.01.26 15:06:37	                   ↓↓                    
+Time : 2023.01.26 15:06:37	RequestID : Console
+Time : 2023.01.26 15:06:37	ElapsedTime : 00:00:00.0083075
+Time : 2023.01.26 15:06:37	//////////////////////////////////
+Time : 2023.01.26 15:06:37	
+Time : 2023.01.26 15:06:37	                   ↓↓                    
+Time : 2023.01.26 15:06:37	RequestID : Console
+Time : 2023.01.26 15:06:37	ElapsedTime : 00:00:00.0000463
+Time : 2023.01.26 15:06:37	//////////////////////////////////
+Time : 2023.01.26 15:06:37	SELECT l."ID", l."CheckSum", l."Code", l."CreateDate", l."Description", l."LanguageID", l."ParamCount", l."UpdateDate", l."Word"
+FROM "LanguageWords" AS l
+INNER JOIN "Languages" AS l0 ON l."LanguageID" = l0."ID"
+WHERE l."Code" = @___Code_0 AND l0."ID" = @__entity_equality__LanguageEntity_1_ID
+ORDER BY l."ID"
+LIMIT 1
+Time : 2023.01.26 15:06:37	//////////// PARAMETERS ///////////
+Time : 2023.01.26 15:06:37		@___Code_0	:	PageRoute_UserMainPage
+Time : 2023.01.26 15:06:37		@__entity_equality__LanguageEntity_1_ID	:	1
+Time : 2023.01.26 15:06:37	/////////////////////////////////// 
+Time : 2023.01.26 15:06:37	                   ↓↓                    
+Time : 2023.01.26 15:06:37	RequestID : Console
+Time : 2023.01.26 15:06:37	ElapsedTime : 00:00:00.0039874
+Time : 2023.01.26 15:06:37	//////////////////////////////////
+Time : 2023.01.26 15:06:37	
+Time : 2023.01.26 15:06:37	                   ↓↓                    
+Time : 2023.01.26 15:06:37	RequestID : Console
+Time : 2023.01.26 15:06:37	ElapsedTime : 00:00:00.0000495
+Time : 2023.01.26 15:06:37	//////////////////////////////////
+Time : 2023.01.26 15:06:37	SELECT l."ID", l."CheckSum", l."Code", l."CreateDate", l."Description", l."LanguageID", l."ParamCount", l."UpdateDate", l."Word"
+FROM "LanguageWords" AS l
+INNER JOIN "Languages" AS l0 ON l."LanguageID" = l0."ID"
+WHERE l."Code" = @___Code_0 AND l0."ID" = @__entity_equality__LanguageEntity_1_ID
+ORDER BY l."ID"
+LIMIT 1
+Time : 2023.01.26 15:06:37	//////////// PARAMETERS ///////////
+Time : 2023.01.26 15:06:37		@___Code_0	:	PageRoute_DeveloperMainPage
+Time : 2023.01.26 15:06:37		@__entity_equality__LanguageEntity_1_ID	:	1
+Time : 2023.01.26 15:06:37	/////////////////////////////////// 
+Time : 2023.01.26 15:06:37	                   ↓↓                    
+Time : 2023.01.26 15:06:37	RequestID : Console
+Time : 2023.01.26 15:06:37	ElapsedTime : 00:00:00.0070436
+Time : 2023.01.26 15:06:37	//////////////////////////////////
+Time : 2023.01.26 15:06:37	
+Time : 2023.01.26 15:06:37	                   ↓↓                    
+Time : 2023.01.26 15:06:37	RequestID : Console
+Time : 2023.01.26 15:06:37	ElapsedTime : 00:00:00.0000549
+Time : 2023.01.26 15:06:37	//////////////////////////////////
+Time : 2023.01.26 15:06:37	SELECT l."ID", l."CheckSum", l."Code", l."CreateDate", l."Description", l."LanguageID", l."ParamCount", l."UpdateDate", l."Word"
+FROM "LanguageWords" AS l
+INNER JOIN "Languages" AS l0 ON l."LanguageID" = l0."ID"
+WHERE l."Code" = @___Code_0 AND l0."ID" = @__entity_equality__LanguageEntity_1_ID
+ORDER BY l."ID"
+LIMIT 1
+Time : 2023.01.26 15:06:37	//////////// PARAMETERS ///////////
+Time : 2023.01.26 15:06:37		@___Code_0	:	PageRoute_SharedSessionPage
+Time : 2023.01.26 15:06:37		@__entity_equality__LanguageEntity_1_ID	:	1
+Time : 2023.01.26 15:06:37	/////////////////////////////////// 
+Time : 2023.01.26 15:06:37	                   ↓↓                    
+Time : 2023.01.26 15:06:37	RequestID : Console
+Time : 2023.01.26 15:06:37	ElapsedTime : 00:00:00.0041425
+Time : 2023.01.26 15:06:37	//////////////////////////////////
+Time : 2023.01.26 15:06:37	
+Time : 2023.01.26 15:06:37	                   ↓↓                    
+Time : 2023.01.26 15:06:37	RequestID : Console
+Time : 2023.01.26 15:06:37	ElapsedTime : 00:00:00.0012167
+Time : 2023.01.26 15:06:37	//////////////////////////////////
+Time : 2023.01.26 15:06:37	SELECT l."ID", l."CheckSum", l."Code", l."CreateDate", l."Description", l."LanguageID", l."ParamCount", l."UpdateDate", l."Word"
+FROM "LanguageWords" AS l
+INNER JOIN "Languages" AS l0 ON l."LanguageID" = l0."ID"
+WHERE l."Code" = @___Code_0 AND l0."ID" = @__entity_equality__LanguageEntity_1_ID
+ORDER BY l."ID"
+LIMIT 1
+Time : 2023.01.26 15:06:37	//////////// PARAMETERS ///////////
+Time : 2023.01.26 15:06:37		@___Code_0	:	PageRoute_SystemSettingsPage
+Time : 2023.01.26 15:06:37		@__entity_equality__LanguageEntity_1_ID	:	1
+Time : 2023.01.26 15:06:37	/////////////////////////////////// 
+Time : 2023.01.26 15:06:37	                   ↓↓                    
+Time : 2023.01.26 15:06:37	RequestID : Console
+Time : 2023.01.26 15:06:37	ElapsedTime : 00:00:00.0055805
+Time : 2023.01.26 15:06:37	//////////////////////////////////
+Time : 2023.01.26 15:06:37	
+Time : 2023.01.26 15:06:37	                   ↓↓                    
+Time : 2023.01.26 15:06:37	RequestID : Console
+Time : 2023.01.26 15:06:37	ElapsedTime : 00:00:00.0000585
+Time : 2023.01.26 15:06:37	//////////////////////////////////
+Time : 2023.01.26 15:06:37	SELECT l."ID", l."CheckSum", l."Code", l."CreateDate", l."Description", l."LanguageID", l."ParamCount", l."UpdateDate", l."Word"
+FROM "LanguageWords" AS l
+INNER JOIN "Languages" AS l0 ON l."LanguageID" = l0."ID"
+WHERE l."Code" = @___Code_0 AND l0."ID" = @__entity_equality__LanguageEntity_1_ID
+ORDER BY l."ID"
+LIMIT 1
+Time : 2023.01.26 15:06:37	//////////// PARAMETERS ///////////
+Time : 2023.01.26 15:06:37		@___Code_0	:	PageRoute_LiveSessionsPage
+Time : 2023.01.26 15:06:37		@__entity_equality__LanguageEntity_1_ID	:	1
+Time : 2023.01.26 15:06:37	/////////////////////////////////// 
+Time : 2023.01.26 15:06:37	                   ↓↓                    
+Time : 2023.01.26 15:06:37	RequestID : Console
+Time : 2023.01.26 15:06:37	ElapsedTime : 00:00:00.0092490
+Time : 2023.01.26 15:06:37	//////////////////////////////////
+Time : 2023.01.26 15:06:37	
+Time : 2023.01.26 15:06:37	                   ↓↓                    
+Time : 2023.01.26 15:06:37	RequestID : Console
+Time : 2023.01.26 15:06:37	ElapsedTime : 00:00:00.0000554
+Time : 2023.01.26 15:06:37	//////////////////////////////////
+Time : 2023.01.26 15:06:37	SELECT l."ID", l."Code", l."CreateDate", l."IconCode", l."Name", l."UpdateDate"
+FROM "Languages" AS l
+WHERE l."Code" = @___LanguageCode_0
+LIMIT 1
+Time : 2023.01.26 15:06:37	//////////// PARAMETERS ///////////
+Time : 2023.01.26 15:06:37		@___LanguageCode_0	:	tr
+Time : 2023.01.26 15:06:37	/////////////////////////////////// 
+Time : 2023.01.26 15:06:37	                   ↓↓                    
+Time : 2023.01.26 15:06:37	RequestID : Console
+Time : 2023.01.26 15:06:37	ElapsedTime : 00:00:00.0090917
+Time : 2023.01.26 15:06:37	//////////////////////////////////
+Time : 2023.01.26 15:06:37	
+Time : 2023.01.26 15:06:37	                   ↓↓                    
+Time : 2023.01.26 15:06:37	RequestID : Console
+Time : 2023.01.26 15:06:37	ElapsedTime : 00:00:00.0000580
+Time : 2023.01.26 15:06:37	//////////////////////////////////
+Time : 2023.01.26 15:06:37	SELECT d."ID", d."CheckSum", d."Code", d."CreateDate", d."UpdateDate"
+FROM "DefaultDataChecksums" AS d
+WHERE d."Code" = @___CheckSumCode_0
+LIMIT 1
+Time : 2023.01.26 15:06:37	//////////// PARAMETERS ///////////
+Time : 2023.01.26 15:06:37		@___CheckSumCode_0	:	LanguageDataLoader_tr
+Time : 2023.01.26 15:06:37	/////////////////////////////////// 
+Time : 2023.01.26 15:06:37	                   ↓↓                    
+Time : 2023.01.26 15:06:37	RequestID : Console
+Time : 2023.01.26 15:06:37	ElapsedTime : 00:00:00.0085577
+Time : 2023.01.26 15:06:37	//////////////////////////////////
+Time : 2023.01.26 15:06:37	
+Time : 2023.01.26 15:06:37	                   ↓↓                    
+Time : 2023.01.26 15:06:37	RequestID : Console
+Time : 2023.01.26 15:06:37	ElapsedTime : 00:00:00.0000549
+Time : 2023.01.26 15:06:37	//////////////////////////////////
+Time : 2023.01.26 15:06:37	SELECT l."ID", l."CheckSum", l."Code", l."CreateDate", l."Description", l."LanguageID", l."ParamCount", l."UpdateDate", l."Word"
+FROM "LanguageWords" AS l
+INNER JOIN "Languages" AS l0 ON l."LanguageID" = l0."ID"
+WHERE l."Code" = @___Code_0 AND l0."ID" = @__entity_equality__LanguageEntity_1_ID
+ORDER BY l."ID"
+LIMIT 1
+Time : 2023.01.26 15:06:37	//////////// PARAMETERS ///////////
+Time : 2023.01.26 15:06:37		@___Code_0	:	PageRoute_MainPage
+Time : 2023.01.26 15:06:37		@__entity_equality__LanguageEntity_1_ID	:	2
+Time : 2023.01.26 15:06:37	/////////////////////////////////// 
+Time : 2023.01.26 15:06:37	                   ↓↓                    
+Time : 2023.01.26 15:06:37	RequestID : Console
+Time : 2023.01.26 15:06:37	ElapsedTime : 00:00:00.0051903
+Time : 2023.01.26 15:06:37	//////////////////////////////////
+Time : 2023.01.26 15:06:38	
+Time : 2023.01.26 15:06:38	                   ↓↓                    
+Time : 2023.01.26 15:06:38	RequestID : Console
+Time : 2023.01.26 15:06:38	ElapsedTime : 00:00:00.0000568
+Time : 2023.01.26 15:06:38	//////////////////////////////////
+Time : 2023.01.26 15:06:38	SELECT l."ID", l."CheckSum", l."Code", l."CreateDate", l."Description", l."LanguageID", l."ParamCount", l."UpdateDate", l."Word"
+FROM "LanguageWords" AS l
+INNER JOIN "Languages" AS l0 ON l."LanguageID" = l0."ID"
+WHERE l."Code" = @___Code_0 AND l0."ID" = @__entity_equality__LanguageEntity_1_ID
+ORDER BY l."ID"
+LIMIT 1
+Time : 2023.01.26 15:06:38	//////////// PARAMETERS ///////////
+Time : 2023.01.26 15:06:38		@___Code_0	:	PageRoute_LoginPage
+Time : 2023.01.26 15:06:38		@__entity_equality__LanguageEntity_1_ID	:	2
+Time : 2023.01.26 15:06:38	/////////////////////////////////// 
+Time : 2023.01.26 15:06:38	                   ↓↓                    
+Time : 2023.01.26 15:06:38	RequestID : Console
+Time : 2023.01.26 15:06:38	ElapsedTime : 00:00:00.0051715
+Time : 2023.01.26 15:06:38	//////////////////////////////////
+Time : 2023.01.26 15:06:38	
+Time : 2023.01.26 15:06:38	                   ↓↓                    
+Time : 2023.01.26 15:06:38	RequestID : Console
+Time : 2023.01.26 15:06:38	ElapsedTime : 00:00:00.0000608
+Time : 2023.01.26 15:06:38	//////////////////////////////////
+Time : 2023.01.26 15:06:38	SELECT l."ID", l."CheckSum", l."Code", l."CreateDate", l."Description", l."LanguageID", l."ParamCount", l."UpdateDate", l."Word"
+FROM "LanguageWords" AS l
+INNER JOIN "Languages" AS l0 ON l."LanguageID" = l0."ID"
+WHERE l."Code" = @___Code_0 AND l0."ID" = @__entity_equality__LanguageEntity_1_ID
+ORDER BY l."ID"
+LIMIT 1
+Time : 2023.01.26 15:06:38	//////////// PARAMETERS ///////////
+Time : 2023.01.26 15:06:38		@___Code_0	:	PageRoute_MenuPage
+Time : 2023.01.26 15:06:38		@__entity_equality__LanguageEntity_1_ID	:	2
+Time : 2023.01.26 15:06:38	/////////////////////////////////// 
+Time : 2023.01.26 15:06:38	                   ↓↓                    
+Time : 2023.01.26 15:06:38	RequestID : Console
+Time : 2023.01.26 15:06:38	ElapsedTime : 00:00:00.0084730
+Time : 2023.01.26 15:06:38	//////////////////////////////////
+Time : 2023.01.26 15:06:38	
+Time : 2023.01.26 15:06:38	                   ↓↓                    
+Time : 2023.01.26 15:06:38	RequestID : Console
+Time : 2023.01.26 15:06:38	ElapsedTime : 00:00:00.0000623
+Time : 2023.01.26 15:06:38	//////////////////////////////////
+Time : 2023.01.26 15:06:38	SELECT l."ID", l."CheckSum", l."Code", l."CreateDate", l."Description", l."LanguageID", l."ParamCount", l."UpdateDate", l."Word"
+FROM "LanguageWords" AS l
+INNER JOIN "Languages" AS l0 ON l."LanguageID" = l0."ID"
+WHERE l."Code" = @___Code_0 AND l0."ID" = @__entity_equality__LanguageEntity_1_ID
+ORDER BY l."ID"
+LIMIT 1
+Time : 2023.01.26 15:06:38	//////////// PARAMETERS ///////////
+Time : 2023.01.26 15:06:38		@___Code_0	:	PageRoute_AdminMainPage
+Time : 2023.01.26 15:06:38		@__entity_equality__LanguageEntity_1_ID	:	2
+Time : 2023.01.26 15:06:38	/////////////////////////////////// 
+Time : 2023.01.26 15:06:38	                   ↓↓                    
+Time : 2023.01.26 15:06:38	RequestID : Console
+Time : 2023.01.26 15:06:38	ElapsedTime : 00:00:00.0083987
+Time : 2023.01.26 15:06:38	//////////////////////////////////
+Time : 2023.01.26 15:06:38	
+Time : 2023.01.26 15:06:38	                   ↓↓                    
+Time : 2023.01.26 15:06:38	RequestID : Console
+Time : 2023.01.26 15:06:38	ElapsedTime : 00:00:00.0000522
+Time : 2023.01.26 15:06:38	//////////////////////////////////
+Time : 2023.01.26 15:06:38	SELECT l."ID", l."CheckSum", l."Code", l."CreateDate", l."Description", l."LanguageID", l."ParamCount", l."UpdateDate", l."Word"
+FROM "LanguageWords" AS l
+INNER JOIN "Languages" AS l0 ON l."LanguageID" = l0."ID"
+WHERE l."Code" = @___Code_0 AND l0."ID" = @__entity_equality__LanguageEntity_1_ID
+ORDER BY l."ID"
+LIMIT 1
+Time : 2023.01.26 15:06:38	//////////// PARAMETERS ///////////
+Time : 2023.01.26 15:06:38		@___Code_0	:	PageRoute_BatchJobPage
+Time : 2023.01.26 15:06:38		@__entity_equality__LanguageEntity_1_ID	:	2
+Time : 2023.01.26 15:06:38	/////////////////////////////////// 
+Time : 2023.01.26 15:06:38	                   ↓↓                    
+Time : 2023.01.26 15:06:38	RequestID : Console
+Time : 2023.01.26 15:06:38	ElapsedTime : 00:00:00.0036776
+Time : 2023.01.26 15:06:38	//////////////////////////////////
+Time : 2023.01.26 15:06:38	
+Time : 2023.01.26 15:06:38	                   ↓↓                    
+Time : 2023.01.26 15:06:38	RequestID : Console
+Time : 2023.01.26 15:06:38	ElapsedTime : 00:00:00.0000476
+Time : 2023.01.26 15:06:38	//////////////////////////////////
+Time : 2023.01.26 15:06:38	SELECT l."ID", l."CheckSum", l."Code", l."CreateDate", l."Description", l."LanguageID", l."ParamCount", l."UpdateDate", l."Word"
+FROM "LanguageWords" AS l
+INNER JOIN "Languages" AS l0 ON l."LanguageID" = l0."ID"
+WHERE l."Code" = @___Code_0 AND l0."ID" = @__entity_equality__LanguageEntity_1_ID
+ORDER BY l."ID"
+LIMIT 1
+Time : 2023.01.26 15:06:38	//////////// PARAMETERS ///////////
+Time : 2023.01.26 15:06:38		@___Code_0	:	PageRoute_ConfigurationPage
+Time : 2023.01.26 15:06:38		@__entity_equality__LanguageEntity_1_ID	:	2
+Time : 2023.01.26 15:06:38	/////////////////////////////////// 
+Time : 2023.01.26 15:06:38	                   ↓↓                    
+Time : 2023.01.26 15:06:38	RequestID : Console
+Time : 2023.01.26 15:06:38	ElapsedTime : 00:00:00.0066991
+Time : 2023.01.26 15:06:38	//////////////////////////////////
+Time : 2023.01.26 15:06:38	
+Time : 2023.01.26 15:06:38	                   ↓↓                    
+Time : 2023.01.26 15:06:38	RequestID : Console
+Time : 2023.01.26 15:06:38	ElapsedTime : 00:00:00.0000624
+Time : 2023.01.26 15:06:38	//////////////////////////////////
+Time : 2023.01.26 15:06:38	SELECT l."ID", l."CheckSum", l."Code", l."CreateDate", l."Description", l."LanguageID", l."ParamCount", l."UpdateDate", l."Word"
+FROM "LanguageWords" AS l
+INNER JOIN "Languages" AS l0 ON l."LanguageID" = l0."ID"
+WHERE l."Code" = @___Code_0 AND l0."ID" = @__entity_equality__LanguageEntity_1_ID
+ORDER BY l."ID"
+LIMIT 1
+Time : 2023.01.26 15:06:38	//////////// PARAMETERS ///////////
+Time : 2023.01.26 15:06:38		@___Code_0	:	PageRoute_LanguagePage
+Time : 2023.01.26 15:06:38		@__entity_equality__LanguageEntity_1_ID	:	2
+Time : 2023.01.26 15:06:38	/////////////////////////////////// 
+Time : 2023.01.26 15:06:38	                   ↓↓                    
+Time : 2023.01.26 15:06:38	RequestID : Console
+Time : 2023.01.26 15:06:38	ElapsedTime : 00:00:00.0060351
+Time : 2023.01.26 15:06:38	//////////////////////////////////
+Time : 2023.01.26 15:06:38	
+Time : 2023.01.26 15:06:38	                   ↓↓                    
+Time : 2023.01.26 15:06:38	RequestID : Console
+Time : 2023.01.26 15:06:38	ElapsedTime : 00:00:00.0000677
+Time : 2023.01.26 15:06:38	//////////////////////////////////
+Time : 2023.01.26 15:06:38	SELECT l."ID", l."CheckSum", l."Code", l."CreateDate", l."Description", l."LanguageID", l."ParamCount", l."UpdateDate", l."Word"
+FROM "LanguageWords" AS l
+INNER JOIN "Languages" AS l0 ON l."LanguageID" = l0."ID"
+WHERE l."Code" = @___Code_0 AND l0."ID" = @__entity_equality__LanguageEntity_1_ID
+ORDER BY l."ID"
+LIMIT 1
+Time : 2023.01.26 15:06:38	//////////// PARAMETERS ///////////
+Time : 2023.01.26 15:06:38		@___Code_0	:	PageRoute_UserList
+Time : 2023.01.26 15:06:38		@__entity_equality__LanguageEntity_1_ID	:	2
+Time : 2023.01.26 15:06:38	/////////////////////////////////// 
+Time : 2023.01.26 15:06:38	                   ↓↓                    
+Time : 2023.01.26 15:06:38	RequestID : Console
+Time : 2023.01.26 15:06:38	ElapsedTime : 00:00:00.0078549
+Time : 2023.01.26 15:06:38	//////////////////////////////////
+Time : 2023.01.26 15:06:38	
+Time : 2023.01.26 15:06:38	                   ↓↓                    
+Time : 2023.01.26 15:06:38	RequestID : Console
+Time : 2023.01.26 15:06:38	ElapsedTime : 00:00:00.0000667
+Time : 2023.01.26 15:06:38	//////////////////////////////////
+Time : 2023.01.26 15:06:38	SELECT l."ID", l."CheckSum", l."Code", l."CreateDate", l."Description", l."LanguageID", l."ParamCount", l."UpdateDate", l."Word"
+FROM "LanguageWords" AS l
+INNER JOIN "Languages" AS l0 ON l."LanguageID" = l0."ID"
+WHERE l."Code" = @___Code_0 AND l0."ID" = @__entity_equality__LanguageEntity_1_ID
+ORDER BY l."ID"
+LIMIT 1
+Time : 2023.01.26 15:06:38	//////////// PARAMETERS ///////////
+Time : 2023.01.26 15:06:38		@___Code_0	:	PageRoute_UserMainPage
+Time : 2023.01.26 15:06:38		@__entity_equality__LanguageEntity_1_ID	:	2
+Time : 2023.01.26 15:06:38	/////////////////////////////////// 
+Time : 2023.01.26 15:06:38	                   ↓↓                    
+Time : 2023.01.26 15:06:38	RequestID : Console
+Time : 2023.01.26 15:06:38	ElapsedTime : 00:00:00.0007987
+Time : 2023.01.26 15:06:38	//////////////////////////////////
+Time : 2023.01.26 15:06:38	
+Time : 2023.01.26 15:06:38	                   ↓↓                    
+Time : 2023.01.26 15:06:38	RequestID : Console
+Time : 2023.01.26 15:06:38	ElapsedTime : 00:00:00.0000620
+Time : 2023.01.26 15:06:38	//////////////////////////////////
+Time : 2023.01.26 15:06:38	SELECT l."ID", l."CheckSum", l."Code", l."CreateDate", l."Description", l."LanguageID", l."ParamCount", l."UpdateDate", l."Word"
+FROM "LanguageWords" AS l
+INNER JOIN "Languages" AS l0 ON l."LanguageID" = l0."ID"
+WHERE l."Code" = @___Code_0 AND l0."ID" = @__entity_equality__LanguageEntity_1_ID
+ORDER BY l."ID"
+LIMIT 1
+Time : 2023.01.26 15:06:38	//////////// PARAMETERS ///////////
+Time : 2023.01.26 15:06:38		@___Code_0	:	PageRoute_DeveloperMainPage
+Time : 2023.01.26 15:06:38		@__entity_equality__LanguageEntity_1_ID	:	2
+Time : 2023.01.26 15:06:38	/////////////////////////////////// 
+Time : 2023.01.26 15:06:38	                   ↓↓                    
+Time : 2023.01.26 15:06:38	RequestID : Console
+Time : 2023.01.26 15:06:38	ElapsedTime : 00:00:00.0717964
+Time : 2023.01.26 15:06:38	//////////////////////////////////
+Time : 2023.01.26 15:06:38	
+Time : 2023.01.26 15:06:38	                   ↓↓                    
+Time : 2023.01.26 15:06:38	RequestID : Console
+Time : 2023.01.26 15:06:38	ElapsedTime : 00:00:00.0000490
+Time : 2023.01.26 15:06:38	//////////////////////////////////
+Time : 2023.01.26 15:06:38	SELECT l."ID", l."CheckSum", l."Code", l."CreateDate", l."Description", l."LanguageID", l."ParamCount", l."UpdateDate", l."Word"
+FROM "LanguageWords" AS l
+INNER JOIN "Languages" AS l0 ON l."LanguageID" = l0."ID"
+WHERE l."Code" = @___Code_0 AND l0."ID" = @__entity_equality__LanguageEntity_1_ID
+ORDER BY l."ID"
+LIMIT 1
+Time : 2023.01.26 15:06:38	//////////// PARAMETERS ///////////
+Time : 2023.01.26 15:06:38		@___Code_0	:	PageRoute_SharedSessionPage
+Time : 2023.01.26 15:06:38		@__entity_equality__LanguageEntity_1_ID	:	2
+Time : 2023.01.26 15:06:38	/////////////////////////////////// 
+Time : 2023.01.26 15:06:38	                   ↓↓                    
+Time : 2023.01.26 15:06:38	RequestID : Console
+Time : 2023.01.26 15:06:38	ElapsedTime : 00:00:00.0008147
+Time : 2023.01.26 15:06:38	//////////////////////////////////
+Time : 2023.01.26 15:06:38	
+Time : 2023.01.26 15:06:38	                   ↓↓                    
+Time : 2023.01.26 15:06:38	RequestID : Console
+Time : 2023.01.26 15:06:38	ElapsedTime : 00:00:00.0000687
+Time : 2023.01.26 15:06:38	//////////////////////////////////
+Time : 2023.01.26 15:06:38	SELECT l."ID", l."CheckSum", l."Code", l."CreateDate", l."Description", l."LanguageID", l."ParamCount", l."UpdateDate", l."Word"
+FROM "LanguageWords" AS l
+INNER JOIN "Languages" AS l0 ON l."LanguageID" = l0."ID"
+WHERE l."Code" = @___Code_0 AND l0."ID" = @__entity_equality__LanguageEntity_1_ID
+ORDER BY l."ID"
+LIMIT 1
+Time : 2023.01.26 15:06:38	//////////// PARAMETERS ///////////
+Time : 2023.01.26 15:06:38		@___Code_0	:	PageRoute_SystemSettingsPage
+Time : 2023.01.26 15:06:38		@__entity_equality__LanguageEntity_1_ID	:	2
+Time : 2023.01.26 15:06:38	/////////////////////////////////// 
+Time : 2023.01.26 15:06:38	                   ↓↓                    
+Time : 2023.01.26 15:06:38	RequestID : Console
+Time : 2023.01.26 15:06:38	ElapsedTime : 00:00:00.0042068
+Time : 2023.01.26 15:06:38	//////////////////////////////////
+Time : 2023.01.26 15:06:38	
+Time : 2023.01.26 15:06:38	                   ↓↓                    
+Time : 2023.01.26 15:06:38	RequestID : Console
+Time : 2023.01.26 15:06:38	ElapsedTime : 00:00:00.0000566
+Time : 2023.01.26 15:06:38	//////////////////////////////////
+Time : 2023.01.26 15:06:38	SELECT l."ID", l."CheckSum", l."Code", l."CreateDate", l."Description", l."LanguageID", l."ParamCount", l."UpdateDate", l."Word"
+FROM "LanguageWords" AS l
+INNER JOIN "Languages" AS l0 ON l."LanguageID" = l0."ID"
+WHERE l."Code" = @___Code_0 AND l0."ID" = @__entity_equality__LanguageEntity_1_ID
+ORDER BY l."ID"
+LIMIT 1
+Time : 2023.01.26 15:06:38	//////////// PARAMETERS ///////////
+Time : 2023.01.26 15:06:38		@___Code_0	:	PageRoute_LiveSessionsPage
+Time : 2023.01.26 15:06:38		@__entity_equality__LanguageEntity_1_ID	:	2
+Time : 2023.01.26 15:06:38	/////////////////////////////////// 
+Time : 2023.01.26 15:06:38	                   ↓↓                    
+Time : 2023.01.26 15:06:38	RequestID : Console
+Time : 2023.01.26 15:06:38	ElapsedTime : 00:00:00.0052730
+Time : 2023.01.26 15:06:38	//////////////////////////////////
+Time : 2023.01.26 15:06:38	
+Time : 2023.01.26 15:06:38	                   ↓↓                    
+Time : 2023.01.26 15:06:38	RequestID : Console
+Time : 2023.01.26 15:06:38	ElapsedTime : 00:00:00.0000423
+Time : 2023.01.26 15:06:38	//////////////////////////////////
+Time : 2023.01.26 15:06:38	SELECT d."ID", d."CheckSum", d."Code", d."CreateDate", d."UpdateDate"
+FROM "DefaultDataChecksums" AS d
+WHERE d."Code" = @___CheckSumCode_0
+LIMIT 1
+Time : 2023.01.26 15:06:38	//////////// PARAMETERS ///////////
+Time : 2023.01.26 15:06:38		@___CheckSumCode_0	:	GlobalParamsDataLoader
+Time : 2023.01.26 15:06:38	/////////////////////////////////// 
+Time : 2023.01.26 15:06:38	                   ↓↓                    
+Time : 2023.01.26 15:06:38	RequestID : Console
+Time : 2023.01.26 15:06:38	ElapsedTime : 00:00:00.0092646
+Time : 2023.01.26 15:06:38	//////////////////////////////////
+Time : 2023.01.26 15:06:38	
+Time : 2023.01.26 15:06:38	                   ↓↓                    
+Time : 2023.01.26 15:06:38	RequestID : Console
+Time : 2023.01.26 15:06:38	ElapsedTime : 00:00:00.0000903
+Time : 2023.01.26 15:06:38	//////////////////////////////////
+Time : 2023.01.26 15:06:38	SELECT d."ID", d."CheckSum", d."Code", d."CreateDate", d."UpdateDate"
+FROM "DefaultDataChecksums" AS d
+WHERE d."Code" = @___CheckSumCode_0
+LIMIT 1
+Time : 2023.01.26 15:06:38	//////////// PARAMETERS ///////////
+Time : 2023.01.26 15:06:38		@___CheckSumCode_0	:	RoleDataLoader
+Time : 2023.01.26 15:06:38	/////////////////////////////////// 
+Time : 2023.01.26 15:06:38	                   ↓↓                    
+Time : 2023.01.26 15:06:38	RequestID : Console
+Time : 2023.01.26 15:06:38	ElapsedTime : 00:00:00.0041695
+Time : 2023.01.26 15:06:38	//////////////////////////////////
+Time : 2023.01.26 15:06:38	
+Time : 2023.01.26 15:06:38	                   ↓↓                    
+Time : 2023.01.26 15:06:38	RequestID : Console
+Time : 2023.01.26 15:06:38	ElapsedTime : 00:00:00.0000605
+Time : 2023.01.26 15:06:38	//////////////////////////////////
+Time : 2023.01.26 15:06:38	SELECT d."ID", d."CheckSum", d."Code", d."CreateDate", d."UpdateDate"
+FROM "DefaultDataChecksums" AS d
+WHERE d."Code" = @___CheckSumCode_0
+LIMIT 1
+Time : 2023.01.26 15:06:38	//////////// PARAMETERS ///////////
+Time : 2023.01.26 15:06:38		@___CheckSumCode_0	:	PageDataLoader
+Time : 2023.01.26 15:06:38	/////////////////////////////////// 
+Time : 2023.01.26 15:06:38	                   ↓↓                    
+Time : 2023.01.26 15:06:38	RequestID : Console
+Time : 2023.01.26 15:06:38	ElapsedTime : 00:00:00.0041088
+Time : 2023.01.26 15:06:38	//////////////////////////////////
+Time : 2023.01.26 15:06:38	
+Time : 2023.01.26 15:06:38	                   ↓↓                    
+Time : 2023.01.26 15:06:38	RequestID : Console
+Time : 2023.01.26 15:06:38	ElapsedTime : 00:00:00.0000521
+Time : 2023.01.26 15:06:38	//////////////////////////////////
+Time : 2023.01.26 15:06:38	SELECT d."ID", d."CheckSum", d."Code", d."CreateDate", d."UpdateDate"
+FROM "DefaultDataChecksums" AS d
+WHERE d."Code" = @___CheckSumCode_0
+LIMIT 1
+Time : 2023.01.26 15:06:38	//////////// PARAMETERS ///////////
+Time : 2023.01.26 15:06:38		@___CheckSumCode_0	:	RolePageLoader_Admin
+Time : 2023.01.26 15:06:38	/////////////////////////////////// 
+Time : 2023.01.26 15:06:38	                   ↓↓                    
+Time : 2023.01.26 15:06:38	RequestID : Console
+Time : 2023.01.26 15:06:38	ElapsedTime : 00:00:00.0093483
+Time : 2023.01.26 15:06:38	//////////////////////////////////
+Time : 2023.01.26 15:06:38	
+Time : 2023.01.26 15:06:38	                   ↓↓                    
+Time : 2023.01.26 15:06:38	RequestID : Console
+Time : 2023.01.26 15:06:38	ElapsedTime : 00:00:00.0000515
+Time : 2023.01.26 15:06:38	//////////////////////////////////
+Time : 2023.01.26 15:06:38	SELECT d."ID", d."CheckSum", d."Code", d."CreateDate", d."UpdateDate"
+FROM "DefaultDataChecksums" AS d
+WHERE d."Code" = @___CheckSumCode_0
+LIMIT 1
+Time : 2023.01.26 15:06:38	//////////// PARAMETERS ///////////
+Time : 2023.01.26 15:06:38		@___CheckSumCode_0	:	RolePageLoader_Customer
+Time : 2023.01.26 15:06:38	/////////////////////////////////// 
+Time : 2023.01.26 15:06:38	                   ↓↓                    
+Time : 2023.01.26 15:06:38	RequestID : Console
+Time : 2023.01.26 15:06:38	ElapsedTime : 00:00:00.0048368
+Time : 2023.01.26 15:06:38	//////////////////////////////////
+Time : 2023.01.26 15:06:38	
+Time : 2023.01.26 15:06:38	                   ↓↓                    
+Time : 2023.01.26 15:06:38	RequestID : Console
+Time : 2023.01.26 15:06:38	ElapsedTime : 00:00:00.0000459
+Time : 2023.01.26 15:06:38	//////////////////////////////////
+Time : 2023.01.26 15:06:38	SELECT d."ID", d."CheckSum", d."Code", d."CreateDate", d."UpdateDate"
+FROM "DefaultDataChecksums" AS d
+WHERE d."Code" = @___CheckSumCode_0
+LIMIT 1
+Time : 2023.01.26 15:06:38	//////////// PARAMETERS ///////////
+Time : 2023.01.26 15:06:38		@___CheckSumCode_0	:	RolePageLoader_Developer
+Time : 2023.01.26 15:06:38	/////////////////////////////////// 
+Time : 2023.01.26 15:06:38	                   ↓↓                    
+Time : 2023.01.26 15:06:38	RequestID : Console
+Time : 2023.01.26 15:06:38	ElapsedTime : 00:00:00.0082037
+Time : 2023.01.26 15:06:38	//////////////////////////////////
+Time : 2023.01.26 15:06:38	
+Time : 2023.01.26 15:06:38	                   ↓↓                    
+Time : 2023.01.26 15:06:38	RequestID : Console
+Time : 2023.01.26 15:06:38	ElapsedTime : 00:00:00.0000490
+Time : 2023.01.26 15:06:38	//////////////////////////////////
+Time : 2023.01.26 15:06:38	SELECT d."ID", d."CheckSum", d."Code", d."CreateDate", d."UpdateDate"
+FROM "DefaultDataChecksums" AS d
+WHERE d."Code" = @___CheckSumCode_0
+LIMIT 1
+Time : 2023.01.26 15:06:38	//////////// PARAMETERS ///////////
+Time : 2023.01.26 15:06:38		@___CheckSumCode_0	:	MenuDataLoader
+Time : 2023.01.26 15:06:38	/////////////////////////////////// 
+Time : 2023.01.26 15:06:38	                   ↓↓                    
+Time : 2023.01.26 15:06:38	RequestID : Console
+Time : 2023.01.26 15:06:38	ElapsedTime : 00:00:00.0083688
+Time : 2023.01.26 15:06:38	//////////////////////////////////
+Time : 2023.01.26 15:06:38	
+Time : 2023.01.26 15:06:38	                   ↓↓                    
+Time : 2023.01.26 15:06:38	RequestID : Console
+Time : 2023.01.26 15:06:38	ElapsedTime : 00:00:00.0000616
+Time : 2023.01.26 15:06:38	//////////////////////////////////
+Time : 2023.01.26 15:06:38	SELECT d."ID", d."CheckSum", d."Code", d."CreateDate", d."UpdateDate"
+FROM "DefaultDataChecksums" AS d
+WHERE d."Code" = @___CheckSumCode_0
+LIMIT 1
+Time : 2023.01.26 15:06:38	//////////// PARAMETERS ///////////
+Time : 2023.01.26 15:06:38		@___CheckSumCode_0	:	RoleMenuLoader_Admin
+Time : 2023.01.26 15:06:38	/////////////////////////////////// 
+Time : 2023.01.26 15:06:38	                   ↓↓                    
+Time : 2023.01.26 15:06:38	RequestID : Console
+Time : 2023.01.26 15:06:38	ElapsedTime : 00:00:00.0050441
+Time : 2023.01.26 15:06:38	//////////////////////////////////
+Time : 2023.01.26 15:06:38	
+Time : 2023.01.26 15:06:38	                   ↓↓                    
+Time : 2023.01.26 15:06:38	RequestID : Console
+Time : 2023.01.26 15:06:38	ElapsedTime : 00:00:00.0000586
+Time : 2023.01.26 15:06:38	//////////////////////////////////
+Time : 2023.01.26 15:06:38	SELECT d."ID", d."CheckSum", d."Code", d."CreateDate", d."UpdateDate"
+FROM "DefaultDataChecksums" AS d
+WHERE d."Code" = @___CheckSumCode_0
+LIMIT 1
+Time : 2023.01.26 15:06:38	//////////// PARAMETERS ///////////
+Time : 2023.01.26 15:06:38		@___CheckSumCode_0	:	RoleMenuLoader_Customer
+Time : 2023.01.26 15:06:38	/////////////////////////////////// 
+Time : 2023.01.26 15:06:38	                   ↓↓                    
+Time : 2023.01.26 15:06:38	RequestID : Console
+Time : 2023.01.26 15:06:38	ElapsedTime : 00:00:00.0055683
+Time : 2023.01.26 15:06:38	//////////////////////////////////
+Time : 2023.01.26 15:06:38	
+Time : 2023.01.26 15:06:38	                   ↓↓                    
+Time : 2023.01.26 15:06:38	RequestID : Console
+Time : 2023.01.26 15:06:38	ElapsedTime : 00:00:00.0000455
+Time : 2023.01.26 15:06:38	//////////////////////////////////
+Time : 2023.01.26 15:06:38	SELECT d."ID", d."CheckSum", d."Code", d."CreateDate", d."UpdateDate"
+FROM "DefaultDataChecksums" AS d
+WHERE d."Code" = @___CheckSumCode_0
+LIMIT 1
+Time : 2023.01.26 15:06:38	//////////// PARAMETERS ///////////
+Time : 2023.01.26 15:06:38		@___CheckSumCode_0	:	RoleMenuLoader_Developer
+Time : 2023.01.26 15:06:38	/////////////////////////////////// 
+Time : 2023.01.26 15:06:38	                   ↓↓                    
+Time : 2023.01.26 15:06:38	RequestID : Console
+Time : 2023.01.26 15:06:38	ElapsedTime : 00:00:00.0068174
+Time : 2023.01.26 15:06:38	//////////////////////////////////
+Time : 2023.01.26 15:06:38	
+Time : 2023.01.26 15:06:38	                   ↓↓                    
+Time : 2023.01.26 15:06:38	RequestID : Console
+Time : 2023.01.26 15:06:38	ElapsedTime : 00:00:00.0000507
+Time : 2023.01.26 15:06:38	//////////////////////////////////
+Time : 2023.01.26 15:06:38	SELECT d."ID", d."CheckSum", d."Code", d."CreateDate", d."UpdateDate"
+FROM "DefaultDataChecksums" AS d
+WHERE d."Code" = @___CheckSumCode_0
+LIMIT 1
+Time : 2023.01.26 15:06:38	//////////// PARAMETERS ///////////
+Time : 2023.01.26 15:06:38		@___CheckSumCode_0	:	RoleDataSourcePermissionLoader_Admin
+Time : 2023.01.26 15:06:38	/////////////////////////////////// 
+Time : 2023.01.26 15:06:38	                   ↓↓                    
+Time : 2023.01.26 15:06:38	RequestID : Console
+Time : 2023.01.26 15:06:38	ElapsedTime : 00:00:00.0081328
+Time : 2023.01.26 15:06:38	//////////////////////////////////
+Time : 2023.01.26 15:06:38	
+Time : 2023.01.26 15:06:38	                   ↓↓                    
+Time : 2023.01.26 15:06:38	RequestID : Console
+Time : 2023.01.26 15:06:38	ElapsedTime : 00:00:00.0000449
+Time : 2023.01.26 15:06:38	//////////////////////////////////
+Time : 2023.01.26 15:06:38	SELECT d."ID", d."CheckSum", d."Code", d."CreateDate", d."UpdateDate"
+FROM "DefaultDataChecksums" AS d
+WHERE d."Code" = @___CheckSumCode_0
+LIMIT 1
+Time : 2023.01.26 15:06:38	//////////// PARAMETERS ///////////
+Time : 2023.01.26 15:06:38		@___CheckSumCode_0	:	RoleDataSourcePermissionLoader_Customer
+Time : 2023.01.26 15:06:38	/////////////////////////////////// 
+Time : 2023.01.26 15:06:38	                   ↓↓                    
+Time : 2023.01.26 15:06:38	RequestID : Console
+Time : 2023.01.26 15:06:38	ElapsedTime : 00:00:00.0044946
+Time : 2023.01.26 15:06:38	//////////////////////////////////
+Time : 2023.01.26 15:06:38	
+Time : 2023.01.26 15:06:38	                   ↓↓                    
+Time : 2023.01.26 15:06:38	RequestID : Console
+Time : 2023.01.26 15:06:38	ElapsedTime : 00:00:00.0000573
+Time : 2023.01.26 15:06:38	//////////////////////////////////
+Time : 2023.01.26 15:06:38	SELECT d."ID", d."CheckSum", d."Code", d."CreateDate", d."UpdateDate"
+FROM "DefaultDataChecksums" AS d
+WHERE d."Code" = @___CheckSumCode_0
+LIMIT 1
+Time : 2023.01.26 15:06:38	//////////// PARAMETERS ///////////
+Time : 2023.01.26 15:06:38		@___CheckSumCode_0	:	RoleDataSourcePermissionLoader_Developer
+Time : 2023.01.26 15:06:38	/////////////////////////////////// 
+Time : 2023.01.26 15:06:38	                   ↓↓                    
+Time : 2023.01.26 15:06:38	RequestID : Console
+Time : 2023.01.26 15:06:38	ElapsedTime : 00:00:00.0090736
+Time : 2023.01.26 15:06:38	//////////////////////////////////
+Time : 2023.01.26 15:06:38	
+Time : 2023.01.26 15:06:38	                   ↓↓                    
+Time : 2023.01.26 15:06:38	RequestID : Console
+Time : 2023.01.26 15:06:38	ElapsedTime : 00:00:00.0000451
+Time : 2023.01.26 15:06:38	//////////////////////////////////
+Time : 2023.01.26 15:06:38	SELECT d."ID", d."CheckSum", d."Code", d."CreateDate", d."UpdateDate"
+FROM "DefaultDataChecksums" AS d
+WHERE d."Code" = @___CheckSumCode_0
+LIMIT 1
+Time : 2023.01.26 15:06:38	//////////// PARAMETERS ///////////
+Time : 2023.01.26 15:06:38		@___CheckSumCode_0	:	RoleDataSourceColumnLoader_Admin
+Time : 2023.01.26 15:06:38	/////////////////////////////////// 
+Time : 2023.01.26 15:06:38	                   ↓↓                    
+Time : 2023.01.26 15:06:38	RequestID : Console
+Time : 2023.01.26 15:06:38	ElapsedTime : 00:00:00.0036256
+Time : 2023.01.26 15:06:38	//////////////////////////////////
+Time : 2023.01.26 15:06:38	
+Time : 2023.01.26 15:06:38	                   ↓↓                    
+Time : 2023.01.26 15:06:38	RequestID : Console
+Time : 2023.01.26 15:06:38	ElapsedTime : 00:00:00.0000470
+Time : 2023.01.26 15:06:38	//////////////////////////////////
+Time : 2023.01.26 15:06:38	SELECT d."ID", d."CheckSum", d."Code", d."CreateDate", d."UpdateDate"
+FROM "DefaultDataChecksums" AS d
+WHERE d."Code" = @___CheckSumCode_0
+LIMIT 1
+Time : 2023.01.26 15:06:38	//////////// PARAMETERS ///////////
+Time : 2023.01.26 15:06:38		@___CheckSumCode_0	:	RoleDataSourceColumnLoader_Customer
+Time : 2023.01.26 15:06:38	/////////////////////////////////// 
+Time : 2023.01.26 15:06:38	                   ↓↓                    
+Time : 2023.01.26 15:06:38	RequestID : Console
+Time : 2023.01.26 15:06:38	ElapsedTime : 00:00:00.0061437
+Time : 2023.01.26 15:06:38	//////////////////////////////////
+Time : 2023.01.26 15:06:38	
+Time : 2023.01.26 15:06:38	                   ↓↓                    
+Time : 2023.01.26 15:06:38	RequestID : Console
+Time : 2023.01.26 15:06:38	ElapsedTime : 00:00:00.0000964
+Time : 2023.01.26 15:06:38	//////////////////////////////////
+Time : 2023.01.26 15:06:38	SELECT d."ID", d."CheckSum", d."Code", d."CreateDate", d."UpdateDate"
+FROM "DefaultDataChecksums" AS d
+WHERE d."Code" = @___CheckSumCode_0
+LIMIT 1
+Time : 2023.01.26 15:06:38	//////////// PARAMETERS ///////////
+Time : 2023.01.26 15:06:38		@___CheckSumCode_0	:	RoleDataSourceColumnLoader_Developer
+Time : 2023.01.26 15:06:38	/////////////////////////////////// 
+Time : 2023.01.26 15:06:38	                   ↓↓                    
+Time : 2023.01.26 15:06:38	RequestID : Console
+Time : 2023.01.26 15:06:38	ElapsedTime : 00:00:00.0042815
+Time : 2023.01.26 15:06:38	//////////////////////////////////
+Time : 2023.01.26 15:06:38	
+Time : 2023.01.26 15:06:38	                   ↓↓                    
+Time : 2023.01.26 15:06:38	RequestID : Console
+Time : 2023.01.26 15:06:38	ElapsedTime : 00:00:00.0000376
+Time : 2023.01.26 15:06:38	//////////////////////////////////
+Time : 2023.01.26 15:06:38	SELECT d."ID", d."CheckSum", d."Code", d."CreateDate", d."UpdateDate"
+FROM "DefaultDataChecksums" AS d
+WHERE d."Code" = @___CheckSumCode_0
+LIMIT 1
+Time : 2023.01.26 15:06:38	//////////// PARAMETERS ///////////
+Time : 2023.01.26 15:06:38		@___CheckSumCode_0	:	DefaultUsersDataLoader
+Time : 2023.01.26 15:06:38	/////////////////////////////////// 
+Time : 2023.01.26 15:06:38	                   ↓↓                    
+Time : 2023.01.26 15:06:38	RequestID : Console
+Time : 2023.01.26 15:06:38	ElapsedTime : 00:00:00.0068498
+Time : 2023.01.26 15:06:38	//////////////////////////////////
+Time : 2023.01.26 15:06:38	
+Time : 2023.01.26 15:06:38	                   ↓↓                    
+Time : 2023.01.26 15:06:38	RequestID : Console
+Time : 2023.01.26 15:06:38	ElapsedTime : 00:00:00.0000540
+Time : 2023.01.26 15:06:38	//////////////////////////////////
+Time : 2023.01.26 15:06:38	SELECT l."ID", l."Code", l."CreateDate", l."IconCode", l."Name", l."UpdateDate"
+FROM "Languages" AS l
+WHERE l."Code" = @___LanguageCode_0
+LIMIT 1
+Time : 2023.01.26 15:06:38	//////////// PARAMETERS ///////////
+Time : 2023.01.26 15:06:38		@___LanguageCode_0	:	tr
+Time : 2023.01.26 15:06:38	/////////////////////////////////// 
+Time : 2023.01.26 15:06:38	                   ↓↓                    
+Time : 2023.01.26 15:06:38	RequestID : Console
+Time : 2023.01.26 15:06:38	ElapsedTime : 00:00:00.0039714
+Time : 2023.01.26 15:06:38	//////////////////////////////////
+Time : 2023.01.26 15:06:38	
+Time : 2023.01.26 15:06:38	                   ↓↓                    
+Time : 2023.01.26 15:06:38	RequestID : Console
+Time : 2023.01.26 15:06:38	ElapsedTime : 00:00:00.0000203
+Time : 2023.01.26 15:06:38	//////////////////////////////////
+Time : 2023.01.26 15:06:38	SELECT l."ID", l."CheckSum", l."Code", l."CreateDate", l."Description", l."LanguageID", l."ParamCount", l."UpdateDate", l."Word"
+FROM "LanguageWords" AS l
+INNER JOIN "Languages" AS l0 ON l."LanguageID" = l0."ID"
+WHERE l0."ID" = @__entity_equality__LanguageEntity_0_ID
+Time : 2023.01.26 15:06:38	//////////// PARAMETERS ///////////
+Time : 2023.01.26 15:06:38		@__entity_equality__LanguageEntity_0_ID	:	2
+Time : 2023.01.26 15:06:38	/////////////////////////////////// 
+Time : 2023.01.26 15:06:38	                   ↓↓                    
+Time : 2023.01.26 15:06:38	RequestID : Console
+Time : 2023.01.26 15:06:38	ElapsedTime : 00:00:00.0042880
+Time : 2023.01.26 15:06:38	//////////////////////////////////
+Time : 2023.01.26 15:06:38	
+Time : 2023.01.26 15:06:38	                   ↓↓                    
+Time : 2023.01.26 15:06:38	RequestID : Console
+Time : 2023.01.26 15:06:38	ElapsedTime : 00:00:00.0000407
+Time : 2023.01.26 15:06:38	//////////////////////////////////
+Time : 2023.01.26 15:06:38	SELECT l."ID", l."Code", l."CreateDate", l."IconCode", l."Name", l."UpdateDate"
+FROM "Languages" AS l
+WHERE l."Code" = @___LanguageCode_0
+LIMIT 1
+Time : 2023.01.26 15:06:38	//////////// PARAMETERS ///////////
+Time : 2023.01.26 15:06:38		@___LanguageCode_0	:	en
+Time : 2023.01.26 15:06:38	/////////////////////////////////// 
+Time : 2023.01.26 15:06:38	                   ↓↓                    
+Time : 2023.01.26 15:06:38	RequestID : Console
+Time : 2023.01.26 15:06:38	ElapsedTime : 00:00:00.0049798
+Time : 2023.01.26 15:06:38	//////////////////////////////////
+Time : 2023.01.26 15:06:38	
+Time : 2023.01.26 15:06:38	                   ↓↓                    
+Time : 2023.01.26 15:06:38	RequestID : Console
+Time : 2023.01.26 15:06:38	ElapsedTime : 00:00:00.0000519
+Time : 2023.01.26 15:06:38	//////////////////////////////////
+Time : 2023.01.26 15:06:38	SELECT l."ID", l."CheckSum", l."Code", l."CreateDate", l."Description", l."LanguageID", l."ParamCount", l."UpdateDate", l."Word"
+FROM "LanguageWords" AS l
+INNER JOIN "Languages" AS l0 ON l."LanguageID" = l0."ID"
+WHERE l0."ID" = @__entity_equality__LanguageEntity_0_ID
+Time : 2023.01.26 15:06:38	//////////// PARAMETERS ///////////
+Time : 2023.01.26 15:06:38		@__entity_equality__LanguageEntity_0_ID	:	1
+Time : 2023.01.26 15:06:38	/////////////////////////////////// 
+Time : 2023.01.26 15:06:38	                   ↓↓                    
+Time : 2023.01.26 15:06:38	RequestID : Console
+Time : 2023.01.26 15:06:38	ElapsedTime : 00:00:00.0005418
+Time : 2023.01.26 15:06:38	//////////////////////////////////
+Time : 2023.01.26 15:06:39	
+Time : 2023.01.26 15:06:39	                   ↓↓                    
+Time : 2023.01.26 15:06:39	RequestID : Console
+Time : 2023.01.26 15:06:39	ElapsedTime : 00:00:00.0000246
+Time : 2023.01.26 15:06:39	//////////////////////////////////
+Time : 2023.01.26 15:06:39	SELECT b."ID", b."AutoAddExecution", b."Code", b."CreateDate", b."ExecuteFirstWithoutWait", b."MaxRetryCount", b."Name", b."State", b."StopAfterFirstExecution", b."TimePeriodMilisecond", b."UpdateDate"
+FROM "BatchJobs" AS b
+WHERE b."Code" = @___Code_0
+LIMIT 1
+Time : 2023.01.26 15:06:39	//////////// PARAMETERS ///////////
+Time : 2023.01.26 15:06:39		@___Code_0	:	TestService
+Time : 2023.01.26 15:06:39	/////////////////////////////////// 
+Time : 2023.01.26 15:06:39	                   ↓↓                    
+Time : 2023.01.26 15:06:39	RequestID : Console
+Time : 2023.01.26 15:06:39	ElapsedTime : 00:00:00.0036758
+Time : 2023.01.26 15:06:39	//////////////////////////////////
+Time : 2023.01.26 15:06:39	
+Time : 2023.01.26 15:06:39	                   ↓↓                    
+Time : 2023.01.26 15:06:39	RequestID : Console
+Time : 2023.01.26 15:06:39	ElapsedTime : 00:00:00.0000567
+Time : 2023.01.26 15:06:39	//////////////////////////////////
+Time : 2023.01.26 15:06:39	SELECT b."ID", b."AutoAddExecution", b."Code", b."CreateDate", b."ExecuteFirstWithoutWait", b."MaxRetryCount", b."Name", b."State", b."StopAfterFirstExecution", b."TimePeriodMilisecond", b."UpdateDate"
+FROM "BatchJobs" AS b
+WHERE b."Code" = @___Code_0
+LIMIT 1
+Time : 2023.01.26 15:06:39	//////////// PARAMETERS ///////////
+Time : 2023.01.26 15:06:39		@___Code_0	:	OldBatchJobExcutionsDelete
+Time : 2023.01.26 15:06:39	/////////////////////////////////// 
+Time : 2023.01.26 15:06:39	                   ↓↓                    
+Time : 2023.01.26 15:06:39	RequestID : Console
+Time : 2023.01.26 15:06:39	ElapsedTime : 00:00:00.0044579
+Time : 2023.01.26 15:06:39	//////////////////////////////////
+Time : 2023.01.26 15:06:39	
+Time : 2023.01.26 15:06:39	                   ↓↓                    
+Time : 2023.01.26 15:06:39	RequestID : Console
+Time : 2023.01.26 15:06:39	ElapsedTime : 00:00:00.0000196
+Time : 2023.01.26 15:06:39	//////////////////////////////////
+Time : 2023.01.26 15:06:39	SELECT b."ID", b."AutoAddExecution", b."Code", b."CreateDate", b."ExecuteFirstWithoutWait", b."MaxRetryCount", b."Name", b."State", b."StopAfterFirstExecution", b."TimePeriodMilisecond", b."UpdateDate"
+FROM "BatchJobs" AS b
+Time : 2023.01.26 15:06:39	                   ↓↓                    
+Time : 2023.01.26 15:06:39	RequestID : Console
+Time : 2023.01.26 15:06:39	ElapsedTime : 00:00:00.0030108
+Time : 2023.01.26 15:06:39	//////////////////////////////////
+Time : 2023.01.26 15:06:39	
+Time : 2023.01.26 15:06:39	                   ↓↓                    
+Time : 2023.01.26 15:06:39	RequestID : Console
+Time : 2023.01.26 15:06:39	ElapsedTime : 00:00:00.0000289
+Time : 2023.01.26 15:06:39	//////////////////////////////////
+Time : 2023.01.26 15:06:39	SELECT count(*)::int
+FROM "BatchJobExecutions" AS b
+INNER JOIN "BatchJobs" AS b0 ON b."BatchJobID" = b0."ID"
+WHERE b0."Code" = @___BatchJobCode_0
+Time : 2023.01.26 15:06:39	//////////// PARAMETERS ///////////
+Time : 2023.01.26 15:06:39		@___BatchJobCode_0	:	TestService
+Time : 2023.01.26 15:06:39	/////////////////////////////////// 
+Time : 2023.01.26 15:06:39	                   ↓↓                    
+Time : 2023.01.26 15:06:39	RequestID : Console
+Time : 2023.01.26 15:06:39	ElapsedTime : 00:00:00.0092692
+Time : 2023.01.26 15:06:39	//////////////////////////////////
+Time : 2023.01.26 15:06:39	
+Time : 2023.01.26 15:06:39	                   ↓↓                    
+Time : 2023.01.26 15:06:39	RequestID : Console
+Time : 2023.01.26 15:06:39	ElapsedTime : 00:00:00.0000465
+Time : 2023.01.26 15:06:39	//////////////////////////////////
+Time : 2023.01.26 15:06:39	SELECT count(*)::int
+FROM "BatchJobExecutions" AS b
+INNER JOIN "BatchJobs" AS b0 ON b."BatchJobID" = b0."ID"
+WHERE b0."Code" = @___BatchJobCode_0
+Time : 2023.01.26 15:06:39	//////////// PARAMETERS ///////////
+Time : 2023.01.26 15:06:39		@___BatchJobCode_0	:	OldBatchJobExcutionsDelete
+Time : 2023.01.26 15:06:39	/////////////////////////////////// 
+Time : 2023.01.26 15:06:39	                   ↓↓                    
+Time : 2023.01.26 15:06:39	RequestID : Console
+Time : 2023.01.26 15:06:39	ElapsedTime : 00:00:00.0076461
+Time : 2023.01.26 15:06:39	//////////////////////////////////
+Time : 2023.01.26 15:06:39	
+Time : 2023.01.26 15:06:39	                   ↓↓                    
+Time : 2023.01.26 15:06:39	RequestID : Console
+Time : 2023.01.26 15:06:39	ElapsedTime : 00:00:00.0000259
+Time : 2023.01.26 15:06:39	//////////////////////////////////
+Time : 2023.01.26 15:06:39	SELECT g."ID", g."Code", g."CreateDate", g."Name", g."SortOrder", g."TypeFullName", g."UpdateDate", g."Value"
+FROM "GlobalParams" AS g
+WHERE g."Code" = @___Code_0
+LIMIT 1
+Time : 2023.01.26 15:06:39	//////////// PARAMETERS ///////////
+Time : 2023.01.26 15:06:39		@___Code_0	:	TestParm1
+Time : 2023.01.26 15:06:39	/////////////////////////////////// 
+Time : 2023.01.26 15:06:39	                   ↓↓                    
+Time : 2023.01.26 15:06:39	RequestID : Console
+Time : 2023.01.26 15:06:39	ElapsedTime : 00:00:00.0065464
+Time : 2023.01.26 15:06:39	//////////////////////////////////
+Time : 2023.01.26 15:06:39	
+Time : 2023.01.26 15:06:39	                   ↓↓                    
+Time : 2023.01.26 15:06:39	RequestID : Console
+Time : 2023.01.26 15:06:39	ElapsedTime : 00:00:00.0000530
+Time : 2023.01.26 15:06:39	//////////////////////////////////
+Time : 2023.01.26 15:06:39	SELECT g."ID", g."Code", g."CreateDate", g."Name", g."SortOrder", g."TypeFullName", g."UpdateDate", g."Value"
+FROM "GlobalParams" AS g
+WHERE g."Code" = @___Code_0
+LIMIT 1
+Time : 2023.01.26 15:06:39	//////////// PARAMETERS ///////////
+Time : 2023.01.26 15:06:39		@___Code_0	:	FrontEndDebugMessage
+Time : 2023.01.26 15:06:39	/////////////////////////////////// 
+Time : 2023.01.26 15:06:39	                   ↓↓                    
+Time : 2023.01.26 15:06:39	RequestID : Console
+Time : 2023.01.26 15:06:39	ElapsedTime : 00:00:00.0048390
+Time : 2023.01.26 15:06:39	//////////////////////////////////
+Time : 2023.01.26 15:06:39	
+Time : 2023.01.26 15:06:39	                   ↓↓                    
+Time : 2023.01.26 15:06:39	RequestID : Console
+Time : 2023.01.26 15:06:39	ElapsedTime : 00:00:00.0000544
+Time : 2023.01.26 15:06:39	//////////////////////////////////
+Time : 2023.01.26 15:06:39	SELECT g."ID", g."Code", g."CreateDate", g."Name", g."SortOrder", g."TypeFullName", g."UpdateDate", g."Value"
+FROM "GlobalParams" AS g
+WHERE g."Code" = @___Code_0
+LIMIT 1
+Time : 2023.01.26 15:06:39	//////////// PARAMETERS ///////////
+Time : 2023.01.26 15:06:39		@___Code_0	:	BackendDebugMessageShowToUser
+Time : 2023.01.26 15:06:39	/////////////////////////////////// 
+Time : 2023.01.26 15:06:39	                   ↓↓                    
+Time : 2023.01.26 15:06:39	RequestID : Console
+Time : 2023.01.26 15:06:39	ElapsedTime : 00:00:00.0005431
+Time : 2023.01.26 15:06:39	//////////////////////////////////
+Time : 2023.01.26 15:06:51	
+Time : 2023.01.26 15:06:51	                   ↓↓                    
+Time : 2023.01.26 15:06:51	RequestID : Console
+Time : 2023.01.26 15:06:51	ElapsedTime : 00:00:00.0002455
+Time : 2023.01.26 15:06:51	//////////////////////////////////
+Time : 2023.01.26 15:06:51	INSERT INTO "Payments" ("CreateDate", "Name", "Price", "UpdateDate")
+VALUES (@p0, @p1, @p2, @p3)
+RETURNING "ID";
+
+Time : 2023.01.26 15:06:51	//////////// PARAMETERS ///////////
+Time : 2023.01.26 15:06:51		@p0	:	26.01.2023 15:06:50
+Time : 2023.01.26 15:06:51		@p1	:	test
+Time : 2023.01.26 15:06:51		@p2	:	100
+Time : 2023.01.26 15:06:51		@p3	:	26.01.2023 15:06:50
+Time : 2023.01.26 15:06:51	/////////////////////////////////// 
+Time : 2023.01.26 15:06:51	                   ↓↓                    
+Time : 2023.01.26 15:06:51	RequestID : Console
+Time : 2023.01.26 15:06:51	ElapsedTime : 00:00:00.0160214
+Time : 2023.01.26 15:06:51	//////////////////////////////////

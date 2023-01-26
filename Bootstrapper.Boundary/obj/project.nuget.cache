@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "0R7DaB7Dkk0D+zphXBewhYrweFhLTQxgcAD0Kg5rFWsSSzTE9KUvetrj0c0MvyWRjIPMrBB2sDQIQq7BOT+5WQ==",
+  "success": true,
+  "projectFilePath": "C:\\ProjectWorkspace\\GenericScaffold\\Bootstrapper.Boundary\\Bootstrapper.Boundary.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\hayri.eryürek\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\4.5.2\\system.runtime.compilerservices.unsafe.4.5.2.nupkg.sha512",
+    "C:\\Users\\hayri.eryürek\\.nuget\\packages\\unity\\5.11.10\\unity.5.11.10.nupkg.sha512"
+  ],
+  "logs": []
+}

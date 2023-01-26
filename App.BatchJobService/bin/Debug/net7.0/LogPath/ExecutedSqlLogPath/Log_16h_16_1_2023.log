@@ -1,0 +1,1075 @@
+Time : 2023.01.16 16:01:29	
+Time : 2023.01.16 16:01:29	                   ↓↓                    
+Time : 2023.01.16 16:01:29	RequestID : 638094816897386278_1
+Time : 2023.01.16 16:01:29	ElapsedTime : 00:00:00.0034131
+Time : 2023.01.16 16:01:29	//////////////////////////////////
+Time : 2023.01.16 16:01:29	SELECT EXISTS (SELECT 1 FROM pg_catalog.pg_class c JOIN pg_catalog.pg_namespace n ON n.oid=c.relnamespace WHERE c.relname='__EFMigrationsHistory');
+Time : 2023.01.16 16:01:29	                   ↓↓                    
+Time : 2023.01.16 16:01:29	RequestID : 638094816898365513_2
+Time : 2023.01.16 16:01:29	ElapsedTime : 00:00:00.0256664
+Time : 2023.01.16 16:01:29	//////////////////////////////////
+Time : 2023.01.16 16:01:29	
+Time : 2023.01.16 16:01:29	                   ↓↓                    
+Time : 2023.01.16 16:01:29	RequestID : 638094816898922359_3
+Time : 2023.01.16 16:01:29	ElapsedTime : 00:00:00.0001602
+Time : 2023.01.16 16:01:29	//////////////////////////////////
+Time : 2023.01.16 16:01:29	SELECT EXISTS (SELECT 1 FROM pg_catalog.pg_class c JOIN pg_catalog.pg_namespace n ON n.oid=c.relnamespace WHERE c.relname='__EFMigrationsHistory');
+Time : 2023.01.16 16:01:29	                   ↓↓                    
+Time : 2023.01.16 16:01:29	RequestID : 638094816899003764_4
+Time : 2023.01.16 16:01:29	ElapsedTime : 00:00:00.0031090
+Time : 2023.01.16 16:01:29	//////////////////////////////////
+Time : 2023.01.16 16:01:29	
+Time : 2023.01.16 16:01:29	                   ↓↓                    
+Time : 2023.01.16 16:01:29	RequestID : 638094816899287951_5
+Time : 2023.01.16 16:01:29	ElapsedTime : 00:00:00.0000468
+Time : 2023.01.16 16:01:29	//////////////////////////////////
+Time : 2023.01.16 16:01:29	SELECT "MigrationId", "ProductVersion"
+FROM "__EFMigrationsHistory"
+ORDER BY "MigrationId";
+Time : 2023.01.16 16:01:29	                   ↓↓                    
+Time : 2023.01.16 16:01:29	RequestID : 638094816899384848_6
+Time : 2023.01.16 16:01:29	ElapsedTime : 00:00:00.0074589
+Time : 2023.01.16 16:01:29	//////////////////////////////////
+Time : 2023.01.16 16:02:52	
+Time : 2023.01.16 16:02:52	                   ↓↓                    
+Time : 2023.01.16 16:02:52	RequestID : 638094817722194398_1
+Time : 2023.01.16 16:02:52	ElapsedTime : 00:00:00.0040564
+Time : 2023.01.16 16:02:52	//////////////////////////////////
+Time : 2023.01.16 16:02:52	SELECT EXISTS (SELECT 1 FROM pg_catalog.pg_class c JOIN pg_catalog.pg_namespace n ON n.oid=c.relnamespace WHERE c.relname='__EFMigrationsHistory');
+Time : 2023.01.16 16:02:52	                   ↓↓                    
+Time : 2023.01.16 16:02:52	RequestID : 638094817723457395_2
+Time : 2023.01.16 16:02:52	ElapsedTime : 00:00:00.0464286
+Time : 2023.01.16 16:02:52	//////////////////////////////////
+Time : 2023.01.16 16:02:52	
+Time : 2023.01.16 16:02:52	                   ↓↓                    
+Time : 2023.01.16 16:02:52	RequestID : 638094817724071191_3
+Time : 2023.01.16 16:02:52	ElapsedTime : 00:00:00.0001363
+Time : 2023.01.16 16:02:52	//////////////////////////////////
+Time : 2023.01.16 16:02:52	SELECT EXISTS (SELECT 1 FROM pg_catalog.pg_class c JOIN pg_catalog.pg_namespace n ON n.oid=c.relnamespace WHERE c.relname='__EFMigrationsHistory');
+Time : 2023.01.16 16:02:52	                   ↓↓                    
+Time : 2023.01.16 16:02:52	RequestID : 638094817724168650_4
+Time : 2023.01.16 16:02:52	ElapsedTime : 00:00:00.0036732
+Time : 2023.01.16 16:02:52	//////////////////////////////////
+Time : 2023.01.16 16:02:52	
+Time : 2023.01.16 16:02:52	                   ↓↓                    
+Time : 2023.01.16 16:02:52	RequestID : 638094817724512960_5
+Time : 2023.01.16 16:02:52	ElapsedTime : 00:00:00.0001826
+Time : 2023.01.16 16:02:52	//////////////////////////////////
+Time : 2023.01.16 16:02:52	SELECT "MigrationId", "ProductVersion"
+FROM "__EFMigrationsHistory"
+ORDER BY "MigrationId";
+Time : 2023.01.16 16:02:52	                   ↓↓                    
+Time : 2023.01.16 16:02:52	RequestID : 638094817724691459_6
+Time : 2023.01.16 16:02:52	ElapsedTime : 00:00:00.0115481
+Time : 2023.01.16 16:02:52	//////////////////////////////////
+Time : 2023.01.16 16:03:14	
+Time : 2023.01.16 16:03:14	                   ↓↓                    
+Time : 2023.01.16 16:03:14	RequestID : 638094817948360162_1
+Time : 2023.01.16 16:03:14	ElapsedTime : 00:00:00.0034248
+Time : 2023.01.16 16:03:14	//////////////////////////////////
+Time : 2023.01.16 16:03:14	SELECT EXISTS (SELECT 1 FROM pg_catalog.pg_class c JOIN pg_catalog.pg_namespace n ON n.oid=c.relnamespace WHERE c.relname='__EFMigrationsHistory');
+Time : 2023.01.16 16:03:14	                   ↓↓                    
+Time : 2023.01.16 16:03:14	RequestID : 638094817949644669_2
+Time : 2023.01.16 16:03:14	ElapsedTime : 00:00:00.0470525
+Time : 2023.01.16 16:03:14	//////////////////////////////////
+Time : 2023.01.16 16:03:15	
+Time : 2023.01.16 16:03:15	                   ↓↓                    
+Time : 2023.01.16 16:03:15	RequestID : 638094817950239197_3
+Time : 2023.01.16 16:03:15	ElapsedTime : 00:00:00.0000673
+Time : 2023.01.16 16:03:15	//////////////////////////////////
+Time : 2023.01.16 16:03:15	SELECT EXISTS (SELECT 1 FROM pg_catalog.pg_class c JOIN pg_catalog.pg_namespace n ON n.oid=c.relnamespace WHERE c.relname='__EFMigrationsHistory');
+Time : 2023.01.16 16:03:15	                   ↓↓                    
+Time : 2023.01.16 16:03:15	RequestID : 638094817950366259_4
+Time : 2023.01.16 16:03:15	ElapsedTime : 00:00:00.0065421
+Time : 2023.01.16 16:03:15	//////////////////////////////////
+Time : 2023.01.16 16:03:15	
+Time : 2023.01.16 16:03:15	                   ↓↓                    
+Time : 2023.01.16 16:03:15	RequestID : 638094817950741489_5
+Time : 2023.01.16 16:03:15	ElapsedTime : 00:00:00.0000585
+Time : 2023.01.16 16:03:15	//////////////////////////////////
+Time : 2023.01.16 16:03:15	SELECT "MigrationId", "ProductVersion"
+FROM "__EFMigrationsHistory"
+ORDER BY "MigrationId";
+Time : 2023.01.16 16:03:15	                   ↓↓                    
+Time : 2023.01.16 16:03:15	RequestID : 638094817950912520_6
+Time : 2023.01.16 16:03:15	ElapsedTime : 00:00:00.0105383
+Time : 2023.01.16 16:03:15	//////////////////////////////////
+Time : 2023.01.16 16:03:46	
+Time : 2023.01.16 16:03:46	                   ↓↓                    
+Time : 2023.01.16 16:03:46	RequestID : 638094818269030322_1
+Time : 2023.01.16 16:03:46	ElapsedTime : 00:00:00.0058438
+Time : 2023.01.16 16:03:46	//////////////////////////////////
+Time : 2023.01.16 16:03:47	SELECT EXISTS (SELECT 1 FROM pg_catalog.pg_class c JOIN pg_catalog.pg_namespace n ON n.oid=c.relnamespace WHERE c.relname='__EFMigrationsHistory');
+Time : 2023.01.16 16:03:47	                   ↓↓                    
+Time : 2023.01.16 16:03:47	RequestID : 638094818270737383_2
+Time : 2023.01.16 16:03:47	ElapsedTime : 00:00:00.0330316
+Time : 2023.01.16 16:03:47	//////////////////////////////////
+Time : 2023.01.16 16:03:47	
+Time : 2023.01.16 16:03:47	                   ↓↓                    
+Time : 2023.01.16 16:03:47	RequestID : 638094818271236203_3
+Time : 2023.01.16 16:03:47	ElapsedTime : 00:00:00.0000993
+Time : 2023.01.16 16:03:47	//////////////////////////////////
+Time : 2023.01.16 16:03:47	SELECT EXISTS (SELECT 1 FROM pg_catalog.pg_class c JOIN pg_catalog.pg_namespace n ON n.oid=c.relnamespace WHERE c.relname='__EFMigrationsHistory');
+Time : 2023.01.16 16:03:47	                   ↓↓                    
+Time : 2023.01.16 16:03:47	RequestID : 638094818271338890_4
+Time : 2023.01.16 16:03:47	ElapsedTime : 00:00:00.0015525
+Time : 2023.01.16 16:03:47	//////////////////////////////////
+Time : 2023.01.16 16:03:47	
+Time : 2023.01.16 16:03:47	                   ↓↓                    
+Time : 2023.01.16 16:03:47	RequestID : 638094818271558595_5
+Time : 2023.01.16 16:03:47	ElapsedTime : 00:00:00.0000554
+Time : 2023.01.16 16:03:47	//////////////////////////////////
+Time : 2023.01.16 16:03:47	SELECT "MigrationId", "ProductVersion"
+FROM "__EFMigrationsHistory"
+ORDER BY "MigrationId";
+Time : 2023.01.16 16:03:47	                   ↓↓                    
+Time : 2023.01.16 16:03:47	RequestID : 638094818271679201_6
+Time : 2023.01.16 16:03:47	ElapsedTime : 00:00:00.0074834
+Time : 2023.01.16 16:03:47	//////////////////////////////////
+Time : 2023.01.16 16:05:50	
+Time : 2023.01.16 16:05:50	                   ↓↓                    
+Time : 2023.01.16 16:05:50	RequestID : 638094819509603527_1
+Time : 2023.01.16 16:05:50	ElapsedTime : 00:00:00.0037606
+Time : 2023.01.16 16:05:50	//////////////////////////////////
+Time : 2023.01.16 16:05:51	SELECT EXISTS (SELECT 1 FROM pg_catalog.pg_class c JOIN pg_catalog.pg_namespace n ON n.oid=c.relnamespace WHERE c.relname='__EFMigrationsHistory');
+Time : 2023.01.16 16:05:51	                   ↓↓                    
+Time : 2023.01.16 16:05:51	RequestID : 638094819511098949_2
+Time : 2023.01.16 16:05:51	ElapsedTime : 00:00:00.0315571
+Time : 2023.01.16 16:05:51	//////////////////////////////////
+Time : 2023.01.16 16:05:51	
+Time : 2023.01.16 16:05:51	                   ↓↓                    
+Time : 2023.01.16 16:05:51	RequestID : 638094819511665465_3
+Time : 2023.01.16 16:05:51	ElapsedTime : 00:00:00.0001459
+Time : 2023.01.16 16:05:51	//////////////////////////////////
+Time : 2023.01.16 16:05:51	SELECT EXISTS (SELECT 1 FROM pg_catalog.pg_class c JOIN pg_catalog.pg_namespace n ON n.oid=c.relnamespace WHERE c.relname='__EFMigrationsHistory');
+Time : 2023.01.16 16:05:51	                   ↓↓                    
+Time : 2023.01.16 16:05:51	RequestID : 638094819511756145_4
+Time : 2023.01.16 16:05:51	ElapsedTime : 00:00:00.0038779
+Time : 2023.01.16 16:05:51	//////////////////////////////////
+Time : 2023.01.16 16:05:51	
+Time : 2023.01.16 16:05:51	                   ↓↓                    
+Time : 2023.01.16 16:05:51	RequestID : 638094819512072925_5
+Time : 2023.01.16 16:05:51	ElapsedTime : 00:00:00.0000675
+Time : 2023.01.16 16:05:51	//////////////////////////////////
+Time : 2023.01.16 16:05:51	SELECT "MigrationId", "ProductVersion"
+FROM "__EFMigrationsHistory"
+ORDER BY "MigrationId";
+Time : 2023.01.16 16:05:51	                   ↓↓                    
+Time : 2023.01.16 16:05:51	RequestID : 638094819512235010_6
+Time : 2023.01.16 16:05:51	ElapsedTime : 00:00:00.0137683
+Time : 2023.01.16 16:05:51	//////////////////////////////////
+Time : 2023.01.16 16:08:39	
+Time : 2023.01.16 16:08:39	                   ↓↓                    
+Time : 2023.01.16 16:08:39	RequestID : 638094821197094469_7
+Time : 2023.01.16 16:08:39	ElapsedTime : 00:00:00.0000697
+Time : 2023.01.16 16:08:39	//////////////////////////////////
+Time : 2023.01.16 16:08:39	SELECT b."ID", b."AutoAddExecution", b."Code", b."CreateDate", b."ExecuteFirstWithoutWait", b."MaxRetryCount", b."Name", b."State", b."StopAfterFirstExecution", b."TimePeriodMilisecond", b."UpdateDate"
+FROM "BatchJobs" AS b
+WHERE b."Code" = @___Code_0
+LIMIT 1
+Time : 2023.01.16 16:08:39	//////////// PARAMETERS ///////////
+Time : 2023.01.16 16:08:39		@___Code_0	:	TestService
+Time : 2023.01.16 16:08:39	/////////////////////////////////// 
+Time : 2023.01.16 16:08:39	                   ↓↓                    
+Time : 2023.01.16 16:08:39	RequestID : 638094821197351863_8
+Time : 2023.01.16 16:08:39	ElapsedTime : 00:00:00.0197619
+Time : 2023.01.16 16:08:39	//////////////////////////////////
+Time : 2023.01.16 16:08:39	
+Time : 2023.01.16 16:08:39	                   ↓↓                    
+Time : 2023.01.16 16:08:39	RequestID : 638094821198747950_9
+Time : 2023.01.16 16:08:39	ElapsedTime : 00:00:00.0000293
+Time : 2023.01.16 16:08:39	//////////////////////////////////
+Time : 2023.01.16 16:08:39	INSERT INTO "BatchJobs" ("AutoAddExecution", "Code", "CreateDate", "ExecuteFirstWithoutWait", "MaxRetryCount", "Name", "State", "StopAfterFirstExecution", "TimePeriodMilisecond", "UpdateDate")
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5, @p6, @p7, @p8, @p9)
+RETURNING "ID";
+
+Time : 2023.01.16 16:08:39	//////////// PARAMETERS ///////////
+Time : 2023.01.16 16:08:39		@p0	:	True
+Time : 2023.01.16 16:08:39		@p1	:	TestService
+Time : 2023.01.16 16:08:39		@p2	:	16.01.2023 16:08:39
+Time : 2023.01.16 16:08:39		@p3	:	True
+Time : 2023.01.16 16:08:39		@p4	:	3
+Time : 2023.01.16 16:08:39		@p5	:	TestService
+Time : 2023.01.16 16:08:39		@p6	:	1
+Time : 2023.01.16 16:08:39		@p7	:	False
+Time : 2023.01.16 16:08:39		@p8	:	10000
+Time : 2023.01.16 16:08:39		@p9	:	16.01.2023 16:08:39
+Time : 2023.01.16 16:08:39	/////////////////////////////////// 
+Time : 2023.01.16 16:08:39	                   ↓↓                    
+Time : 2023.01.16 16:08:39	RequestID : 638094821199086593_10
+Time : 2023.01.16 16:08:39	ElapsedTime : 00:00:00.0278457
+Time : 2023.01.16 16:08:39	//////////////////////////////////
+Time : 2023.01.16 16:08:39	
+Time : 2023.01.16 16:08:39	                   ↓↓                    
+Time : 2023.01.16 16:08:39	RequestID : 638094821199992867_11
+Time : 2023.01.16 16:08:39	ElapsedTime : 00:00:00.0000532
+Time : 2023.01.16 16:08:39	//////////////////////////////////
+Time : 2023.01.16 16:08:40	SELECT b."ID", b."AutoAddExecution", b."Code", b."CreateDate", b."ExecuteFirstWithoutWait", b."MaxRetryCount", b."Name", b."State", b."StopAfterFirstExecution", b."TimePeriodMilisecond", b."UpdateDate"
+FROM "BatchJobs" AS b
+WHERE b."Code" = @___Code_0
+LIMIT 1
+Time : 2023.01.16 16:08:40	//////////// PARAMETERS ///////////
+Time : 2023.01.16 16:08:40		@___Code_0	:	OldBatchJobExcutionsDelete
+Time : 2023.01.16 16:08:40	/////////////////////////////////// 
+Time : 2023.01.16 16:08:40	                   ↓↓                    
+Time : 2023.01.16 16:08:40	RequestID : 638094821200030828_12
+Time : 2023.01.16 16:08:40	ElapsedTime : 00:00:00.0031297
+Time : 2023.01.16 16:08:40	//////////////////////////////////
+Time : 2023.01.16 16:08:40	
+Time : 2023.01.16 16:08:40	                   ↓↓                    
+Time : 2023.01.16 16:08:40	RequestID : 638094821200659705_13
+Time : 2023.01.16 16:08:40	ElapsedTime : 00:00:00.0000140
+Time : 2023.01.16 16:08:40	//////////////////////////////////
+Time : 2023.01.16 16:08:40	INSERT INTO "BatchJobs" ("AutoAddExecution", "Code", "CreateDate", "ExecuteFirstWithoutWait", "MaxRetryCount", "Name", "State", "StopAfterFirstExecution", "TimePeriodMilisecond", "UpdateDate")
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5, @p6, @p7, @p8, @p9)
+RETURNING "ID";
+
+Time : 2023.01.16 16:08:40	//////////// PARAMETERS ///////////
+Time : 2023.01.16 16:08:40		@p0	:	True
+Time : 2023.01.16 16:08:40		@p1	:	OldBatchJobExcutionsDelete
+Time : 2023.01.16 16:08:40		@p2	:	16.01.2023 16:08:40
+Time : 2023.01.16 16:08:40		@p3	:	True
+Time : 2023.01.16 16:08:40		@p4	:	3
+Time : 2023.01.16 16:08:40		@p5	:	OldBatchJobExcutionsDelete
+Time : 2023.01.16 16:08:40		@p6	:	1
+Time : 2023.01.16 16:08:40		@p7	:	False
+Time : 2023.01.16 16:08:40		@p8	:	86400000
+Time : 2023.01.16 16:08:40		@p9	:	16.01.2023 16:08:40
+Time : 2023.01.16 16:08:40	/////////////////////////////////// 
+Time : 2023.01.16 16:08:40	                   ↓↓                    
+Time : 2023.01.16 16:08:40	RequestID : 638094821200698329_14
+Time : 2023.01.16 16:08:40	ElapsedTime : 00:00:00.0024969
+Time : 2023.01.16 16:08:40	//////////////////////////////////
+Time : 2023.01.16 16:08:40	
+Time : 2023.01.16 16:08:40	                   ↓↓                    
+Time : 2023.01.16 16:08:40	RequestID : 638094821200963741_15
+Time : 2023.01.16 16:08:40	ElapsedTime : 00:00:00.0000411
+Time : 2023.01.16 16:08:40	//////////////////////////////////
+Time : 2023.01.16 16:08:40	SELECT b."ID", b."AutoAddExecution", b."Code", b."CreateDate", b."ExecuteFirstWithoutWait", b."MaxRetryCount", b."Name", b."State", b."StopAfterFirstExecution", b."TimePeriodMilisecond", b."UpdateDate"
+FROM "BatchJobs" AS b
+Time : 2023.01.16 16:08:40	                   ↓↓                    
+Time : 2023.01.16 16:08:40	RequestID : 638094821201007597_16
+Time : 2023.01.16 16:08:40	ElapsedTime : 00:00:00.0035651
+Time : 2023.01.16 16:08:40	//////////////////////////////////
+Time : 2023.01.16 16:08:43	
+Time : 2023.01.16 16:08:43	                   ↓↓                    
+Time : 2023.01.16 16:08:43	RequestID : 638094821232513599_17
+Time : 2023.01.16 16:08:43	ElapsedTime : 00:00:00.0000587
+Time : 2023.01.16 16:08:43	//////////////////////////////////
+Time : 2023.01.16 16:08:43	SELECT b."ID", b."AutoAddExecution", b."Code", b."CreateDate", b."ExecuteFirstWithoutWait", b."MaxRetryCount", b."Name", b."State", b."StopAfterFirstExecution", b."TimePeriodMilisecond", b."UpdateDate"
+FROM "BatchJobs" AS b
+WHERE b."Code" = @___Code_0
+LIMIT 1
+Time : 2023.01.16 16:08:43	//////////// PARAMETERS ///////////
+Time : 2023.01.16 16:08:43		@___Code_0	:	TestService
+Time : 2023.01.16 16:08:43	/////////////////////////////////// 
+Time : 2023.01.16 16:08:43	                   ↓↓                    
+Time : 2023.01.16 16:08:43	RequestID : 638094821232639344_18
+Time : 2023.01.16 16:08:43	ElapsedTime : 00:00:00.0066044
+Time : 2023.01.16 16:08:43	//////////////////////////////////
+Time : 2023.01.16 16:24:21	
+Time : 2023.01.16 16:24:21	                   ↓↓                    
+Time : 2023.01.16 16:24:21	RequestID : 638094830619606860_1
+Time : 2023.01.16 16:24:21	ElapsedTime : 00:00:00.0032588
+Time : 2023.01.16 16:24:21	//////////////////////////////////
+Time : 2023.01.16 16:24:22	SELECT EXISTS (SELECT 1 FROM pg_catalog.pg_class c JOIN pg_catalog.pg_namespace n ON n.oid=c.relnamespace WHERE c.relname='__EFMigrationsHistory');
+Time : 2023.01.16 16:24:22	                   ↓↓                    
+Time : 2023.01.16 16:24:22	RequestID : 638094830620520527_2
+Time : 2023.01.16 16:24:22	ElapsedTime : 00:00:00.0220696
+Time : 2023.01.16 16:24:22	//////////////////////////////////
+Time : 2023.01.16 16:24:22	
+Time : 2023.01.16 16:24:22	                   ↓↓                    
+Time : 2023.01.16 16:24:22	RequestID : 638094830621012039_3
+Time : 2023.01.16 16:24:22	ElapsedTime : 00:00:00.0000960
+Time : 2023.01.16 16:24:22	//////////////////////////////////
+Time : 2023.01.16 16:24:22	SELECT EXISTS (SELECT 1 FROM pg_catalog.pg_class c JOIN pg_catalog.pg_namespace n ON n.oid=c.relnamespace WHERE c.relname='__EFMigrationsHistory');
+Time : 2023.01.16 16:24:22	                   ↓↓                    
+Time : 2023.01.16 16:24:22	RequestID : 638094830621093536_4
+Time : 2023.01.16 16:24:22	ElapsedTime : 00:00:00.0041528
+Time : 2023.01.16 16:24:22	//////////////////////////////////
+Time : 2023.01.16 16:24:22	
+Time : 2023.01.16 16:24:22	                   ↓↓                    
+Time : 2023.01.16 16:24:22	RequestID : 638094830621310756_5
+Time : 2023.01.16 16:24:22	ElapsedTime : 00:00:00.0000494
+Time : 2023.01.16 16:24:22	//////////////////////////////////
+Time : 2023.01.16 16:24:22	SELECT "MigrationId", "ProductVersion"
+FROM "__EFMigrationsHistory"
+ORDER BY "MigrationId";
+Time : 2023.01.16 16:24:22	                   ↓↓                    
+Time : 2023.01.16 16:24:22	RequestID : 638094830621430736_6
+Time : 2023.01.16 16:24:22	ElapsedTime : 00:00:00.0056449
+Time : 2023.01.16 16:24:22	//////////////////////////////////
+Time : 2023.01.16 16:24:35	
+Time : 2023.01.16 16:24:35	                   ↓↓                    
+Time : 2023.01.16 16:24:35	RequestID : 638094830758566528_7
+Time : 2023.01.16 16:24:35	ElapsedTime : 00:00:00.0000797
+Time : 2023.01.16 16:24:35	//////////////////////////////////
+Time : 2023.01.16 16:24:35	SELECT b."ID", b."AutoAddExecution", b."Code", b."CreateDate", b."ExecuteFirstWithoutWait", b."MaxRetryCount", b."Name", b."State", b."StopAfterFirstExecution", b."TimePeriodMilisecond", b."UpdateDate"
+FROM "BatchJobs" AS b
+WHERE b."Code" = @___Code_0
+LIMIT 1
+Time : 2023.01.16 16:24:35	//////////// PARAMETERS ///////////
+Time : 2023.01.16 16:24:35		@___Code_0	:	TestService
+Time : 2023.01.16 16:24:35	/////////////////////////////////// 
+Time : 2023.01.16 16:24:35	                   ↓↓                    
+Time : 2023.01.16 16:24:35	RequestID : 638094830758815830_8
+Time : 2023.01.16 16:24:35	ElapsedTime : 00:00:00.0107708
+Time : 2023.01.16 16:24:35	//////////////////////////////////
+Time : 2023.01.16 16:24:35	
+Time : 2023.01.16 16:24:35	                   ↓↓                    
+Time : 2023.01.16 16:24:35	RequestID : 638094830759631539_9
+Time : 2023.01.16 16:24:35	ElapsedTime : 00:00:00.0000819
+Time : 2023.01.16 16:24:35	//////////////////////////////////
+Time : 2023.01.16 16:24:35	SELECT b."ID", b."AutoAddExecution", b."Code", b."CreateDate", b."ExecuteFirstWithoutWait", b."MaxRetryCount", b."Name", b."State", b."StopAfterFirstExecution", b."TimePeriodMilisecond", b."UpdateDate"
+FROM "BatchJobs" AS b
+WHERE b."Code" = @___Code_0
+LIMIT 1
+Time : 2023.01.16 16:24:35	//////////// PARAMETERS ///////////
+Time : 2023.01.16 16:24:35		@___Code_0	:	OldBatchJobExcutionsDelete
+Time : 2023.01.16 16:24:35	/////////////////////////////////// 
+Time : 2023.01.16 16:24:35	                   ↓↓                    
+Time : 2023.01.16 16:24:35	RequestID : 638094830759697634_10
+Time : 2023.01.16 16:24:35	ElapsedTime : 00:00:00.0007948
+Time : 2023.01.16 16:24:35	//////////////////////////////////
+Time : 2023.01.16 16:24:36	
+Time : 2023.01.16 16:24:36	                   ↓↓                    
+Time : 2023.01.16 16:24:36	RequestID : 638094830760015012_11
+Time : 2023.01.16 16:24:36	ElapsedTime : 00:00:00.0000434
+Time : 2023.01.16 16:24:36	//////////////////////////////////
+Time : 2023.01.16 16:24:36	SELECT b."ID", b."AutoAddExecution", b."Code", b."CreateDate", b."ExecuteFirstWithoutWait", b."MaxRetryCount", b."Name", b."State", b."StopAfterFirstExecution", b."TimePeriodMilisecond", b."UpdateDate"
+FROM "BatchJobs" AS b
+Time : 2023.01.16 16:24:36	                   ↓↓                    
+Time : 2023.01.16 16:24:36	RequestID : 638094830760059910_12
+Time : 2023.01.16 16:24:36	ElapsedTime : 00:00:00.0037008
+Time : 2023.01.16 16:24:36	//////////////////////////////////
+Time : 2023.01.16 16:24:36	
+Time : 2023.01.16 16:24:36	                   ↓↓                    
+Time : 2023.01.16 16:24:36	RequestID : 638094830760604812_13
+Time : 2023.01.16 16:24:36	ElapsedTime : 00:00:00.0001075
+Time : 2023.01.16 16:24:36	//////////////////////////////////
+Time : 2023.01.16 16:24:36	SELECT b."ID", b."AutoAddExecution", b."Code", b."CreateDate", b."ExecuteFirstWithoutWait", b."MaxRetryCount", b."Name", b."State", b."StopAfterFirstExecution", b."TimePeriodMilisecond", b."UpdateDate"
+FROM "BatchJobs" AS b
+WHERE b."Code" = @___Code_0
+LIMIT 1
+Time : 2023.01.16 16:24:36	//////////// PARAMETERS ///////////
+Time : 2023.01.16 16:24:36		@___Code_0	:	TestService
+Time : 2023.01.16 16:24:36	/////////////////////////////////// 
+Time : 2023.01.16 16:24:36	                   ↓↓                    
+Time : 2023.01.16 16:24:36	RequestID : 638094830760707140_14
+Time : 2023.01.16 16:24:36	ElapsedTime : 00:00:00.0080259
+Time : 2023.01.16 16:24:36	//////////////////////////////////
+Time : 2023.01.16 16:25:31	
+Time : 2023.01.16 16:25:31	                   ↓↓                    
+Time : 2023.01.16 16:25:31	RequestID : 638094831310868727_1
+Time : 2023.01.16 16:25:31	ElapsedTime : 00:00:00.0030768
+Time : 2023.01.16 16:25:31	//////////////////////////////////
+Time : 2023.01.16 16:25:31	SELECT EXISTS (SELECT 1 FROM pg_catalog.pg_class c JOIN pg_catalog.pg_namespace n ON n.oid=c.relnamespace WHERE c.relname='__EFMigrationsHistory');
+Time : 2023.01.16 16:25:31	                   ↓↓                    
+Time : 2023.01.16 16:25:31	RequestID : 638094831318098898_2
+Time : 2023.01.16 16:25:31	ElapsedTime : 00:00:00.0380539
+Time : 2023.01.16 16:25:31	//////////////////////////////////
+Time : 2023.01.16 16:25:31	
+Time : 2023.01.16 16:25:31	                   ↓↓                    
+Time : 2023.01.16 16:25:31	RequestID : 638094831318672611_3
+Time : 2023.01.16 16:25:31	ElapsedTime : 00:00:00.0001149
+Time : 2023.01.16 16:25:31	//////////////////////////////////
+Time : 2023.01.16 16:25:31	SELECT EXISTS (SELECT 1 FROM pg_catalog.pg_class c JOIN pg_catalog.pg_namespace n ON n.oid=c.relnamespace WHERE c.relname='__EFMigrationsHistory');
+Time : 2023.01.16 16:25:31	                   ↓↓                    
+Time : 2023.01.16 16:25:31	RequestID : 638094831318762295_4
+Time : 2023.01.16 16:25:31	ElapsedTime : 00:00:00.0045659
+Time : 2023.01.16 16:25:31	//////////////////////////////////
+Time : 2023.01.16 16:25:31	
+Time : 2023.01.16 16:25:31	                   ↓↓                    
+Time : 2023.01.16 16:25:31	RequestID : 638094831319047429_5
+Time : 2023.01.16 16:25:31	ElapsedTime : 00:00:00.0001057
+Time : 2023.01.16 16:25:31	//////////////////////////////////
+Time : 2023.01.16 16:25:31	SELECT "MigrationId", "ProductVersion"
+FROM "__EFMigrationsHistory"
+ORDER BY "MigrationId";
+Time : 2023.01.16 16:25:31	                   ↓↓                    
+Time : 2023.01.16 16:25:31	RequestID : 638094831319167867_6
+Time : 2023.01.16 16:25:31	ElapsedTime : 00:00:00.0074641
+Time : 2023.01.16 16:25:31	//////////////////////////////////
+Time : 2023.01.16 16:25:32	
+Time : 2023.01.16 16:25:32	                   ↓↓                    
+Time : 2023.01.16 16:25:32	RequestID : 638094831323033093_7
+Time : 2023.01.16 16:25:32	ElapsedTime : 00:00:00.0000761
+Time : 2023.01.16 16:25:32	//////////////////////////////////
+Time : 2023.01.16 16:25:32	SELECT b."ID", b."AutoAddExecution", b."Code", b."CreateDate", b."ExecuteFirstWithoutWait", b."MaxRetryCount", b."Name", b."State", b."StopAfterFirstExecution", b."TimePeriodMilisecond", b."UpdateDate"
+FROM "BatchJobs" AS b
+WHERE b."Code" = @___Code_0
+LIMIT 1
+Time : 2023.01.16 16:25:32	//////////// PARAMETERS ///////////
+Time : 2023.01.16 16:25:32		@___Code_0	:	TestService
+Time : 2023.01.16 16:25:32	/////////////////////////////////// 
+Time : 2023.01.16 16:25:32	                   ↓↓                    
+Time : 2023.01.16 16:25:32	RequestID : 638094831323379806_8
+Time : 2023.01.16 16:25:32	ElapsedTime : 00:00:00.0223777
+Time : 2023.01.16 16:25:32	//////////////////////////////////
+Time : 2023.01.16 16:25:32	
+Time : 2023.01.16 16:25:32	                   ↓↓                    
+Time : 2023.01.16 16:25:32	RequestID : 638094831324815321_9
+Time : 2023.01.16 16:25:32	ElapsedTime : 00:00:00.0000738
+Time : 2023.01.16 16:25:32	//////////////////////////////////
+Time : 2023.01.16 16:25:32	SELECT b."ID", b."AutoAddExecution", b."Code", b."CreateDate", b."ExecuteFirstWithoutWait", b."MaxRetryCount", b."Name", b."State", b."StopAfterFirstExecution", b."TimePeriodMilisecond", b."UpdateDate"
+FROM "BatchJobs" AS b
+WHERE b."Code" = @___Code_0
+LIMIT 1
+Time : 2023.01.16 16:25:32	//////////// PARAMETERS ///////////
+Time : 2023.01.16 16:25:32		@___Code_0	:	OldBatchJobExcutionsDelete
+Time : 2023.01.16 16:25:32	/////////////////////////////////// 
+Time : 2023.01.16 16:25:32	                   ↓↓                    
+Time : 2023.01.16 16:25:32	RequestID : 638094831325536341_10
+Time : 2023.01.16 16:25:32	ElapsedTime : 00:00:00.0187638
+Time : 2023.01.16 16:25:32	//////////////////////////////////
+Time : 2023.01.16 16:25:32	
+Time : 2023.01.16 16:25:32	                   ↓↓                    
+Time : 2023.01.16 16:25:32	RequestID : 638094831325871466_11
+Time : 2023.01.16 16:25:32	ElapsedTime : 00:00:00.0000262
+Time : 2023.01.16 16:25:32	//////////////////////////////////
+Time : 2023.01.16 16:25:32	SELECT b."ID", b."AutoAddExecution", b."Code", b."CreateDate", b."ExecuteFirstWithoutWait", b."MaxRetryCount", b."Name", b."State", b."StopAfterFirstExecution", b."TimePeriodMilisecond", b."UpdateDate"
+FROM "BatchJobs" AS b
+Time : 2023.01.16 16:25:32	                   ↓↓                    
+Time : 2023.01.16 16:25:32	RequestID : 638094831325920834_12
+Time : 2023.01.16 16:25:32	ElapsedTime : 00:00:00.0042169
+Time : 2023.01.16 16:25:32	//////////////////////////////////
+Time : 2023.01.16 16:25:32	
+Time : 2023.01.16 16:25:32	                   ↓↓                    
+Time : 2023.01.16 16:25:32	RequestID : 638094831326518321_13
+Time : 2023.01.16 16:25:32	ElapsedTime : 00:00:00.0000679
+Time : 2023.01.16 16:25:32	//////////////////////////////////
+Time : 2023.01.16 16:25:32	SELECT b."ID", b."AutoAddExecution", b."Code", b."CreateDate", b."ExecuteFirstWithoutWait", b."MaxRetryCount", b."Name", b."State", b."StopAfterFirstExecution", b."TimePeriodMilisecond", b."UpdateDate"
+FROM "BatchJobs" AS b
+WHERE b."Code" = @___Code_0
+LIMIT 1
+Time : 2023.01.16 16:25:32	//////////// PARAMETERS ///////////
+Time : 2023.01.16 16:25:32		@___Code_0	:	TestService
+Time : 2023.01.16 16:25:32	/////////////////////////////////// 
+Time : 2023.01.16 16:25:32	                   ↓↓                    
+Time : 2023.01.16 16:25:32	RequestID : 638094831326638801_14
+Time : 2023.01.16 16:25:32	ElapsedTime : 00:00:00.0066476
+Time : 2023.01.16 16:25:32	//////////////////////////////////
+Time : 2023.01.16 16:25:43	
+Time : 2023.01.16 16:25:43	                   ↓↓                    
+Time : 2023.01.16 16:25:43	RequestID : 638094831432523860_15
+Time : 2023.01.16 16:25:43	ElapsedTime : 00:00:00.0001920
+Time : 2023.01.16 16:25:43	//////////////////////////////////
+Time : 2023.01.16 16:25:43	SELECT b."ID", b."AutoAddExecution", b."Code", b."CreateDate", b."ExecuteFirstWithoutWait", b."MaxRetryCount", b."Name", b."State", b."StopAfterFirstExecution", b."TimePeriodMilisecond", b."UpdateDate"
+FROM "BatchJobs" AS b
+WHERE b."Code" = @___Code_0
+LIMIT 1
+Time : 2023.01.16 16:25:43	//////////// PARAMETERS ///////////
+Time : 2023.01.16 16:25:43		@___Code_0	:	OldBatchJobExcutionsDelete
+Time : 2023.01.16 16:25:43	/////////////////////////////////// 
+Time : 2023.01.16 16:25:43	                   ↓↓                    
+Time : 2023.01.16 16:25:43	RequestID : 638094831432685437_16
+Time : 2023.01.16 16:25:43	ElapsedTime : 00:00:00.0035929
+Time : 2023.01.16 16:25:43	//////////////////////////////////
+Time : 2023.01.16 16:26:04	
+Time : 2023.01.16 16:26:04	                   ↓↓                    
+Time : 2023.01.16 16:26:04	RequestID : 638094831648327151_17
+Time : 2023.01.16 16:26:04	ElapsedTime : 00:00:00.0001947
+Time : 2023.01.16 16:26:04	//////////////////////////////////
+Time : 2023.01.16 16:26:04	SELECT b."ID", b."AutoAddExecution", b."Code", b."CreateDate", b."ExecuteFirstWithoutWait", b."MaxRetryCount", b."Name", b."State", b."StopAfterFirstExecution", b."TimePeriodMilisecond", b."UpdateDate"
+FROM "BatchJobs" AS b
+Time : 2023.01.16 16:26:04	                   ↓↓                    
+Time : 2023.01.16 16:26:04	RequestID : 638094831649847975_18
+Time : 2023.01.16 16:26:04	ElapsedTime : 00:00:00.1501580
+Time : 2023.01.16 16:26:04	//////////////////////////////////
+Time : 2023.01.16 16:26:05	
+Time : 2023.01.16 16:26:05	                   ↓↓                    
+Time : 2023.01.16 16:26:05	RequestID : 638094831657466978_19
+Time : 2023.01.16 16:26:05	ElapsedTime : 00:00:00.0000793
+Time : 2023.01.16 16:26:05	//////////////////////////////////
+Time : 2023.01.16 16:26:05	
+Time : 2023.01.16 16:26:05	                   ↓↓                    
+Time : 2023.01.16 16:26:05	RequestID : 638094831657467011_20
+Time : 2023.01.16 16:26:05	ElapsedTime : 00:00:00.0000565
+Time : 2023.01.16 16:26:05	//////////////////////////////////
+Time : 2023.01.16 16:26:06	SELECT b."ID", b."BatchJobID", b."CreateDate", b."CurrentTryCount", b."ElapsedTimeMilisecond", b."Exception", b."ExecutionTime", b."ParameterObjects", b."Result", b."State", b."UpdateDate"
+FROM "BatchJobExecutions" AS b
+INNER JOIN "BatchJobs" AS b0 ON b."BatchJobID" = b0."ID"
+WHERE b0."ID" = @__entity_equality__BatchJobEntity_0_ID
+ORDER BY b."ExecutionTime" DESC
+LIMIT 1
+Time : 2023.01.16 16:26:06	//////////// PARAMETERS ///////////
+Time : 2023.01.16 16:26:06		@__entity_equality__BatchJobEntity_0_ID	:	2
+Time : 2023.01.16 16:26:06	/////////////////////////////////// 
+Time : 2023.01.16 16:26:06	                   ↓↓                    
+Time : 2023.01.16 16:26:06	RequestID : 638094831661817526_21
+Time : 2023.01.16 16:26:06	ElapsedTime : 00:00:00.4326663
+Time : 2023.01.16 16:26:06	//////////////////////////////////
+Time : 2023.01.16 16:26:06	SELECT b."ID", b."BatchJobID", b."CreateDate", b."CurrentTryCount", b."ElapsedTimeMilisecond", b."Exception", b."ExecutionTime", b."ParameterObjects", b."Result", b."State", b."UpdateDate"
+FROM "BatchJobExecutions" AS b
+INNER JOIN "BatchJobs" AS b0 ON b."BatchJobID" = b0."ID"
+WHERE b0."ID" = @__entity_equality__BatchJobEntity_0_ID
+ORDER BY b."ExecutionTime" DESC
+LIMIT 1
+Time : 2023.01.16 16:26:06	//////////// PARAMETERS ///////////
+Time : 2023.01.16 16:26:06		@__entity_equality__BatchJobEntity_0_ID	:	1
+Time : 2023.01.16 16:26:06	/////////////////////////////////// 
+Time : 2023.01.16 16:26:06	                   ↓↓                    
+Time : 2023.01.16 16:26:06	RequestID : 638094831662729362_22
+Time : 2023.01.16 16:26:06	ElapsedTime : 00:00:00.0077593
+Time : 2023.01.16 16:26:06	//////////////////////////////////
+Time : 2023.01.16 16:27:20	
+Time : 2023.01.16 16:27:20	                   ↓↓                    
+Time : 2023.01.16 16:27:20	RequestID : 638094832403913902_23
+Time : 2023.01.16 16:27:20	ElapsedTime : 00:00:00.0322803
+Time : 2023.01.16 16:27:20	//////////////////////////////////
+Time : 2023.01.16 16:27:20	
+Time : 2023.01.16 16:27:20	                   ↓↓                    
+Time : 2023.01.16 16:27:20	RequestID : 638094832403913902_23
+Time : 2023.01.16 16:27:20	ElapsedTime : 00:00:00.0323248
+Time : 2023.01.16 16:27:20	//////////////////////////////////
+Time : 2023.01.16 16:27:20	SELECT b."ID", b."BatchJobID", b."CreateDate", b."CurrentTryCount", b."ElapsedTimeMilisecond", b."Exception", b."ExecutionTime", b."ParameterObjects", b."Result", b."State", b."UpdateDate"
+FROM "BatchJobExecutions" AS b
+INNER JOIN "BatchJobs" AS b0 ON b."BatchJobID" = b0."ID"
+WHERE b0."ID" = @__entity_equality__BatchJobEntity_0_ID
+ORDER BY b."ExecutionTime" DESC
+LIMIT 1
+Time : 2023.01.16 16:27:20	//////////// PARAMETERS ///////////
+Time : 2023.01.16 16:27:20		@__entity_equality__BatchJobEntity_0_ID	:	1
+Time : 2023.01.16 16:27:20	/////////////////////////////////// 
+Time : 2023.01.16 16:27:20	                   ↓↓                    
+Time : 2023.01.16 16:27:20	RequestID : 638094832404001209_24
+Time : 2023.01.16 16:27:20	ElapsedTime : 00:00:00.0010718
+Time : 2023.01.16 16:27:20	//////////////////////////////////
+Time : 2023.01.16 16:27:20	SELECT b."ID", b."AutoAddExecution", b."Code", b."CreateDate", b."ExecuteFirstWithoutWait", b."MaxRetryCount", b."Name", b."State", b."StopAfterFirstExecution", b."TimePeriodMilisecond", b."UpdateDate"
+FROM "BatchJobs" AS b
+Time : 2023.01.16 16:27:20	                   ↓↓                    
+Time : 2023.01.16 16:27:20	RequestID : 638094832404131900_25
+Time : 2023.01.16 16:27:20	ElapsedTime : 00:00:00.0006590
+Time : 2023.01.16 16:27:20	//////////////////////////////////
+Time : 2023.01.16 16:27:30	
+Time : 2023.01.16 16:27:30	                   ↓↓                    
+Time : 2023.01.16 16:27:30	RequestID : 638094832504384573_26
+Time : 2023.01.16 16:27:30	ElapsedTime : 00:00:00.0000772
+Time : 2023.01.16 16:27:30	//////////////////////////////////
+Time : 2023.01.16 16:27:30	SELECT b."ID", b."BatchJobID", b."CreateDate", b."CurrentTryCount", b."ElapsedTimeMilisecond", b."Exception", b."ExecutionTime", b."ParameterObjects", b."Result", b."State", b."UpdateDate"
+FROM "BatchJobExecutions" AS b
+INNER JOIN "BatchJobs" AS b0 ON b."BatchJobID" = b0."ID"
+WHERE b0."ID" = @__entity_equality__BatchJobEntity_0_ID
+ORDER BY b."ExecutionTime" DESC
+LIMIT 1
+Time : 2023.01.16 16:27:30	//////////// PARAMETERS ///////////
+Time : 2023.01.16 16:27:30		@__entity_equality__BatchJobEntity_0_ID	:	1
+Time : 2023.01.16 16:27:30	/////////////////////////////////// 
+Time : 2023.01.16 16:27:30	                   ↓↓                    
+Time : 2023.01.16 16:27:30	RequestID : 638094832504449192_27
+Time : 2023.01.16 16:27:30	ElapsedTime : 00:00:00.0028759
+Time : 2023.01.16 16:27:30	//////////////////////////////////
+Time : 2023.01.16 16:27:34	
+Time : 2023.01.16 16:27:34	                   ↓↓                    
+Time : 2023.01.16 16:27:34	RequestID : 638094832549971116_28
+Time : 2023.01.16 16:27:34	ElapsedTime : 00:00:00.0020699
+Time : 2023.01.16 16:27:34	//////////////////////////////////
+Time : 2023.01.16 16:27:35	SELECT b."ID", b."AutoAddExecution", b."Code", b."CreateDate", b."ExecuteFirstWithoutWait", b."MaxRetryCount", b."Name", b."State", b."StopAfterFirstExecution", b."TimePeriodMilisecond", b."UpdateDate"
+FROM "BatchJobs" AS b
+Time : 2023.01.16 16:27:35	                   ↓↓                    
+Time : 2023.01.16 16:27:35	RequestID : 638094832550033444_29
+Time : 2023.01.16 16:27:35	ElapsedTime : 00:00:00.0040774
+Time : 2023.01.16 16:27:35	//////////////////////////////////
+Time : 2023.01.16 16:27:40	
+Time : 2023.01.16 16:27:40	                   ↓↓                    
+Time : 2023.01.16 16:27:40	RequestID : 638094832604664792_30
+Time : 2023.01.16 16:27:40	ElapsedTime : 00:00:00.0000614
+Time : 2023.01.16 16:27:40	//////////////////////////////////
+Time : 2023.01.16 16:27:40	SELECT b."ID", b."BatchJobID", b."CreateDate", b."CurrentTryCount", b."ElapsedTimeMilisecond", b."Exception", b."ExecutionTime", b."ParameterObjects", b."Result", b."State", b."UpdateDate"
+FROM "BatchJobExecutions" AS b
+INNER JOIN "BatchJobs" AS b0 ON b."BatchJobID" = b0."ID"
+WHERE b0."ID" = @__entity_equality__BatchJobEntity_0_ID
+ORDER BY b."ExecutionTime" DESC
+LIMIT 1
+Time : 2023.01.16 16:27:40	//////////// PARAMETERS ///////////
+Time : 2023.01.16 16:27:40		@__entity_equality__BatchJobEntity_0_ID	:	1
+Time : 2023.01.16 16:27:40	/////////////////////////////////// 
+Time : 2023.01.16 16:27:40	                   ↓↓                    
+Time : 2023.01.16 16:27:40	RequestID : 638094832605013177_31
+Time : 2023.01.16 16:27:40	ElapsedTime : 00:00:00.0247643
+Time : 2023.01.16 16:27:40	//////////////////////////////////
+Time : 2023.01.16 16:27:45	
+Time : 2023.01.16 16:27:45	                   ↓↓                    
+Time : 2023.01.16 16:27:45	RequestID : 638094832650286901_32
+Time : 2023.01.16 16:27:45	ElapsedTime : 00:00:00.0018566
+Time : 2023.01.16 16:27:45	//////////////////////////////////
+Time : 2023.01.16 16:27:45	SELECT b."ID", b."AutoAddExecution", b."Code", b."CreateDate", b."ExecuteFirstWithoutWait", b."MaxRetryCount", b."Name", b."State", b."StopAfterFirstExecution", b."TimePeriodMilisecond", b."UpdateDate"
+FROM "BatchJobs" AS b
+Time : 2023.01.16 16:27:45	                   ↓↓                    
+Time : 2023.01.16 16:27:45	RequestID : 638094832650330063_33
+Time : 2023.01.16 16:27:45	ElapsedTime : 00:00:00.0037127
+Time : 2023.01.16 16:27:45	//////////////////////////////////
+Time : 2023.01.16 16:27:50	
+Time : 2023.01.16 16:27:50	                   ↓↓                    
+Time : 2023.01.16 16:27:50	RequestID : 638094832705235676_34
+Time : 2023.01.16 16:27:50	ElapsedTime : 00:00:00.0000379
+Time : 2023.01.16 16:27:50	//////////////////////////////////
+Time : 2023.01.16 16:27:50	SELECT b."ID", b."BatchJobID", b."CreateDate", b."CurrentTryCount", b."ElapsedTimeMilisecond", b."Exception", b."ExecutionTime", b."ParameterObjects", b."Result", b."State", b."UpdateDate"
+FROM "BatchJobExecutions" AS b
+INNER JOIN "BatchJobs" AS b0 ON b."BatchJobID" = b0."ID"
+WHERE b0."ID" = @__entity_equality__BatchJobEntity_0_ID
+ORDER BY b."ExecutionTime" DESC
+LIMIT 1
+Time : 2023.01.16 16:27:50	//////////// PARAMETERS ///////////
+Time : 2023.01.16 16:27:50		@__entity_equality__BatchJobEntity_0_ID	:	1
+Time : 2023.01.16 16:27:50	/////////////////////////////////// 
+Time : 2023.01.16 16:27:50	                   ↓↓                    
+Time : 2023.01.16 16:27:50	RequestID : 638094832705295448_35
+Time : 2023.01.16 16:27:50	ElapsedTime : 00:00:00.0035522
+Time : 2023.01.16 16:27:50	//////////////////////////////////
+Time : 2023.01.16 16:27:55	
+Time : 2023.01.16 16:27:55	                   ↓↓                    
+Time : 2023.01.16 16:27:55	RequestID : 638094832750597426_36
+Time : 2023.01.16 16:27:55	ElapsedTime : 00:00:00.0018243
+Time : 2023.01.16 16:27:55	//////////////////////////////////
+Time : 2023.01.16 16:27:55	SELECT b."ID", b."AutoAddExecution", b."Code", b."CreateDate", b."ExecuteFirstWithoutWait", b."MaxRetryCount", b."Name", b."State", b."StopAfterFirstExecution", b."TimePeriodMilisecond", b."UpdateDate"
+FROM "BatchJobs" AS b
+Time : 2023.01.16 16:27:55	                   ↓↓                    
+Time : 2023.01.16 16:27:55	RequestID : 638094832750685935_37
+Time : 2023.01.16 16:27:55	ElapsedTime : 00:00:00.0057477
+Time : 2023.01.16 16:27:55	//////////////////////////////////
+Time : 2023.01.16 16:28:00	
+Time : 2023.01.16 16:28:00	                   ↓↓                    
+Time : 2023.01.16 16:28:00	RequestID : 638094832805458737_38
+Time : 2023.01.16 16:28:00	ElapsedTime : 00:00:00.0000720
+Time : 2023.01.16 16:28:00	//////////////////////////////////
+Time : 2023.01.16 16:28:00	SELECT b."ID", b."BatchJobID", b."CreateDate", b."CurrentTryCount", b."ElapsedTimeMilisecond", b."Exception", b."ExecutionTime", b."ParameterObjects", b."Result", b."State", b."UpdateDate"
+FROM "BatchJobExecutions" AS b
+INNER JOIN "BatchJobs" AS b0 ON b."BatchJobID" = b0."ID"
+WHERE b0."ID" = @__entity_equality__BatchJobEntity_0_ID
+ORDER BY b."ExecutionTime" DESC
+LIMIT 1
+Time : 2023.01.16 16:28:00	//////////// PARAMETERS ///////////
+Time : 2023.01.16 16:28:00		@__entity_equality__BatchJobEntity_0_ID	:	1
+Time : 2023.01.16 16:28:00	/////////////////////////////////// 
+Time : 2023.01.16 16:28:00	                   ↓↓                    
+Time : 2023.01.16 16:28:00	RequestID : 638094832805525304_39
+Time : 2023.01.16 16:28:00	ElapsedTime : 00:00:00.0029076
+Time : 2023.01.16 16:28:00	//////////////////////////////////
+Time : 2023.01.16 16:28:05	
+Time : 2023.01.16 16:28:05	                   ↓↓                    
+Time : 2023.01.16 16:28:05	RequestID : 638094832850927876_40
+Time : 2023.01.16 16:28:05	ElapsedTime : 00:00:00.0000973
+Time : 2023.01.16 16:28:05	//////////////////////////////////
+Time : 2023.01.16 16:28:05	SELECT b."ID", b."AutoAddExecution", b."Code", b."CreateDate", b."ExecuteFirstWithoutWait", b."MaxRetryCount", b."Name", b."State", b."StopAfterFirstExecution", b."TimePeriodMilisecond", b."UpdateDate"
+FROM "BatchJobs" AS b
+Time : 2023.01.16 16:28:05	                   ↓↓                    
+Time : 2023.01.16 16:28:05	RequestID : 638094832850963089_41
+Time : 2023.01.16 16:28:05	ElapsedTime : 00:00:00.0021646
+Time : 2023.01.16 16:28:05	//////////////////////////////////
+Time : 2023.01.16 16:28:10	
+Time : 2023.01.16 16:28:10	                   ↓↓                    
+Time : 2023.01.16 16:28:10	RequestID : 638094832905681883_42
+Time : 2023.01.16 16:28:10	ElapsedTime : 00:00:00.0000733
+Time : 2023.01.16 16:28:10	//////////////////////////////////
+Time : 2023.01.16 16:28:10	SELECT b."ID", b."BatchJobID", b."CreateDate", b."CurrentTryCount", b."ElapsedTimeMilisecond", b."Exception", b."ExecutionTime", b."ParameterObjects", b."Result", b."State", b."UpdateDate"
+FROM "BatchJobExecutions" AS b
+INNER JOIN "BatchJobs" AS b0 ON b."BatchJobID" = b0."ID"
+WHERE b0."ID" = @__entity_equality__BatchJobEntity_0_ID
+ORDER BY b."ExecutionTime" DESC
+LIMIT 1
+Time : 2023.01.16 16:28:10	//////////// PARAMETERS ///////////
+Time : 2023.01.16 16:28:10		@__entity_equality__BatchJobEntity_0_ID	:	1
+Time : 2023.01.16 16:28:10	/////////////////////////////////// 
+Time : 2023.01.16 16:28:10	                   ↓↓                    
+Time : 2023.01.16 16:28:10	RequestID : 638094832905797963_43
+Time : 2023.01.16 16:28:10	ElapsedTime : 00:00:00.0047227
+Time : 2023.01.16 16:28:10	//////////////////////////////////
+Time : 2023.01.16 16:28:15	
+Time : 2023.01.16 16:28:15	                   ↓↓                    
+Time : 2023.01.16 16:28:15	RequestID : 638094832951243556_44
+Time : 2023.01.16 16:28:15	ElapsedTime : 00:00:00.0000522
+Time : 2023.01.16 16:28:15	//////////////////////////////////
+Time : 2023.01.16 16:28:15	SELECT b."ID", b."AutoAddExecution", b."Code", b."CreateDate", b."ExecuteFirstWithoutWait", b."MaxRetryCount", b."Name", b."State", b."StopAfterFirstExecution", b."TimePeriodMilisecond", b."UpdateDate"
+FROM "BatchJobs" AS b
+Time : 2023.01.16 16:28:15	                   ↓↓                    
+Time : 2023.01.16 16:28:15	RequestID : 638094832951322151_45
+Time : 2023.01.16 16:28:15	ElapsedTime : 00:00:00.0049600
+Time : 2023.01.16 16:28:15	//////////////////////////////////
+Time : 2023.01.16 16:28:20	
+Time : 2023.01.16 16:28:20	                   ↓↓                    
+Time : 2023.01.16 16:28:20	RequestID : 638094833006039053_46
+Time : 2023.01.16 16:28:20	ElapsedTime : 00:00:00.0000442
+Time : 2023.01.16 16:28:20	//////////////////////////////////
+Time : 2023.01.16 16:28:20	SELECT b."ID", b."BatchJobID", b."CreateDate", b."CurrentTryCount", b."ElapsedTimeMilisecond", b."Exception", b."ExecutionTime", b."ParameterObjects", b."Result", b."State", b."UpdateDate"
+FROM "BatchJobExecutions" AS b
+INNER JOIN "BatchJobs" AS b0 ON b."BatchJobID" = b0."ID"
+WHERE b0."ID" = @__entity_equality__BatchJobEntity_0_ID
+ORDER BY b."ExecutionTime" DESC
+LIMIT 1
+Time : 2023.01.16 16:28:20	//////////// PARAMETERS ///////////
+Time : 2023.01.16 16:28:20		@__entity_equality__BatchJobEntity_0_ID	:	1
+Time : 2023.01.16 16:28:20	/////////////////////////////////// 
+Time : 2023.01.16 16:28:20	                   ↓↓                    
+Time : 2023.01.16 16:28:20	RequestID : 638094833006099491_47
+Time : 2023.01.16 16:28:20	ElapsedTime : 00:00:00.0032070
+Time : 2023.01.16 16:28:20	//////////////////////////////////
+Time : 2023.01.16 16:28:25	
+Time : 2023.01.16 16:28:25	                   ↓↓                    
+Time : 2023.01.16 16:28:25	RequestID : 638094833051434634_48
+Time : 2023.01.16 16:28:25	ElapsedTime : 00:00:00.0000436
+Time : 2023.01.16 16:28:25	//////////////////////////////////
+Time : 2023.01.16 16:28:25	SELECT b."ID", b."AutoAddExecution", b."Code", b."CreateDate", b."ExecuteFirstWithoutWait", b."MaxRetryCount", b."Name", b."State", b."StopAfterFirstExecution", b."TimePeriodMilisecond", b."UpdateDate"
+FROM "BatchJobs" AS b
+Time : 2023.01.16 16:28:25	                   ↓↓                    
+Time : 2023.01.16 16:28:25	RequestID : 638094833051507951_49
+Time : 2023.01.16 16:28:25	ElapsedTime : 00:00:00.0029659
+Time : 2023.01.16 16:28:25	//////////////////////////////////
+Time : 2023.01.16 16:41:58	
+Time : 2023.01.16 16:41:58	                   ↓↓                    
+Time : 2023.01.16 16:41:58	RequestID : 638094841189973696_1
+Time : 2023.01.16 16:41:58	ElapsedTime : 00:00:00.0024413
+Time : 2023.01.16 16:41:58	//////////////////////////////////
+Time : 2023.01.16 16:41:59	SELECT EXISTS (SELECT 1 FROM pg_catalog.pg_class c JOIN pg_catalog.pg_namespace n ON n.oid=c.relnamespace WHERE c.relname='__EFMigrationsHistory');
+Time : 2023.01.16 16:41:59	                   ↓↓                    
+Time : 2023.01.16 16:41:59	RequestID : 638094841191553948_2
+Time : 2023.01.16 16:41:59	ElapsedTime : 00:00:00.0309261
+Time : 2023.01.16 16:41:59	//////////////////////////////////
+Time : 2023.01.16 16:41:59	
+Time : 2023.01.16 16:41:59	                   ↓↓                    
+Time : 2023.01.16 16:41:59	RequestID : 638094841192092717_3
+Time : 2023.01.16 16:41:59	ElapsedTime : 00:00:00.0000761
+Time : 2023.01.16 16:41:59	//////////////////////////////////
+Time : 2023.01.16 16:41:59	SELECT EXISTS (SELECT 1 FROM pg_catalog.pg_class c JOIN pg_catalog.pg_namespace n ON n.oid=c.relnamespace WHERE c.relname='__EFMigrationsHistory');
+Time : 2023.01.16 16:41:59	                   ↓↓                    
+Time : 2023.01.16 16:41:59	RequestID : 638094841192148799_4
+Time : 2023.01.16 16:41:59	ElapsedTime : 00:00:00.0009396
+Time : 2023.01.16 16:41:59	//////////////////////////////////
+Time : 2023.01.16 16:41:59	
+Time : 2023.01.16 16:41:59	                   ↓↓                    
+Time : 2023.01.16 16:41:59	RequestID : 638094841192442753_5
+Time : 2023.01.16 16:41:59	ElapsedTime : 00:00:00.0000578
+Time : 2023.01.16 16:41:59	//////////////////////////////////
+Time : 2023.01.16 16:41:59	SELECT "MigrationId", "ProductVersion"
+FROM "__EFMigrationsHistory"
+ORDER BY "MigrationId";
+Time : 2023.01.16 16:41:59	                   ↓↓                    
+Time : 2023.01.16 16:41:59	RequestID : 638094841192546908_6
+Time : 2023.01.16 16:41:59	ElapsedTime : 00:00:00.0063852
+Time : 2023.01.16 16:41:59	//////////////////////////////////
+Time : 2023.01.16 16:41:59	
+Time : 2023.01.16 16:41:59	                   ↓↓                    
+Time : 2023.01.16 16:41:59	RequestID : 638094841196108415_7
+Time : 2023.01.16 16:41:59	ElapsedTime : 00:00:00.0000571
+Time : 2023.01.16 16:41:59	//////////////////////////////////
+Time : 2023.01.16 16:41:59	SELECT b."ID", b."AutoAddExecution", b."Code", b."CreateDate", b."ExecuteFirstWithoutWait", b."MaxRetryCount", b."Name", b."State", b."StopAfterFirstExecution", b."TimePeriodMilisecond", b."UpdateDate"
+FROM "BatchJobs" AS b
+WHERE b."Code" = @___Code_0
+LIMIT 1
+Time : 2023.01.16 16:41:59	//////////// PARAMETERS ///////////
+Time : 2023.01.16 16:41:59		@___Code_0	:	TestService
+Time : 2023.01.16 16:41:59	/////////////////////////////////// 
+Time : 2023.01.16 16:41:59	                   ↓↓                    
+Time : 2023.01.16 16:41:59	RequestID : 638094841196263083_8
+Time : 2023.01.16 16:41:59	ElapsedTime : 00:00:00.0098380
+Time : 2023.01.16 16:41:59	//////////////////////////////////
+Time : 2023.01.16 16:41:59	
+Time : 2023.01.16 16:41:59	                   ↓↓                    
+Time : 2023.01.16 16:41:59	RequestID : 638094841196992486_9
+Time : 2023.01.16 16:41:59	ElapsedTime : 00:00:00.0000557
+Time : 2023.01.16 16:41:59	//////////////////////////////////
+Time : 2023.01.16 16:41:59	SELECT b."ID", b."AutoAddExecution", b."Code", b."CreateDate", b."ExecuteFirstWithoutWait", b."MaxRetryCount", b."Name", b."State", b."StopAfterFirstExecution", b."TimePeriodMilisecond", b."UpdateDate"
+FROM "BatchJobs" AS b
+WHERE b."Code" = @___Code_0
+LIMIT 1
+Time : 2023.01.16 16:41:59	//////////// PARAMETERS ///////////
+Time : 2023.01.16 16:41:59		@___Code_0	:	OldBatchJobExcutionsDelete
+Time : 2023.01.16 16:41:59	/////////////////////////////////// 
+Time : 2023.01.16 16:41:59	                   ↓↓                    
+Time : 2023.01.16 16:41:59	RequestID : 638094841197058854_10
+Time : 2023.01.16 16:41:59	ElapsedTime : 00:00:00.0022250
+Time : 2023.01.16 16:41:59	//////////////////////////////////
+Time : 2023.01.16 16:41:59	
+Time : 2023.01.16 16:41:59	                   ↓↓                    
+Time : 2023.01.16 16:41:59	RequestID : 638094841197337513_11
+Time : 2023.01.16 16:41:59	ElapsedTime : 00:00:00.0000241
+Time : 2023.01.16 16:41:59	//////////////////////////////////
+Time : 2023.01.16 16:41:59	SELECT b."ID", b."AutoAddExecution", b."Code", b."CreateDate", b."ExecuteFirstWithoutWait", b."MaxRetryCount", b."Name", b."State", b."StopAfterFirstExecution", b."TimePeriodMilisecond", b."UpdateDate"
+FROM "BatchJobs" AS b
+Time : 2023.01.16 16:41:59	                   ↓↓                    
+Time : 2023.01.16 16:41:59	RequestID : 638094841197378452_12
+Time : 2023.01.16 16:41:59	ElapsedTime : 00:00:00.0033746
+Time : 2023.01.16 16:41:59	//////////////////////////////////
+Time : 2023.01.16 16:42:17	
+Time : 2023.01.16 16:42:17	                   ↓↓                    
+Time : 2023.01.16 16:42:17	RequestID : 638094841375541987_13
+Time : 2023.01.16 16:42:17	ElapsedTime : 00:00:00.0000950
+Time : 2023.01.16 16:42:17	//////////////////////////////////
+Time : 2023.01.16 16:42:17	SELECT b."ID", b."AutoAddExecution", b."Code", b."CreateDate", b."ExecuteFirstWithoutWait", b."MaxRetryCount", b."Name", b."State", b."StopAfterFirstExecution", b."TimePeriodMilisecond", b."UpdateDate"
+FROM "BatchJobs" AS b
+WHERE b."Code" = @___Code_0
+LIMIT 1
+Time : 2023.01.16 16:42:17	//////////// PARAMETERS ///////////
+Time : 2023.01.16 16:42:17		@___Code_0	:	TestService
+Time : 2023.01.16 16:42:17	/////////////////////////////////// 
+Time : 2023.01.16 16:42:17	                   ↓↓                    
+Time : 2023.01.16 16:42:17	RequestID : 638094841375684408_14
+Time : 2023.01.16 16:42:17	ElapsedTime : 00:00:00.0007939
+Time : 2023.01.16 16:42:17	//////////////////////////////////
+Time : 2023.01.16 16:43:27	
+Time : 2023.01.16 16:43:27	                   ↓↓                    
+Time : 2023.01.16 16:43:27	RequestID : 638094842075045504_15
+Time : 2023.01.16 16:43:27	ElapsedTime : 00:00:00.0000821
+Time : 2023.01.16 16:43:27	//////////////////////////////////
+Time : 2023.01.16 16:43:27	SELECT b."ID", b."AutoAddExecution", b."Code", b."CreateDate", b."ExecuteFirstWithoutWait", b."MaxRetryCount", b."Name", b."State", b."StopAfterFirstExecution", b."TimePeriodMilisecond", b."UpdateDate"
+FROM "BatchJobs" AS b
+WHERE b."Code" = @___Code_0
+LIMIT 1
+Time : 2023.01.16 16:43:27	//////////// PARAMETERS ///////////
+Time : 2023.01.16 16:43:27		@___Code_0	:	OldBatchJobExcutionsDelete
+Time : 2023.01.16 16:43:27	/////////////////////////////////// 
+Time : 2023.01.16 16:43:27	                   ↓↓                    
+Time : 2023.01.16 16:43:27	RequestID : 638094842075191713_16
+Time : 2023.01.16 16:43:27	ElapsedTime : 00:00:00.0137687
+Time : 2023.01.16 16:43:27	//////////////////////////////////
+Time : 2023.01.16 16:45:27	
+Time : 2023.01.16 16:45:27	                   ↓↓                    
+Time : 2023.01.16 16:45:27	RequestID : 638094843274243298_1
+Time : 2023.01.16 16:45:27	ElapsedTime : 00:00:00.0056997
+Time : 2023.01.16 16:45:27	//////////////////////////////////
+Time : 2023.01.16 16:45:27	SELECT EXISTS (SELECT 1 FROM pg_catalog.pg_class c JOIN pg_catalog.pg_namespace n ON n.oid=c.relnamespace WHERE c.relname='__EFMigrationsHistory');
+Time : 2023.01.16 16:45:27	                   ↓↓                    
+Time : 2023.01.16 16:45:27	RequestID : 638094843275270357_2
+Time : 2023.01.16 16:45:27	ElapsedTime : 00:00:00.0262084
+Time : 2023.01.16 16:45:27	//////////////////////////////////
+Time : 2023.01.16 16:45:27	
+Time : 2023.01.16 16:45:27	                   ↓↓                    
+Time : 2023.01.16 16:45:27	RequestID : 638094843275746536_3
+Time : 2023.01.16 16:45:27	ElapsedTime : 00:00:00.0000998
+Time : 2023.01.16 16:45:27	//////////////////////////////////
+Time : 2023.01.16 16:45:27	SELECT EXISTS (SELECT 1 FROM pg_catalog.pg_class c JOIN pg_catalog.pg_namespace n ON n.oid=c.relnamespace WHERE c.relname='__EFMigrationsHistory');
+Time : 2023.01.16 16:45:27	                   ↓↓                    
+Time : 2023.01.16 16:45:27	RequestID : 638094843275902934_4
+Time : 2023.01.16 16:45:27	ElapsedTime : 00:00:00.0108003
+Time : 2023.01.16 16:45:27	//////////////////////////////////
+Time : 2023.01.16 16:45:27	
+Time : 2023.01.16 16:45:27	                   ↓↓                    
+Time : 2023.01.16 16:45:27	RequestID : 638094843276207836_5
+Time : 2023.01.16 16:45:27	ElapsedTime : 00:00:00.0000834
+Time : 2023.01.16 16:45:27	//////////////////////////////////
+Time : 2023.01.16 16:45:27	SELECT "MigrationId", "ProductVersion"
+FROM "__EFMigrationsHistory"
+ORDER BY "MigrationId";
+Time : 2023.01.16 16:45:27	                   ↓↓                    
+Time : 2023.01.16 16:45:27	RequestID : 638094843276310955_6
+Time : 2023.01.16 16:45:27	ElapsedTime : 00:00:00.0052983
+Time : 2023.01.16 16:45:27	//////////////////////////////////
+Time : 2023.01.16 16:45:31	
+Time : 2023.01.16 16:45:31	                   ↓↓                    
+Time : 2023.01.16 16:45:31	RequestID : 638094843312736302_7
+Time : 2023.01.16 16:45:31	ElapsedTime : 00:00:00.0000595
+Time : 2023.01.16 16:45:31	//////////////////////////////////
+Time : 2023.01.16 16:45:31	SELECT b."ID", b."AutoAddExecution", b."Code", b."CreateDate", b."ExecuteFirstWithoutWait", b."MaxRetryCount", b."Name", b."State", b."StopAfterFirstExecution", b."TimePeriodMilisecond", b."UpdateDate"
+FROM "BatchJobs" AS b
+WHERE b."Code" = @___Code_0
+LIMIT 1
+Time : 2023.01.16 16:45:31	//////////// PARAMETERS ///////////
+Time : 2023.01.16 16:45:31		@___Code_0	:	TestService
+Time : 2023.01.16 16:45:31	/////////////////////////////////// 
+Time : 2023.01.16 16:45:31	                   ↓↓                    
+Time : 2023.01.16 16:45:31	RequestID : 638094843312908523_8
+Time : 2023.01.16 16:45:31	ElapsedTime : 00:00:00.0086811
+Time : 2023.01.16 16:45:31	//////////////////////////////////
+Time : 2023.01.16 16:45:31	
+Time : 2023.01.16 16:45:31	                   ↓↓                    
+Time : 2023.01.16 16:45:31	RequestID : 638094843314155564_9
+Time : 2023.01.16 16:45:31	ElapsedTime : 00:00:00.0025535
+Time : 2023.01.16 16:45:31	//////////////////////////////////
+Time : 2023.01.16 16:45:31	SELECT b."ID", b."AutoAddExecution", b."Code", b."CreateDate", b."ExecuteFirstWithoutWait", b."MaxRetryCount", b."Name", b."State", b."StopAfterFirstExecution", b."TimePeriodMilisecond", b."UpdateDate"
+FROM "BatchJobs" AS b
+WHERE b."Code" = @___Code_0
+LIMIT 1
+Time : 2023.01.16 16:45:31	//////////// PARAMETERS ///////////
+Time : 2023.01.16 16:45:31		@___Code_0	:	OldBatchJobExcutionsDelete
+Time : 2023.01.16 16:45:31	/////////////////////////////////// 
+Time : 2023.01.16 16:45:31	                   ↓↓                    
+Time : 2023.01.16 16:45:31	RequestID : 638094843314224730_10
+Time : 2023.01.16 16:45:31	ElapsedTime : 00:00:00.0008868
+Time : 2023.01.16 16:45:31	//////////////////////////////////
+Time : 2023.01.16 16:45:31	
+Time : 2023.01.16 16:45:31	                   ↓↓                    
+Time : 2023.01.16 16:45:31	RequestID : 638094843314544876_11
+Time : 2023.01.16 16:45:31	ElapsedTime : 00:00:00.0000521
+Time : 2023.01.16 16:45:31	//////////////////////////////////
+Time : 2023.01.16 16:45:31	SELECT b."ID", b."AutoAddExecution", b."Code", b."CreateDate", b."ExecuteFirstWithoutWait", b."MaxRetryCount", b."Name", b."State", b."StopAfterFirstExecution", b."TimePeriodMilisecond", b."UpdateDate"
+FROM "BatchJobs" AS b
+Time : 2023.01.16 16:45:31	                   ↓↓                    
+Time : 2023.01.16 16:45:31	RequestID : 638094843314618495_12
+Time : 2023.01.16 16:45:31	ElapsedTime : 00:00:00.0038231
+Time : 2023.01.16 16:45:31	//////////////////////////////////
+Time : 2023.01.16 16:45:33	
+Time : 2023.01.16 16:45:33	                   ↓↓                    
+Time : 2023.01.16 16:45:33	RequestID : 638094843339459000_13
+Time : 2023.01.16 16:45:33	ElapsedTime : 00:00:00.0000708
+Time : 2023.01.16 16:45:33	//////////////////////////////////
+Time : 2023.01.16 16:45:33	SELECT b."ID", b."AutoAddExecution", b."Code", b."CreateDate", b."ExecuteFirstWithoutWait", b."MaxRetryCount", b."Name", b."State", b."StopAfterFirstExecution", b."TimePeriodMilisecond", b."UpdateDate"
+FROM "BatchJobs" AS b
+WHERE b."Code" = @___Code_0
+LIMIT 1
+Time : 2023.01.16 16:45:33	//////////// PARAMETERS ///////////
+Time : 2023.01.16 16:45:33		@___Code_0	:	TestService
+Time : 2023.01.16 16:45:33	/////////////////////////////////// 
+Time : 2023.01.16 16:45:33	                   ↓↓                    
+Time : 2023.01.16 16:45:33	RequestID : 638094843339551364_14
+Time : 2023.01.16 16:45:33	ElapsedTime : 00:00:00.0083271
+Time : 2023.01.16 16:45:33	//////////////////////////////////
+Time : 2023.01.16 16:54:23	
+Time : 2023.01.16 16:54:23	                   ↓↓                    
+Time : 2023.01.16 16:54:23	RequestID : 638094848632998227_1
+Time : 2023.01.16 16:54:23	ElapsedTime : 00:00:00.0036473
+Time : 2023.01.16 16:54:23	//////////////////////////////////
+Time : 2023.01.16 16:54:23	SELECT EXISTS (SELECT 1 FROM pg_catalog.pg_class c JOIN pg_catalog.pg_namespace n ON n.oid=c.relnamespace WHERE c.relname='__EFMigrationsHistory');
+Time : 2023.01.16 16:54:23	                   ↓↓                    
+Time : 2023.01.16 16:54:23	RequestID : 638094848634046910_2
+Time : 2023.01.16 16:54:23	ElapsedTime : 00:00:00.0288572
+Time : 2023.01.16 16:54:23	//////////////////////////////////
+Time : 2023.01.16 16:54:23	
+Time : 2023.01.16 16:54:23	                   ↓↓                    
+Time : 2023.01.16 16:54:23	RequestID : 638094848634521158_3
+Time : 2023.01.16 16:54:23	ElapsedTime : 00:00:00.0000627
+Time : 2023.01.16 16:54:23	//////////////////////////////////
+Time : 2023.01.16 16:54:23	SELECT EXISTS (SELECT 1 FROM pg_catalog.pg_class c JOIN pg_catalog.pg_namespace n ON n.oid=c.relnamespace WHERE c.relname='__EFMigrationsHistory');
+Time : 2023.01.16 16:54:23	                   ↓↓                    
+Time : 2023.01.16 16:54:23	RequestID : 638094848634598470_4
+Time : 2023.01.16 16:54:23	ElapsedTime : 00:00:00.0038138
+Time : 2023.01.16 16:54:23	//////////////////////////////////
+Time : 2023.01.16 16:54:23	
+Time : 2023.01.16 16:54:23	                   ↓↓                    
+Time : 2023.01.16 16:54:23	RequestID : 638094848634846797_5
+Time : 2023.01.16 16:54:23	ElapsedTime : 00:00:00.0000483
+Time : 2023.01.16 16:54:23	//////////////////////////////////
+Time : 2023.01.16 16:54:23	SELECT "MigrationId", "ProductVersion"
+FROM "__EFMigrationsHistory"
+ORDER BY "MigrationId";
+Time : 2023.01.16 16:54:23	                   ↓↓                    
+Time : 2023.01.16 16:54:23	RequestID : 638094848634946002_6
+Time : 2023.01.16 16:54:23	ElapsedTime : 00:00:00.0056803
+Time : 2023.01.16 16:54:23	//////////////////////////////////
+Time : 2023.01.16 16:54:23	
+Time : 2023.01.16 16:54:23	                   ↓↓                    
+Time : 2023.01.16 16:54:23	RequestID : 638094848638079380_7
+Time : 2023.01.16 16:54:23	ElapsedTime : 00:00:00.0000501
+Time : 2023.01.16 16:54:23	//////////////////////////////////
+Time : 2023.01.16 16:54:23	SELECT b."ID", b."AutoAddExecution", b."Code", b."CreateDate", b."ExecuteFirstWithoutWait", b."MaxRetryCount", b."Name", b."State", b."StopAfterFirstExecution", b."TimePeriodMilisecond", b."UpdateDate"
+FROM "BatchJobs" AS b
+WHERE b."Code" = @___Code_0
+LIMIT 1
+Time : 2023.01.16 16:54:23	//////////// PARAMETERS ///////////
+Time : 2023.01.16 16:54:23		@___Code_0	:	TestService
+Time : 2023.01.16 16:54:23	/////////////////////////////////// 
+Time : 2023.01.16 16:54:23	                   ↓↓                    
+Time : 2023.01.16 16:54:23	RequestID : 638094848638291399_8
+Time : 2023.01.16 16:54:23	ElapsedTime : 00:00:00.0117524
+Time : 2023.01.16 16:54:23	//////////////////////////////////
+Time : 2023.01.16 16:54:45	
+Time : 2023.01.16 16:54:45	                   ↓↓                    
+Time : 2023.01.16 16:54:45	RequestID : 638094848851993586_9
+Time : 2023.01.16 16:54:45	ElapsedTime : 00:00:00.0000748
+Time : 2023.01.16 16:54:45	//////////////////////////////////
+Time : 2023.01.16 16:54:45	SELECT b."ID", b."AutoAddExecution", b."Code", b."CreateDate", b."ExecuteFirstWithoutWait", b."MaxRetryCount", b."Name", b."State", b."StopAfterFirstExecution", b."TimePeriodMilisecond", b."UpdateDate"
+FROM "BatchJobs" AS b
+WHERE b."Code" = @___Code_0
+LIMIT 1
+Time : 2023.01.16 16:54:45	//////////// PARAMETERS ///////////
+Time : 2023.01.16 16:54:45		@___Code_0	:	OldBatchJobExcutionsDelete
+Time : 2023.01.16 16:54:45	/////////////////////////////////// 
+Time : 2023.01.16 16:54:45	                   ↓↓                    
+Time : 2023.01.16 16:54:45	RequestID : 638094848852035847_10
+Time : 2023.01.16 16:54:45	ElapsedTime : 00:00:00.0008598
+Time : 2023.01.16 16:54:45	//////////////////////////////////
+Time : 2023.01.16 16:56:40	
+Time : 2023.01.16 16:56:40	                   ↓↓                    
+Time : 2023.01.16 16:56:40	RequestID : 638094850005738622_1
+Time : 2023.01.16 16:56:40	ElapsedTime : 00:00:00.0032205
+Time : 2023.01.16 16:56:40	//////////////////////////////////
+Time : 2023.01.16 16:56:40	SELECT EXISTS (SELECT 1 FROM pg_catalog.pg_class c JOIN pg_catalog.pg_namespace n ON n.oid=c.relnamespace WHERE c.relname='__EFMigrationsHistory');
+Time : 2023.01.16 16:56:40	                   ↓↓                    
+Time : 2023.01.16 16:56:40	RequestID : 638094850006649192_2
+Time : 2023.01.16 16:56:40	ElapsedTime : 00:00:00.0233065
+Time : 2023.01.16 16:56:40	//////////////////////////////////
+Time : 2023.01.16 16:56:40	
+Time : 2023.01.16 16:56:40	                   ↓↓                    
+Time : 2023.01.16 16:56:40	RequestID : 638094850007127622_3
+Time : 2023.01.16 16:56:40	ElapsedTime : 00:00:00.0000686
+Time : 2023.01.16 16:56:40	//////////////////////////////////
+Time : 2023.01.16 16:56:40	SELECT EXISTS (SELECT 1 FROM pg_catalog.pg_class c JOIN pg_catalog.pg_namespace n ON n.oid=c.relnamespace WHERE c.relname='__EFMigrationsHistory');
+Time : 2023.01.16 16:56:40	                   ↓↓                    
+Time : 2023.01.16 16:56:40	RequestID : 638094850007207320_4
+Time : 2023.01.16 16:56:40	ElapsedTime : 00:00:00.0037097
+Time : 2023.01.16 16:56:40	//////////////////////////////////
+Time : 2023.01.16 16:56:40	
+Time : 2023.01.16 16:56:40	                   ↓↓                    
+Time : 2023.01.16 16:56:40	RequestID : 638094850007419607_5
+Time : 2023.01.16 16:56:40	ElapsedTime : 00:00:00.0000597
+Time : 2023.01.16 16:56:40	//////////////////////////////////
+Time : 2023.01.16 16:56:40	SELECT "MigrationId", "ProductVersion"
+FROM "__EFMigrationsHistory"
+ORDER BY "MigrationId";
+Time : 2023.01.16 16:56:40	                   ↓↓                    
+Time : 2023.01.16 16:56:40	RequestID : 638094850007525678_6
+Time : 2023.01.16 16:56:40	ElapsedTime : 00:00:00.0051920
+Time : 2023.01.16 16:56:40	//////////////////////////////////
+Time : 2023.01.16 16:56:41	
+Time : 2023.01.16 16:56:41	                   ↓↓                    
+Time : 2023.01.16 16:56:41	RequestID : 638094850011026667_7
+Time : 2023.01.16 16:56:41	ElapsedTime : 00:00:00.0000546
+Time : 2023.01.16 16:56:41	//////////////////////////////////
+Time : 2023.01.16 16:56:41	SELECT b."ID", b."AutoAddExecution", b."Code", b."CreateDate", b."ExecuteFirstWithoutWait", b."MaxRetryCount", b."Name", b."State", b."StopAfterFirstExecution", b."TimePeriodMilisecond", b."UpdateDate"
+FROM "BatchJobs" AS b
+WHERE b."Code" = @___Code_0
+LIMIT 1
+Time : 2023.01.16 16:56:41	//////////// PARAMETERS ///////////
+Time : 2023.01.16 16:56:41		@___Code_0	:	TestService
+Time : 2023.01.16 16:56:41	/////////////////////////////////// 
+Time : 2023.01.16 16:56:41	                   ↓↓                    
+Time : 2023.01.16 16:56:41	RequestID : 638094850011220296_8
+Time : 2023.01.16 16:56:41	ElapsedTime : 00:00:00.0125771
+Time : 2023.01.16 16:56:41	//////////////////////////////////
+Time : 2023.01.16 16:58:36	
+Time : 2023.01.16 16:58:36	                   ↓↓                    
+Time : 2023.01.16 16:58:36	RequestID : 638094851168666446_1
+Time : 2023.01.16 16:58:36	ElapsedTime : 00:00:00.0039195
+Time : 2023.01.16 16:58:36	//////////////////////////////////
+Time : 2023.01.16 16:58:36	SELECT EXISTS (SELECT 1 FROM pg_catalog.pg_class c JOIN pg_catalog.pg_namespace n ON n.oid=c.relnamespace WHERE c.relname='__EFMigrationsHistory');
+Time : 2023.01.16 16:58:36	                   ↓↓                    
+Time : 2023.01.16 16:58:36	RequestID : 638094851169575676_2
+Time : 2023.01.16 16:58:36	ElapsedTime : 00:00:00.0237742
+Time : 2023.01.16 16:58:36	//////////////////////////////////
+Time : 2023.01.16 16:58:37	
+Time : 2023.01.16 16:58:37	                   ↓↓                    
+Time : 2023.01.16 16:58:37	RequestID : 638094851170074412_3
+Time : 2023.01.16 16:58:37	ElapsedTime : 00:00:00.0000679
+Time : 2023.01.16 16:58:37	//////////////////////////////////
+Time : 2023.01.16 16:58:37	SELECT EXISTS (SELECT 1 FROM pg_catalog.pg_class c JOIN pg_catalog.pg_namespace n ON n.oid=c.relnamespace WHERE c.relname='__EFMigrationsHistory');
+Time : 2023.01.16 16:58:37	                   ↓↓                    
+Time : 2023.01.16 16:58:37	RequestID : 638094851170158756_4
+Time : 2023.01.16 16:58:37	ElapsedTime : 00:00:00.0036094
+Time : 2023.01.16 16:58:37	//////////////////////////////////
+Time : 2023.01.16 16:58:37	
+Time : 2023.01.16 16:58:37	                   ↓↓                    
+Time : 2023.01.16 16:58:37	RequestID : 638094851170385507_5
+Time : 2023.01.16 16:58:37	ElapsedTime : 00:00:00.0000530
+Time : 2023.01.16 16:58:37	//////////////////////////////////
+Time : 2023.01.16 16:58:37	SELECT "MigrationId", "ProductVersion"
+FROM "__EFMigrationsHistory"
+ORDER BY "MigrationId";
+Time : 2023.01.16 16:58:37	                   ↓↓                    
+Time : 2023.01.16 16:58:37	RequestID : 638094851170491922_6
+Time : 2023.01.16 16:58:37	ElapsedTime : 00:00:00.0050964
+Time : 2023.01.16 16:58:37	//////////////////////////////////
+Time : 2023.01.16 16:58:37	
+Time : 2023.01.16 16:58:37	                   ↓↓                    
+Time : 2023.01.16 16:58:37	RequestID : 638094851173543499_7
+Time : 2023.01.16 16:58:37	ElapsedTime : 00:00:00.0000542
+Time : 2023.01.16 16:58:37	//////////////////////////////////
+Time : 2023.01.16 16:58:37	SELECT b."ID", b."AutoAddExecution", b."Code", b."CreateDate", b."ExecuteFirstWithoutWait", b."MaxRetryCount", b."Name", b."State", b."StopAfterFirstExecution", b."TimePeriodMilisecond", b."UpdateDate"
+FROM "BatchJobs" AS b
+WHERE b."Code" = @___Code_0
+LIMIT 1
+Time : 2023.01.16 16:58:37	//////////// PARAMETERS ///////////
+Time : 2023.01.16 16:58:37		@___Code_0	:	TestService
+Time : 2023.01.16 16:58:37	/////////////////////////////////// 
+Time : 2023.01.16 16:58:37	                   ↓↓                    
+Time : 2023.01.16 16:58:37	RequestID : 638094851173767755_8
+Time : 2023.01.16 16:58:37	ElapsedTime : 00:00:00.0126450
+Time : 2023.01.16 16:58:37	//////////////////////////////////

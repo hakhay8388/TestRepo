@@ -1,0 +1,17 @@
+H:\VirtualStyle_Projects\Clade\Bootstrapper\Bootstrapper.Core\bin\Debug\net6.0\Bootstrapper.Core.deps.json
+H:\VirtualStyle_Projects\Clade\Bootstrapper\Bootstrapper.Core\bin\Debug\net6.0\Bootstrapper.Core.dll
+H:\VirtualStyle_Projects\Clade\Bootstrapper\Bootstrapper.Core\bin\Debug\net6.0\Bootstrapper.Core.pdb
+H:\VirtualStyle_Projects\Clade\Bootstrapper\Bootstrapper.Core\bin\Debug\net6.0\Bootstrapper.Boundary.dll
+H:\VirtualStyle_Projects\Clade\Bootstrapper\Bootstrapper.Core\bin\Debug\net6.0\Bootstrapper.Boundary.pdb
+H:\VirtualStyle_Projects\Clade\Bootstrapper\Bootstrapper.Core\obj\Debug\net6.0\Bootstrapper.Core.csproj.AssemblyReference.cache
+H:\VirtualStyle_Projects\Clade\Bootstrapper\Bootstrapper.Core\obj\Debug\net6.0\Bootstrapper.Core.Properties.Resources.resources
+H:\VirtualStyle_Projects\Clade\Bootstrapper\Bootstrapper.Core\obj\Debug\net6.0\Bootstrapper.Core.csproj.GenerateResource.cache
+H:\VirtualStyle_Projects\Clade\Bootstrapper\Bootstrapper.Core\obj\Debug\net6.0\Bootstrapper.Core.GeneratedMSBuildEditorConfig.editorconfig
+H:\VirtualStyle_Projects\Clade\Bootstrapper\Bootstrapper.Core\obj\Debug\net6.0\Bootstrapper.Core.AssemblyInfoInputs.cache
+H:\VirtualStyle_Projects\Clade\Bootstrapper\Bootstrapper.Core\obj\Debug\net6.0\Bootstrapper.Core.AssemblyInfo.cs
+H:\VirtualStyle_Projects\Clade\Bootstrapper\Bootstrapper.Core\obj\Debug\net6.0\Bootstrapper.Core.csproj.CoreCompileInputs.cache
+H:\VirtualStyle_Projects\Clade\Bootstrapper\Bootstrapper.Core\obj\Debug\net6.0\Bootstrapper.Core.csproj.CopyComplete
+H:\VirtualStyle_Projects\Clade\Bootstrapper\Bootstrapper.Core\obj\Debug\net6.0\Bootstrapper.Core.dll
+H:\VirtualStyle_Projects\Clade\Bootstrapper\Bootstrapper.Core\obj\Debug\net6.0\refint\Bootstrapper.Core.dll
+H:\VirtualStyle_Projects\Clade\Bootstrapper\Bootstrapper.Core\obj\Debug\net6.0\Bootstrapper.Core.pdb
+H:\VirtualStyle_Projects\Clade\Bootstrapper\Bootstrapper.Core\obj\Debug\net6.0\ref\Bootstrapper.Core.dll

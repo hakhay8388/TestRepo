@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "0afsMVUA7NNcO6XQSgjP7ri/hKepsTznK1EQm0dLsfE=",
+  "Source": "App.BatchJobService",
+  "BasePath": "_content/App.BatchJobService",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}
